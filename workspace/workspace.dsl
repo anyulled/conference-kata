@@ -15,6 +15,7 @@ workspace {
         }
 
         softwareSystem = softwareSystem "Conference System" "System desgin for Conference Management" {
+
             webapp = container "Web Application" "Conference Web Application" website {
 
                 website = component "Website" "React SPA - Shows conference information such as speakers, talks and schedule" {
@@ -24,20 +25,26 @@ workspace {
                 voting = component "Voting system" "Send and receives evaluation via web, email, SMS or phone calls"
                 branding = component "Branding system" "Allow customization for several conference brands"
 
-                website -> branding "Pull branding information from" "HTTP Restful API"
-                website -> attendee "Reads and writes information from " "HTTP Restful API"
-                website -> voting "Sends requests and displays aggregation from" "HTTPS"
+                website -> branding "Pull branding information from" "gRPC" gRPC
+                website -> attendee "Reads and writes information from " "gRPC" gRPC
+                website -> voting "Sends requests and displays aggregation from" "gRPC" gRPC
                 user -> website "Visits"
             }
             database = container "Database" "" "Relational database schema" {
+                tags Database
+                attendeeDB = component "Attendee DB" "Relational DB for attendee" {
+                    tags Database
+                }
+                websiteDb = component "Website DB" "Relational Database" {
+                tags Database
+            }
+                brandingDB = component "Branding DB" "Stores information about branding" {
+                tags Database
+            }
 
-                attendeeDB = component "Attendee DB" "Relational DB for attendee" Database
-                websiteDb = component "Website DB" "Relational Database" Database
-                brandingDB = component "Branding DB" "Stores information about branding" Database
-
-                website -> websiteDb "Reads from and writes to"
-                branding -> brandingDB "Reads and writes to"
-                attendee -> attendeeDB "Reads and writes to"
+                website -> websiteDb "Reads from and writes to" "JDBC"
+                branding -> brandingDB "Reads and writes to" "JDBC"
+                attendee -> attendeeDB "Reads and writes to" "JDBC"
                 voting -> websiteDb "Reads from and writes to" "JDBC"
             }
 
@@ -46,6 +53,7 @@ workspace {
         group "Third-party" {
 
             crmSystem = softwareSystem "CRM" "Customer relationship manager" {
+                tags external
                 cfpContainer = container "CFP System" "Call For Papers System - Full management of speakers, talks, and schedule" {
                     cfp = component "CFP"
                     cfpDB = component "CFP DB" "Relational Database" {
@@ -57,22 +65,24 @@ workspace {
                     cfp -> cfpDB "Reads from and writes to"
                     cfp -> speaker "Send CFP info to"
                     speaker -> cfp "Applies to"
-                    website -> cfp "Read data from"
+                    website -> cfp "Reads data from""Https"
                 }
             }
 
             cfpSystem = softwareSystem "CFP" "Call for papers" {
+                tags external
                 crmContainer = container "CRM System" "Customer Relationship Management - sponsor management and notification system" {
                     crm = component "CRM"
                 }
 
                 sponsor -> crm "Interacts with"
-                crm -> sponsor "Send emails to"
-                crm -> user "Send notifications to" "Email"
-                website -> crm "Reads Sponsor info from"
+                crm -> sponsor "Send emails to""Email"
+                crm -> user "Send notifications to" "Email, sms"
+                website -> crm "Reads Sponsor info from""Https"
             }
 
             ticketSystem = softwareSystem "Ticket" "Ticket management" {
+                tags external
                 ticketContainer = container "Ticket System" "Ticketing System" {
                     ticket = component "Ticketing System"
                     ticketDb = component "Ticket DB" "Relational Database" {
@@ -231,11 +241,14 @@ workspace {
                 background #BB0000
                 opacity 75
             }
-
+            element "external" {
+                shape component
+                background #000088
+            }
             element "Database" {
+                color #FFFFFF
                 background #00aa00
             }
-
             element "speaker" {
                 background #000000
                 color #ffffff
@@ -255,6 +268,10 @@ workspace {
                 background #E95420
                 stroke #E95420
                 icon "images/ubuntu-logo.jpeg"
+            }
+            relationship "gRPC" {
+                color #000088
+                style dotted
             }
         }
 

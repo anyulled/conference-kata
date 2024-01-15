@@ -2,9 +2,9 @@
   "id" : 1,
   "name" : "Conference Kata",
   "description" : "The software architecture of the Conference Kata.",
-  "lastModifiedDate" : "2024-01-15T11:18:17Z",
+  "lastModifiedDate" : "2024-01-15T12:08:53Z",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlIHsKICAgIG5hbWUgIkNvbmZlcmVuY2UgS2F0YSIKICAgIGRlc2NyaXB0aW9uICJUaGUgc29mdHdhcmUgYXJjaGl0ZWN0dXJlIG9mIHRoZSBDb25mZXJlbmNlIEthdGEuIgoKICAgICFhZHJzIGFkcnMKICAgICFkb2NzIGRvY3MKCiAgICBtb2RlbCB7CiAgICAgICAgdXNlciA9IHBlcnNvbiAiQXR0ZW5kZWUiCiAgICAgICAgc3BvbnNvciA9IHBlcnNvbiAiU3BvbnNvciIgIkJ1c2luZXNzIHBlcnNvbiIgewogICAgICAgICAgICB0YWdzIHNwb25zb3IKICAgICAgICB9CiAgICAgICAgc3BlYWtlciA9IHBlcnNvbiAiU3BlYWtlciIgIk5hdHVyYWwgcGVyc29uIHN1Ym1pdHRpbmcgcGFwZXJzIiB7CiAgICAgICAgICAgIHRhZ3Mgc3BlYWtlcgogICAgICAgIH0KCiAgICAgICAgc29mdHdhcmVTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiQ29uZmVyZW5jZSBTeXN0ZW0iICJTeXN0ZW0gZGVzZ2luIGZvciBDb25mZXJlbmNlIE1hbmFnZW1lbnQiIHsKICAgICAgICAgICAgd2ViYXBwID0gY29udGFpbmVyICJXZWIgQXBwbGljYXRpb24iICJDb25mZXJlbmNlIFdlYiBBcHBsaWNhdGlvbiIgd2Vic2l0ZSB7CgogICAgICAgICAgICAgICAgd2Vic2l0ZSA9IGNvbXBvbmVudCAiV2Vic2l0ZSIgIlJlYWN0IFNQQSAtIFNob3dzIGNvbmZlcmVuY2UgaW5mb3JtYXRpb24gc3VjaCBhcyBzcGVha2VycywgdGFsa3MgYW5kIHNjaGVkdWxlIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAid2Vic2l0ZSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGF0dGVuZGVlID0gY29tcG9uZW50ICJBdHRlbmRlZSBTeXN0ZW0iICJTeXN0ZW0gdG8gbWFuYWdlIGF0dGVuZGVlIGluZm9ybWF0aW9uLCBzdWNoIGFzIHRhbGtzIGV2YWx1YXRpb24gYW5kIGFjY2VzcyB0byBzbGlkZXMiCiAgICAgICAgICAgICAgICB2b3RpbmcgPSBjb21wb25lbnQgIlZvdGluZyBzeXN0ZW0iICJTZW5kIGFuZCByZWNlaXZlcyBldmFsdWF0aW9uIHZpYSB3ZWIsIGVtYWlsLCBTTVMgb3IgcGhvbmUgY2FsbHMiCiAgICAgICAgICAgICAgICBicmFuZGluZyA9IGNvbXBvbmVudCAiQnJhbmRpbmcgc3lzdGVtIiAiQWxsb3cgY3VzdG9taXphdGlvbiBmb3Igc2V2ZXJhbCBjb25mZXJlbmNlIGJyYW5kcyIKCiAgICAgICAgICAgICAgICB3ZWJzaXRlIC0+IGJyYW5kaW5nICJQdWxsIGJyYW5kaW5nIGluZm9ybWF0aW9uIGZyb20iICJIVFRQIFJlc3RmdWwgQVBJIgogICAgICAgICAgICAgICAgd2Vic2l0ZSAtPiBhdHRlbmRlZSAiUmVhZHMgYW5kIHdyaXRlcyBpbmZvcm1hdGlvbiBmcm9tICIgIkhUVFAgUmVzdGZ1bCBBUEkiCiAgICAgICAgICAgICAgICB3ZWJzaXRlIC0+IHZvdGluZyAiU2VuZHMgcmVxdWVzdHMgYW5kIGRpc3BsYXlzIGFnZ3JlZ2F0aW9uIGZyb20iICJIVFRQUyIKICAgICAgICAgICAgICAgIHVzZXIgLT4gd2Vic2l0ZSAiVmlzaXRzIgogICAgICAgICAgICB9CiAgICAgICAgICAgIGRhdGFiYXNlID0gY29udGFpbmVyICJEYXRhYmFzZSIgIiIgIlJlbGF0aW9uYWwgZGF0YWJhc2Ugc2NoZW1hIiB7CgogICAgICAgICAgICAgICAgYXR0ZW5kZWVEQiA9IGNvbXBvbmVudCAiQXR0ZW5kZWUgREIiICJSZWxhdGlvbmFsIERCIGZvciBhdHRlbmRlZSIgRGF0YWJhc2UKICAgICAgICAgICAgICAgIHdlYnNpdGVEYiA9IGNvbXBvbmVudCAiV2Vic2l0ZSBEQiIgIlJlbGF0aW9uYWwgRGF0YWJhc2UiIERhdGFiYXNlCiAgICAgICAgICAgICAgICBicmFuZGluZ0RCID0gY29tcG9uZW50ICJCcmFuZGluZyBEQiIgIlN0b3JlcyBpbmZvcm1hdGlvbiBhYm91dCBicmFuZGluZyIgRGF0YWJhc2UKCiAgICAgICAgICAgICAgICB3ZWJzaXRlIC0+IHdlYnNpdGVEYiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIgogICAgICAgICAgICAgICAgYnJhbmRpbmcgLT4gYnJhbmRpbmdEQiAiUmVhZHMgYW5kIHdyaXRlcyB0byIKICAgICAgICAgICAgICAgIGF0dGVuZGVlIC0+IGF0dGVuZGVlREIgIlJlYWRzIGFuZCB3cml0ZXMgdG8iCiAgICAgICAgICAgICAgICB2b3RpbmcgLT4gd2Vic2l0ZURiICJSZWFkcyBmcm9tIGFuZCB3cml0ZXMgdG8iICJKREJDIgogICAgICAgICAgICB9CgogICAgICAgIH0KCiAgICAgICAgZ3JvdXAgIlRoaXJkLXBhcnR5IiB7CgogICAgICAgICAgICBjcm1TeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiQ1JNIiAiQ3VzdG9tZXIgcmVsYXRpb25zaGlwIG1hbmFnZXIiIHsKICAgICAgICAgICAgICAgIGNmcENvbnRhaW5lciA9IGNvbnRhaW5lciAiQ0ZQIFN5c3RlbSIgIkNhbGwgRm9yIFBhcGVycyBTeXN0ZW0gLSBGdWxsIG1hbmFnZW1lbnQgb2Ygc3BlYWtlcnMsIHRhbGtzLCBhbmQgc2NoZWR1bGUiIHsKICAgICAgICAgICAgICAgICAgICBjZnAgPSBjb21wb25lbnQgIkNGUCIKICAgICAgICAgICAgICAgICAgICBjZnBEQiA9IGNvbXBvbmVudCAiQ0ZQIERCIiAiUmVsYXRpb25hbCBEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzIERhdGFiYXNlCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGNmcFN0b3JhZ2UgPSBjb21wb25lbnQgInN0b3JhZ2UiCgogICAgICAgICAgICAgICAgICAgIGNmcCAtPiBjZnBTdG9yYWdlICJTYXZlcyBzbGlkZXMgdG8iCiAgICAgICAgICAgICAgICAgICAgY2ZwIC0+IGNmcERCICJSZWFkcyBmcm9tIGFuZCB3cml0ZXMgdG8iCiAgICAgICAgICAgICAgICAgICAgY2ZwIC0+IHNwZWFrZXIgIlNlbmQgQ0ZQIGluZm8gdG8iCiAgICAgICAgICAgICAgICAgICAgc3BlYWtlciAtPiBjZnAgIkFwcGxpZXMgdG8iCiAgICAgICAgICAgICAgICAgICAgd2Vic2l0ZSAtPiBjZnAgIlJlYWQgZGF0YSBmcm9tIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBjZnBTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiQ0ZQIiAiQ2FsbCBmb3IgcGFwZXJzIiB7CiAgICAgICAgICAgICAgICBjcm1Db250YWluZXIgPSBjb250YWluZXIgIkNSTSBTeXN0ZW0iICJDdXN0b21lciBSZWxhdGlvbnNoaXAgTWFuYWdlbWVudCAtIHNwb25zb3IgbWFuYWdlbWVudCBhbmQgbm90aWZpY2F0aW9uIHN5c3RlbSIgewogICAgICAgICAgICAgICAgICAgIGNybSA9IGNvbXBvbmVudCAiQ1JNIgogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHNwb25zb3IgLT4gY3JtICJJbnRlcmFjdHMgd2l0aCIKICAgICAgICAgICAgICAgIGNybSAtPiBzcG9uc29yICJTZW5kIGVtYWlscyB0byIKICAgICAgICAgICAgICAgIGNybSAtPiB1c2VyICJTZW5kIG5vdGlmaWNhdGlvbnMgdG8iICJFbWFpbCIKICAgICAgICAgICAgICAgIHdlYnNpdGUgLT4gY3JtICJSZWFkcyBTcG9uc29yIGluZm8gZnJvbSIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdGlja2V0U3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gIlRpY2tldCIgIlRpY2tldCBtYW5hZ2VtZW50IiB7CiAgICAgICAgICAgICAgICB0aWNrZXRDb250YWluZXIgPSBjb250YWluZXIgIlRpY2tldCBTeXN0ZW0iICJUaWNrZXRpbmcgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICAgICAgdGlja2V0ID0gY29tcG9uZW50ICJUaWNrZXRpbmcgU3lzdGVtIgogICAgICAgICAgICAgICAgICAgIHRpY2tldERiID0gY29tcG9uZW50ICJUaWNrZXQgREIiICJSZWxhdGlvbmFsIERhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgRGF0YWJhc2UKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgdXNlciAtPiB0aWNrZXQgIkJ1eXMgZnJvbSIKICAgICAgICAgICAgICAgIHRpY2tldCAtPiB0aWNrZXREYiAiUmVhZHMgYW5kIHdyaXRlcyB0aWNrZXRzIGluZm8gdG8iCiAgICAgICAgICAgIH0KCiAgICAgICAgfQoKICAgICAgICBwcm9kID0gZGVwbG95bWVudEVudmlyb25tZW50ICJQcm9kdWN0aW9uIiB7CiAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJBbWF6b24gV2ViIFNlcnZpY2VzIiB7CiAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gQ2xvdWQgTWFwCSIKCiAgICAgICAgICAgICAgICByZWdpb24gPSBkZXBsb3ltZW50Tm9kZSAiRVUtRWFzdC0xIiB7CiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIkFXUyAtIEV1cm9wZSBab25lIgogICAgICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIkFXUyIKICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gUmVnaW9uIgoKICAgICAgICAgICAgICAgICAgICByb3V0ZTUzID0gaW5mcmFzdHJ1Y3R1cmVOb2RlICJSb3V0ZSA1MyIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gUm91dGUgNTMiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGVsYiA9IGluZnJhc3RydWN0dXJlTm9kZSAiRWxhc3RpYyBMb2FkIEJhbGFuY2VyIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJBdXRvbWF0aWNhbGx5IGRpc3RyaWJ1dGVzIGluY29taW5nIGFwcGxpY2F0aW9uIHRyYWZmaWMuIgogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gRWxhc3RpYyBMb2FkIEJhbGFuY2luZyIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgY2RuID0gaW5mcmFzdHJ1Y3R1cmVOb2RlICJBV1MgQ0ROIiAiQW1hem9uIENsb3VkRnJvbnQiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIENsb3VkRnJvbnQiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHMzID0gaW5mcmFzdHJ1Y3R1cmVOb2RlICJTdG9yYWdlIiAiQVdTIC0gUzMiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFNpbXBsZSBTdG9yYWdlIFNlcnZpY2UiCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIC0gQXV0byBTY2FsaW5nIEdyb3VwcyIgIk1hbmFnZXMgZWxhc3RpYyBFQzIgY29uZmlndXJhdGlvbiIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gQXBwbGljYXRpb24gQXV0byBTY2FsaW5nIgoKICAgICAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBFQzIiICJUaGlzIEVDMiBpbnN0YW5jZSBpcyBwYXJ0IG9mIGFuIEF1dG8gU2NhbGluZyBHcm91cCIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEVDMiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNvZnR3YXJlU3lzdGVtSW5zdGFuY2Ugc29mdHdhcmVTeXN0ZW0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdlYkFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSB3ZWJhcHAKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIEVDMiAtIENSTSIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gRUMyIgoKICAgICAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIlVidW50dSBTZXJ2ZXIgLSBDUk0gQXBwIiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJVYnVudHUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzb2Z0d2FyZVN5c3RlbUluc3RhbmNlIGNybVN5c3RlbQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY3JtQXBwbGljYXRpb25JbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGNybUNvbnRhaW5lcgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJBbWF6b24gRUMyIC0gVGlja2V0cyIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gRUMyIgoKICAgICAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIlVidW50dSBTZXJ2ZXIgLSBUaWNrZXQgQXBwIiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJVYnVudHUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzb2Z0d2FyZVN5c3RlbUluc3RhbmNlIHRpY2tldFN5c3RlbQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGlja2V0QXBwbGljYXRpb25JbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIHRpY2tldENvbnRhaW5lcgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGVsYiAtPiB0aGlzICJGb3J3YXJkcyByZXF1ZXN0cyB0byIgIkhUVFBTIgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIEVDMiAtIENGUCIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gRUMyIgogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiVWJ1bnR1IFNlcnZlciAtIENGUCBBcHAiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIlVidW50dSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNvZnR3YXJlU3lzdGVtSW5zdGFuY2UgY2ZwU3lzdGVtCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjZnBBcHBsaWNhdGlvbkluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgY2ZwQ29udGFpbmVyCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgdGhpcyAtPiBzMyAiU3RvcmFnZXMgc2xpZGVzIgogICAgICAgICAgICAgICAgICAgICAgICBjZnBBcHBsaWNhdGlvbkluc3RhbmNlIC0+IHMzICJTdG9yYWdlcyBzbGlkZXMiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJBbWF6b24gUkRTIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBSRFMiCgogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiTXlTUUwiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBSRFMgTXlTUUwgaW5zdGFuY2UiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkYXRhYmFzZUFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBkYXRhYmFzZQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICByb3V0ZTUzIC0+IGVsYiAiRm9yd2FyZHMgcmVxdWVzdHMgdG8iICJIVFRQUyIKICAgICAgICAgICAgICAgIGVsYiAtPiB0aWNrZXRBcHBsaWNhdGlvbkluc3RhbmNlICJGb3J3YXJkcyByZXF1ZXN0cyB0byIgIkhUVFBTIgogICAgICAgICAgICAgICAgZWxiIC0+IGNybUFwcGxpY2F0aW9uSW5zdGFuY2UgIkZvcndhcmRzIHJlcXVlc3RzIHRvIiAiSFRUUFMiCiAgICAgICAgICAgICAgICBlbGIgLT4gY2ZwQXBwbGljYXRpb25JbnN0YW5jZSAiRm9yd2FyZHMgdHJhZmZpYyB0byIgIkhUVFBTIgogICAgICAgICAgICAgICAgZWxiIC0+IHdlYkFwcGxpY2F0aW9uSW5zdGFuY2UgIkZvcndhcmRzIHJlcXVlc3RzIHRvIiAiSFRUUFMiCiAgICAgICAgICAgICAgICBlbGIgLT4gY2RuICJGb3J3YXJkcyByZXF1ZXN0IHRvIiAiSFRUUFMiCgogICAgICAgICAgICAgICAgY2ZwQXBwbGljYXRpb25JbnN0YW5jZSAtPiBzMyAiU3RvcmFnZXMgc2xpZGVzIHRvIgogICAgICAgICAgICAgICAgY2RuIC0+IHMzICJFbmFibGVzIGFjY2VzcyB0byBzbGlkZXMiCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUxhbmRzY2FwZSBzb2Z0d2FyZVN5c3RlbSB7CiAgICAgICAgICAgIHRpdGxlICJDb25mZXJlbmNlIFN5c3RlbSBMYW5kc2NhcGUiCiAgICAgICAgICAgIGluY2x1ZGUgKgoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIHNvZnR3YXJlU3lzdGVtCiAgICAgICAgICAgICAgICB1c2VyCiAgICAgICAgICAgICAgICBzcG9uc29yCiAgICAgICAgICAgICAgICBzcGVha2VyCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHN5c3RlbUNvbnRleHQgc29mdHdhcmVTeXN0ZW0gewogICAgICAgICAgICB0aXRsZSAiQ29uZmVyZW5jZSBTeXN0ZW0gQ29udGV4dCIKICAgICAgICAgICAgaW5jbHVkZSAqCgogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIHNvZnR3YXJlU3lzdGVtIHsKICAgICAgICAgICAgdGl0bGUgIkNvbnRhaW5lciB2aWV3IG9mIHNvZnR3YXJlIHN5c3RlbSIKICAgICAgICAgICAgaW5jbHVkZSAqCgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGRhdGFiYXNlIHsKICAgICAgICAgICAgdGl0bGUgIkNvbnRhaW5lciB2aWV3IG9mIERhdGFiYXNlIgogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCB3ZWJhcHAgewogICAgICAgICAgICB0aXRsZSAiQ29tcG9uZW50IHZpZXcgb2Ygd2ViIGFwcGxpY2F0aW9uIgogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIHVzZXIKICAgICAgICAgICAgICAgIHdlYnNpdGUKICAgICAgICAgICAgICAgIGJyYW5kaW5nCiAgICAgICAgICAgICAgICBkYXRhYmFzZQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBkZXBsb3ltZW50IHNvZnR3YXJlU3lzdGVtIHByb2QgIlByb2R1Y3Rpb24iIHsKICAgICAgICAgICAgdGl0bGUgIkRlcGxveW1lbnQgaW4gcHJvZHVjdGlvbiIKICAgICAgICAgICAgaW5jbHVkZSAqCgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgcm91dGU1MwogICAgICAgICAgICAgICAgZWxiCiAgICAgICAgICAgICAgICB3ZWJBcHBsaWNhdGlvbkluc3RhbmNlCiAgICAgICAgICAgICAgICBkYXRhYmFzZUFwcGxpY2F0aW9uSW5zdGFuY2UKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiR3JvdXA6VGhpcmQtcGFydHkiIHsKICAgICAgICAgICAgICAgIGJvcmRlciBkb3R0ZWQKICAgICAgICAgICAgICAgIGNvbG9yICNBQTAwMDAKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI0JCMDAwMAogICAgICAgICAgICAgICAgb3BhY2l0eSA3NQogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMDBhYTAwCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgInNwZWFrZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzAwMDAwMAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgInNwb25zb3IiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI0ZGMDAwMAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBjeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIndlYnNpdGUiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFdlYkJyb3dzZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJVYnVudHUiIHsKICAgICAgICAgICAgICAgIGNvbG9yICNFOTU0MjAKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI0U5NTQyMAogICAgICAgICAgICAgICAgc3Ryb2tlICNFOTU0MjAKICAgICAgICAgICAgICAgIGljb24gImltYWdlcy91YnVudHUtbG9nby5qcGVnIgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB0aGVtZSBkZWZhdWx0CiAgICAgICAgdGhlbWVzIGh0dHBzOi8vc3RhdGljLnN0cnVjdHVyaXpyLmNvbS90aGVtZXMvYW1hem9uLXdlYi1zZXJ2aWNlcy0yMDIzLjAxLjMxL3RoZW1lLmpzb24KICAgICAgICB0aGVtZXMgaHR0cHM6Ly9zdGF0aWMuc3RydWN0dXJpenIuY29tL3RoZW1lcy9hbWF6b24td2ViLXNlcnZpY2VzLTIwMjAuMDQuMzAvdGhlbWUuanNvbgogICAgfQoKfQo="
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKICAgIG5hbWUgIkNvbmZlcmVuY2UgS2F0YSIKICAgIGRlc2NyaXB0aW9uICJUaGUgc29mdHdhcmUgYXJjaGl0ZWN0dXJlIG9mIHRoZSBDb25mZXJlbmNlIEthdGEuIgoKICAgICFhZHJzIGFkcnMKICAgICFkb2NzIGRvY3MKCiAgICBtb2RlbCB7CiAgICAgICAgdXNlciA9IHBlcnNvbiAiQXR0ZW5kZWUiCiAgICAgICAgc3BvbnNvciA9IHBlcnNvbiAiU3BvbnNvciIgIkJ1c2luZXNzIHBlcnNvbiIgewogICAgICAgICAgICB0YWdzIHNwb25zb3IKICAgICAgICB9CiAgICAgICAgc3BlYWtlciA9IHBlcnNvbiAiU3BlYWtlciIgIk5hdHVyYWwgcGVyc29uIHN1Ym1pdHRpbmcgcGFwZXJzIiB7CiAgICAgICAgICAgIHRhZ3Mgc3BlYWtlcgogICAgICAgIH0KCiAgICAgICAgc29mdHdhcmVTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiQ29uZmVyZW5jZSBTeXN0ZW0iICJTeXN0ZW0gZGVzZ2luIGZvciBDb25mZXJlbmNlIE1hbmFnZW1lbnQiIHsKCiAgICAgICAgICAgIHdlYmFwcCA9IGNvbnRhaW5lciAiV2ViIEFwcGxpY2F0aW9uIiAiQ29uZmVyZW5jZSBXZWIgQXBwbGljYXRpb24iIHdlYnNpdGUgewoKICAgICAgICAgICAgICAgIHdlYnNpdGUgPSBjb21wb25lbnQgIldlYnNpdGUiICJSZWFjdCBTUEEgLSBTaG93cyBjb25mZXJlbmNlIGluZm9ybWF0aW9uIHN1Y2ggYXMgc3BlYWtlcnMsIHRhbGtzIGFuZCBzY2hlZHVsZSIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgIndlYnNpdGUiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBhdHRlbmRlZSA9IGNvbXBvbmVudCAiQXR0ZW5kZWUgU3lzdGVtIiAiU3lzdGVtIHRvIG1hbmFnZSBhdHRlbmRlZSBpbmZvcm1hdGlvbiwgc3VjaCBhcyB0YWxrcyBldmFsdWF0aW9uIGFuZCBhY2Nlc3MgdG8gc2xpZGVzIgogICAgICAgICAgICAgICAgdm90aW5nID0gY29tcG9uZW50ICJWb3Rpbmcgc3lzdGVtIiAiU2VuZCBhbmQgcmVjZWl2ZXMgZXZhbHVhdGlvbiB2aWEgd2ViLCBlbWFpbCwgU01TIG9yIHBob25lIGNhbGxzIgogICAgICAgICAgICAgICAgYnJhbmRpbmcgPSBjb21wb25lbnQgIkJyYW5kaW5nIHN5c3RlbSIgIkFsbG93IGN1c3RvbWl6YXRpb24gZm9yIHNldmVyYWwgY29uZmVyZW5jZSBicmFuZHMiCgogICAgICAgICAgICAgICAgd2Vic2l0ZSAtPiBicmFuZGluZyAiUHVsbCBicmFuZGluZyBpbmZvcm1hdGlvbiBmcm9tIiAiZ1JQQyIgZ1JQQwogICAgICAgICAgICAgICAgd2Vic2l0ZSAtPiBhdHRlbmRlZSAiUmVhZHMgYW5kIHdyaXRlcyBpbmZvcm1hdGlvbiBmcm9tICIgImdSUEMiIGdSUEMKICAgICAgICAgICAgICAgIHdlYnNpdGUgLT4gdm90aW5nICJTZW5kcyByZXF1ZXN0cyBhbmQgZGlzcGxheXMgYWdncmVnYXRpb24gZnJvbSIgImdSUEMiIGdSUEMKICAgICAgICAgICAgICAgIHVzZXIgLT4gd2Vic2l0ZSAiVmlzaXRzIgogICAgICAgICAgICB9CiAgICAgICAgICAgIGRhdGFiYXNlID0gY29udGFpbmVyICJEYXRhYmFzZSIgIiIgIlJlbGF0aW9uYWwgZGF0YWJhc2Ugc2NoZW1hIiB7CiAgICAgICAgICAgICAgICB0YWdzIERhdGFiYXNlCiAgICAgICAgICAgICAgICBhdHRlbmRlZURCID0gY29tcG9uZW50ICJBdHRlbmRlZSBEQiIgIlJlbGF0aW9uYWwgREIgZm9yIGF0dGVuZGVlIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyBEYXRhYmFzZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgd2Vic2l0ZURiID0gY29tcG9uZW50ICJXZWJzaXRlIERCIiAiUmVsYXRpb25hbCBEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgdGFncyBEYXRhYmFzZQogICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBicmFuZGluZ0RCID0gY29tcG9uZW50ICJCcmFuZGluZyBEQiIgIlN0b3JlcyBpbmZvcm1hdGlvbiBhYm91dCBicmFuZGluZyIgewogICAgICAgICAgICAgICAgdGFncyBEYXRhYmFzZQogICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgd2Vic2l0ZSAtPiB3ZWJzaXRlRGIgIlJlYWRzIGZyb20gYW5kIHdyaXRlcyB0byIgIkpEQkMiCiAgICAgICAgICAgICAgICBicmFuZGluZyAtPiBicmFuZGluZ0RCICJSZWFkcyBhbmQgd3JpdGVzIHRvIiAiSkRCQyIKICAgICAgICAgICAgICAgIGF0dGVuZGVlIC0+IGF0dGVuZGVlREIgIlJlYWRzIGFuZCB3cml0ZXMgdG8iICJKREJDIgogICAgICAgICAgICAgICAgdm90aW5nIC0+IHdlYnNpdGVEYiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIiAiSkRCQyIKICAgICAgICAgICAgfQoKICAgICAgICB9CgogICAgICAgIGdyb3VwICJUaGlyZC1wYXJ0eSIgewoKICAgICAgICAgICAgY3JtU3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gIkNSTSIgIkN1c3RvbWVyIHJlbGF0aW9uc2hpcCBtYW5hZ2VyIiB7CiAgICAgICAgICAgICAgICB0YWdzIGV4dGVybmFsCiAgICAgICAgICAgICAgICBjZnBDb250YWluZXIgPSBjb250YWluZXIgIkNGUCBTeXN0ZW0iICJDYWxsIEZvciBQYXBlcnMgU3lzdGVtIC0gRnVsbCBtYW5hZ2VtZW50IG9mIHNwZWFrZXJzLCB0YWxrcywgYW5kIHNjaGVkdWxlIiB7CiAgICAgICAgICAgICAgICAgICAgY2ZwID0gY29tcG9uZW50ICJDRlAiCiAgICAgICAgICAgICAgICAgICAgY2ZwREIgPSBjb21wb25lbnQgIkNGUCBEQiIgIlJlbGF0aW9uYWwgRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyBEYXRhYmFzZQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBjZnBTdG9yYWdlID0gY29tcG9uZW50ICJzdG9yYWdlIgoKICAgICAgICAgICAgICAgICAgICBjZnAgLT4gY2ZwU3RvcmFnZSAiU2F2ZXMgc2xpZGVzIHRvIgogICAgICAgICAgICAgICAgICAgIGNmcCAtPiBjZnBEQiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIgogICAgICAgICAgICAgICAgICAgIGNmcCAtPiBzcGVha2VyICJTZW5kIENGUCBpbmZvIHRvIgogICAgICAgICAgICAgICAgICAgIHNwZWFrZXIgLT4gY2ZwICJBcHBsaWVzIHRvIgogICAgICAgICAgICAgICAgICAgIHdlYnNpdGUgLT4gY2ZwICJSZWFkcyBkYXRhIGZyb20iIkh0dHBzIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBjZnBTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiQ0ZQIiAiQ2FsbCBmb3IgcGFwZXJzIiB7CiAgICAgICAgICAgICAgICB0YWdzIGV4dGVybmFsCiAgICAgICAgICAgICAgICBjcm1Db250YWluZXIgPSBjb250YWluZXIgIkNSTSBTeXN0ZW0iICJDdXN0b21lciBSZWxhdGlvbnNoaXAgTWFuYWdlbWVudCAtIHNwb25zb3IgbWFuYWdlbWVudCBhbmQgbm90aWZpY2F0aW9uIHN5c3RlbSIgewogICAgICAgICAgICAgICAgICAgIGNybSA9IGNvbXBvbmVudCAiQ1JNIgogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHNwb25zb3IgLT4gY3JtICJJbnRlcmFjdHMgd2l0aCIKICAgICAgICAgICAgICAgIGNybSAtPiBzcG9uc29yICJTZW5kIGVtYWlscyB0byIiRW1haWwiCiAgICAgICAgICAgICAgICBjcm0gLT4gdXNlciAiU2VuZCBub3RpZmljYXRpb25zIHRvIiAiRW1haWwsIHNtcyIKICAgICAgICAgICAgICAgIHdlYnNpdGUgLT4gY3JtICJSZWFkcyBTcG9uc29yIGluZm8gZnJvbSIiSHR0cHMiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHRpY2tldFN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJUaWNrZXQiICJUaWNrZXQgbWFuYWdlbWVudCIgewogICAgICAgICAgICAgICAgdGFncyBleHRlcm5hbAogICAgICAgICAgICAgICAgdGlja2V0Q29udGFpbmVyID0gY29udGFpbmVyICJUaWNrZXQgU3lzdGVtIiAiVGlja2V0aW5nIFN5c3RlbSIgewogICAgICAgICAgICAgICAgICAgIHRpY2tldCA9IGNvbXBvbmVudCAiVGlja2V0aW5nIFN5c3RlbSIKICAgICAgICAgICAgICAgICAgICB0aWNrZXREYiA9IGNvbXBvbmVudCAiVGlja2V0IERCIiAiUmVsYXRpb25hbCBEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzIERhdGFiYXNlCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHVzZXIgLT4gdGlja2V0ICJCdXlzIGZyb20iCiAgICAgICAgICAgICAgICB0aWNrZXQgLT4gdGlja2V0RGIgIlJlYWRzIGFuZCB3cml0ZXMgdGlja2V0cyBpbmZvIHRvIgogICAgICAgICAgICB9CgogICAgICAgIH0KCiAgICAgICAgcHJvZCA9IGRlcGxveW1lbnRFbnZpcm9ubWVudCAiUHJvZHVjdGlvbiIgewogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIFdlYiBTZXJ2aWNlcyIgewogICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIENsb3VkIE1hcAkiCgogICAgICAgICAgICAgICAgcmVnaW9uID0gZGVwbG95bWVudE5vZGUgIkVVLUVhc3QtMSIgewogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJBV1MgLSBFdXJvcGUgWm9uZSIKICAgICAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJBV1MiCiAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFJlZ2lvbiIKCiAgICAgICAgICAgICAgICAgICAgcm91dGU1MyA9IGluZnJhc3RydWN0dXJlTm9kZSAiUm91dGUgNTMiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFJvdXRlIDUzIgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBlbGIgPSBpbmZyYXN0cnVjdHVyZU5vZGUgIkVsYXN0aWMgTG9hZCBCYWxhbmNlciIgewogICAgICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiQXV0b21hdGljYWxseSBkaXN0cmlidXRlcyBpbmNvbWluZyBhcHBsaWNhdGlvbiB0cmFmZmljLiIKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEVsYXN0aWMgTG9hZCBCYWxhbmNpbmciCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGNkbiA9IGluZnJhc3RydWN0dXJlTm9kZSAiQVdTIENETiIgIkFtYXpvbiBDbG91ZEZyb250IiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBDbG91ZEZyb250IgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBzMyA9IGluZnJhc3RydWN0dXJlTm9kZSAiU3RvcmFnZSIgIkFXUyAtIFMzIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBTaW1wbGUgU3RvcmFnZSBTZXJ2aWNlIgogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiAtIEF1dG8gU2NhbGluZyBHcm91cHMiICJNYW5hZ2VzIGVsYXN0aWMgRUMyIGNvbmZpZ3VyYXRpb24iIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEFwcGxpY2F0aW9uIEF1dG8gU2NhbGluZyIKCiAgICAgICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gRUMyIiAiVGhpcyBFQzIgaW5zdGFuY2UgaXMgcGFydCBvZiBhbiBBdXRvIFNjYWxpbmcgR3JvdXAiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBFQzIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzb2Z0d2FyZVN5c3RlbUluc3RhbmNlIHNvZnR3YXJlU3lzdGVtCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3ZWJBcHBsaWNhdGlvbkluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2Ugd2ViYXBwCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBFQzIgLSBDUk0iIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEVDMiIKCiAgICAgICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJVYnVudHUgU2VydmVyIC0gQ1JNIEFwcCIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiVWJ1bnR1IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc29mdHdhcmVTeXN0ZW1JbnN0YW5jZSBjcm1TeXN0ZW0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNybUFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBjcm1Db250YWluZXIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIEVDMiAtIFRpY2tldHMiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEVDMiIKCiAgICAgICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJVYnVudHUgU2VydmVyIC0gVGlja2V0IEFwcCIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiVWJ1bnR1IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc29mdHdhcmVTeXN0ZW1JbnN0YW5jZSB0aWNrZXRTeXN0ZW0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpY2tldEFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSB0aWNrZXRDb250YWluZXIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBlbGIgLT4gdGhpcyAiRm9yd2FyZHMgcmVxdWVzdHMgdG8iICJIVFRQUyIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBFQzIgLSBDRlAiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEVDMiIKICAgICAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIlVidW50dSBTZXJ2ZXIgLSBDRlAgQXBwIiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJVYnVudHUiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzb2Z0d2FyZVN5c3RlbUluc3RhbmNlIGNmcFN5c3RlbQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2ZwQXBwbGljYXRpb25JbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGNmcENvbnRhaW5lcgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIHRoaXMgLT4gczMgIlN0b3JhZ2VzIHNsaWRlcyIKICAgICAgICAgICAgICAgICAgICAgICAgY2ZwQXBwbGljYXRpb25JbnN0YW5jZSAtPiBzMyAiU3RvcmFnZXMgc2xpZGVzIgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIFJEUyIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gUkRTIgoKICAgICAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIk15U1FMIiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gUkRTIE15U1FMIGluc3RhbmNlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGF0YWJhc2VBcHBsaWNhdGlvbkluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgZGF0YWJhc2UKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgcm91dGU1MyAtPiBlbGIgIkZvcndhcmRzIHJlcXVlc3RzIHRvIiAiSFRUUFMiCiAgICAgICAgICAgICAgICBlbGIgLT4gdGlja2V0QXBwbGljYXRpb25JbnN0YW5jZSAiRm9yd2FyZHMgcmVxdWVzdHMgdG8iICJIVFRQUyIKICAgICAgICAgICAgICAgIGVsYiAtPiBjcm1BcHBsaWNhdGlvbkluc3RhbmNlICJGb3J3YXJkcyByZXF1ZXN0cyB0byIgIkhUVFBTIgogICAgICAgICAgICAgICAgZWxiIC0+IGNmcEFwcGxpY2F0aW9uSW5zdGFuY2UgIkZvcndhcmRzIHRyYWZmaWMgdG8iICJIVFRQUyIKICAgICAgICAgICAgICAgIGVsYiAtPiB3ZWJBcHBsaWNhdGlvbkluc3RhbmNlICJGb3J3YXJkcyByZXF1ZXN0cyB0byIgIkhUVFBTIgogICAgICAgICAgICAgICAgZWxiIC0+IGNkbiAiRm9yd2FyZHMgcmVxdWVzdCB0byIgIkhUVFBTIgoKICAgICAgICAgICAgICAgIGNmcEFwcGxpY2F0aW9uSW5zdGFuY2UgLT4gczMgIlN0b3JhZ2VzIHNsaWRlcyB0byIKICAgICAgICAgICAgICAgIGNkbiAtPiBzMyAiRW5hYmxlcyBhY2Nlc3MgdG8gc2xpZGVzIgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1MYW5kc2NhcGUgc29mdHdhcmVTeXN0ZW0gewogICAgICAgICAgICB0aXRsZSAiQ29uZmVyZW5jZSBTeXN0ZW0gTGFuZHNjYXBlIgogICAgICAgICAgICBpbmNsdWRlICoKCiAgICAgICAgICAgIGFuaW1hdGlvbiB7CiAgICAgICAgICAgICAgICBzb2Z0d2FyZVN5c3RlbQogICAgICAgICAgICAgICAgdXNlcgogICAgICAgICAgICAgICAgc3BvbnNvcgogICAgICAgICAgICAgICAgc3BlYWtlcgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBzeXN0ZW1Db250ZXh0IHNvZnR3YXJlU3lzdGVtIHsKICAgICAgICAgICAgdGl0bGUgIkNvbmZlcmVuY2UgU3lzdGVtIENvbnRleHQiCiAgICAgICAgICAgIGluY2x1ZGUgKgoKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBzb2Z0d2FyZVN5c3RlbSB7CiAgICAgICAgICAgIHRpdGxlICJDb250YWluZXIgdmlldyBvZiBzb2Z0d2FyZSBzeXN0ZW0iCiAgICAgICAgICAgIGluY2x1ZGUgKgoKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBkYXRhYmFzZSB7CiAgICAgICAgICAgIHRpdGxlICJDb250YWluZXIgdmlldyBvZiBEYXRhYmFzZSIKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgd2ViYXBwIHsKICAgICAgICAgICAgdGl0bGUgIkNvbXBvbmVudCB2aWV3IG9mIHdlYiBhcHBsaWNhdGlvbiIKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGFuaW1hdGlvbiB7CiAgICAgICAgICAgICAgICB1c2VyCiAgICAgICAgICAgICAgICB3ZWJzaXRlCiAgICAgICAgICAgICAgICBicmFuZGluZwogICAgICAgICAgICAgICAgZGF0YWJhc2UKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgZGVwbG95bWVudCBzb2Z0d2FyZVN5c3RlbSBwcm9kICJQcm9kdWN0aW9uIiB7CiAgICAgICAgICAgIHRpdGxlICJEZXBsb3ltZW50IGluIHByb2R1Y3Rpb24iCiAgICAgICAgICAgIGluY2x1ZGUgKgoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIHJvdXRlNTMKICAgICAgICAgICAgICAgIGVsYgogICAgICAgICAgICAgICAgd2ViQXBwbGljYXRpb25JbnN0YW5jZQogICAgICAgICAgICAgICAgZGF0YWJhc2VBcHBsaWNhdGlvbkluc3RhbmNlCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIkdyb3VwOlRoaXJkLXBhcnR5IiB7CiAgICAgICAgICAgICAgICBib3JkZXIgZG90dGVkCiAgICAgICAgICAgICAgICBjb2xvciAjQUEwMDAwCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNCQjAwMDAKICAgICAgICAgICAgICAgIG9wYWNpdHkgNzUKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJleHRlcm5hbCIgewogICAgICAgICAgICAgICAgc2hhcGUgY29tcG9uZW50CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMwMDAwODgKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgIGNvbG9yICNGRkZGRkYKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzAwYWEwMAogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJzcGVha2VyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMwMDAwMDAKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJzcG9uc29yIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNGRjAwMDAKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgc2hhcGUgY3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJ3ZWJzaXRlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiVWJ1bnR1IiB7CiAgICAgICAgICAgICAgICBjb2xvciAjRTk1NDIwCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNFOTU0MjAKICAgICAgICAgICAgICAgIHN0cm9rZSAjRTk1NDIwCiAgICAgICAgICAgICAgICBpY29uICJpbWFnZXMvdWJ1bnR1LWxvZ28uanBlZyIKICAgICAgICAgICAgfQogICAgICAgICAgICByZWxhdGlvbnNoaXAgImdSUEMiIHsKICAgICAgICAgICAgICAgIGNvbG9yICMwMDAwODgKICAgICAgICAgICAgICAgIHN0eWxlIGRvdHRlZAogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB0aGVtZSBkZWZhdWx0CiAgICAgICAgdGhlbWVzIGh0dHBzOi8vc3RhdGljLnN0cnVjdHVyaXpyLmNvbS90aGVtZXMvYW1hem9uLXdlYi1zZXJ2aWNlcy0yMDIzLjAxLjMxL3RoZW1lLmpzb24KICAgICAgICB0aGVtZXMgaHR0cHM6Ly9zdGF0aWMuc3RydWN0dXJpenIuY29tL3RoZW1lcy9hbWF6b24td2ViLXNlcnZpY2VzLTIwMjAuMDQuMzAvdGhlbWUuanNvbgogICAgfQoKfQo="
   },
   "configuration" : { },
   "model" : {
@@ -19,7 +19,7 @@
         "id" : "13",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "b9a45af4-8e02-4581-af33-bfe262be6ee4"
+          "structurizr.dsl.identifier" : "bc7358c2-0ef1-4518-9f0d-67ab2b11d042"
         },
         "sourceId" : "1",
         "destinationId" : "6",
@@ -40,7 +40,7 @@
         "id" : "79",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "9492ad78-7ed6-4feb-a6f5-0411463861c9"
+          "structurizr.dsl.identifier" : "2a7cbc78-3e56-43d5-94ef-5c342698a199"
         },
         "sourceId" : "1",
         "destinationId" : "77",
@@ -71,7 +71,7 @@
         "id" : "57",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "4040055c-d539-48c5-8cf6-8686e2fb87ef"
+          "structurizr.dsl.identifier" : "b136105b-81d8-43a3-bfd3-37404519a8e1"
         },
         "sourceId" : "2",
         "destinationId" : "56",
@@ -102,7 +102,7 @@
         "id" : "42",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "5583d014-af12-44d1-a6f6-1219b3b8b523"
+          "structurizr.dsl.identifier" : "7d674e78-3c14-4276-a38b-8bd9ea85a205"
         },
         "sourceId" : "3",
         "destinationId" : "34",
@@ -134,41 +134,84 @@
         "id" : "51",
         "sourceId" : "4",
         "destinationId" : "34",
-        "description" : "Read data from",
+        "description" : "Reads data from",
+        "technology" : "Https",
         "linkedRelationshipId" : "45"
       }, {
         "id" : "52",
         "sourceId" : "4",
         "destinationId" : "33",
-        "description" : "Read data from",
+        "description" : "Reads data from",
+        "technology" : "Https",
         "linkedRelationshipId" : "45"
       }, {
         "id" : "53",
         "sourceId" : "4",
         "destinationId" : "32",
-        "description" : "Read data from",
+        "description" : "Reads data from",
+        "technology" : "Https",
         "linkedRelationshipId" : "45"
       }, {
         "id" : "72",
         "sourceId" : "4",
         "destinationId" : "56",
         "description" : "Reads Sponsor info from",
+        "technology" : "Https",
         "linkedRelationshipId" : "66"
       }, {
         "id" : "73",
         "sourceId" : "4",
         "destinationId" : "55",
         "description" : "Reads Sponsor info from",
+        "technology" : "Https",
         "linkedRelationshipId" : "66"
       }, {
         "id" : "74",
         "sourceId" : "4",
         "destinationId" : "54",
         "description" : "Reads Sponsor info from",
+        "technology" : "Https",
         "linkedRelationshipId" : "66"
       } ],
       "location" : "Unspecified",
       "containers" : [ {
+        "id" : "16",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "database"
+        },
+        "name" : "Database",
+        "technology" : "Relational database schema",
+        "components" : [ {
+          "id" : "19",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "brandingdb"
+          },
+          "name" : "Branding DB",
+          "description" : "Stores information about branding",
+          "documentation" : { }
+        }, {
+          "id" : "18",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "websitedb"
+          },
+          "name" : "Website DB",
+          "description" : "Relational Database",
+          "documentation" : { }
+        }, {
+          "id" : "17",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "attendeedb"
+          },
+          "name" : "Attendee DB",
+          "description" : "Relational DB for attendee",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
         "id" : "5",
         "tags" : "Element,Container",
         "properties" : {
@@ -181,64 +224,179 @@
           "sourceId" : "5",
           "destinationId" : "18",
           "description" : "Reads from and writes to",
+          "technology" : "JDBC",
           "linkedRelationshipId" : "20"
         }, {
           "id" : "23",
           "sourceId" : "5",
           "destinationId" : "16",
           "description" : "Reads from and writes to",
+          "technology" : "JDBC",
           "linkedRelationshipId" : "20"
         }, {
           "id" : "26",
           "sourceId" : "5",
           "destinationId" : "19",
           "description" : "Reads and writes to",
+          "technology" : "JDBC",
           "linkedRelationshipId" : "24"
         }, {
           "id" : "29",
           "sourceId" : "5",
           "destinationId" : "17",
           "description" : "Reads and writes to",
+          "technology" : "JDBC",
           "linkedRelationshipId" : "27"
         }, {
           "id" : "48",
           "sourceId" : "5",
           "destinationId" : "34",
-          "description" : "Read data from",
+          "description" : "Reads data from",
+          "technology" : "Https",
           "linkedRelationshipId" : "45"
         }, {
           "id" : "49",
           "sourceId" : "5",
           "destinationId" : "33",
-          "description" : "Read data from",
+          "description" : "Reads data from",
+          "technology" : "Https",
           "linkedRelationshipId" : "45"
         }, {
           "id" : "50",
           "sourceId" : "5",
           "destinationId" : "32",
-          "description" : "Read data from",
+          "description" : "Reads data from",
+          "technology" : "Https",
           "linkedRelationshipId" : "45"
         }, {
           "id" : "69",
           "sourceId" : "5",
           "destinationId" : "56",
           "description" : "Reads Sponsor info from",
+          "technology" : "Https",
           "linkedRelationshipId" : "66"
         }, {
           "id" : "70",
           "sourceId" : "5",
           "destinationId" : "55",
           "description" : "Reads Sponsor info from",
+          "technology" : "Https",
           "linkedRelationshipId" : "66"
         }, {
           "id" : "71",
           "sourceId" : "5",
           "destinationId" : "54",
           "description" : "Reads Sponsor info from",
+          "technology" : "Https",
           "linkedRelationshipId" : "66"
         } ],
         "technology" : "website",
         "components" : [ {
+          "id" : "6",
+          "tags" : "Element,Component,website",
+          "properties" : {
+            "structurizr.dsl.identifier" : "website"
+          },
+          "name" : "Website",
+          "description" : "React SPA - Shows conference information such as speakers, talks and schedule",
+          "relationships" : [ {
+            "id" : "10",
+            "tags" : "Relationship,gRPC",
+            "properties" : {
+              "structurizr.dsl.identifier" : "1adba353-89f2-4631-9e71-9073e7c1cfa0"
+            },
+            "sourceId" : "6",
+            "destinationId" : "9",
+            "description" : "Pull branding information from",
+            "technology" : "gRPC"
+          }, {
+            "id" : "11",
+            "tags" : "Relationship,gRPC",
+            "properties" : {
+              "structurizr.dsl.identifier" : "97ca5897-4fc6-4b84-80f7-1836bb57042e"
+            },
+            "sourceId" : "6",
+            "destinationId" : "7",
+            "description" : "Reads and writes information from",
+            "technology" : "gRPC"
+          }, {
+            "id" : "12",
+            "tags" : "Relationship,gRPC",
+            "properties" : {
+              "structurizr.dsl.identifier" : "e6c1f6af-920a-4598-9da4-d78e26379e4c"
+            },
+            "sourceId" : "6",
+            "destinationId" : "8",
+            "description" : "Sends requests and displays aggregation from",
+            "technology" : "gRPC"
+          }, {
+            "id" : "20",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "7673163a-cbbf-408a-aa3a-693b0ce8ecdd"
+            },
+            "sourceId" : "6",
+            "destinationId" : "18",
+            "description" : "Reads from and writes to",
+            "technology" : "JDBC"
+          }, {
+            "id" : "21",
+            "sourceId" : "6",
+            "destinationId" : "16",
+            "description" : "Reads from and writes to",
+            "technology" : "JDBC",
+            "linkedRelationshipId" : "20"
+          }, {
+            "id" : "45",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "5c4201d7-b9a9-4a41-b65e-b1926211446f"
+            },
+            "sourceId" : "6",
+            "destinationId" : "34",
+            "description" : "Reads data from",
+            "technology" : "Https"
+          }, {
+            "id" : "46",
+            "sourceId" : "6",
+            "destinationId" : "33",
+            "description" : "Reads data from",
+            "technology" : "Https",
+            "linkedRelationshipId" : "45"
+          }, {
+            "id" : "47",
+            "sourceId" : "6",
+            "destinationId" : "32",
+            "description" : "Reads data from",
+            "technology" : "Https",
+            "linkedRelationshipId" : "45"
+          }, {
+            "id" : "66",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "29b011aa-4d73-4920-8aee-f69b2fb448bf"
+            },
+            "sourceId" : "6",
+            "destinationId" : "56",
+            "description" : "Reads Sponsor info from",
+            "technology" : "Https"
+          }, {
+            "id" : "67",
+            "sourceId" : "6",
+            "destinationId" : "55",
+            "description" : "Reads Sponsor info from",
+            "technology" : "Https",
+            "linkedRelationshipId" : "66"
+          }, {
+            "id" : "68",
+            "sourceId" : "6",
+            "destinationId" : "54",
+            "description" : "Reads Sponsor info from",
+            "technology" : "Https",
+            "linkedRelationshipId" : "66"
+          } ],
+          "documentation" : { }
+        }, {
           "id" : "8",
           "tags" : "Element,Component",
           "properties" : {
@@ -250,7 +408,7 @@
             "id" : "30",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "078f62f0-ca00-49af-a9ce-885e1b5b328e"
+              "structurizr.dsl.identifier" : "cf020006-008c-401e-8a2c-d3972c816d5e"
             },
             "sourceId" : "8",
             "destinationId" : "18",
@@ -266,31 +424,6 @@
           } ],
           "documentation" : { }
         }, {
-          "id" : "7",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "attendee"
-          },
-          "name" : "Attendee System",
-          "description" : "System to manage attendee information, such as talks evaluation and access to slides",
-          "relationships" : [ {
-            "id" : "27",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "3585228e-d3a5-472d-a484-1ace0d7de87d"
-            },
-            "sourceId" : "7",
-            "destinationId" : "17",
-            "description" : "Reads and writes to"
-          }, {
-            "id" : "28",
-            "sourceId" : "7",
-            "destinationId" : "16",
-            "description" : "Reads and writes to",
-            "linkedRelationshipId" : "27"
-          } ],
-          "documentation" : { }
-        }, {
           "id" : "9",
           "tags" : "Element,Component",
           "properties" : {
@@ -302,155 +435,47 @@
             "id" : "24",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "4c25e654-a17a-4a90-8e45-d5049dba13c0"
+              "structurizr.dsl.identifier" : "b22045e5-db07-4234-90bb-38b15d5114b9"
             },
             "sourceId" : "9",
             "destinationId" : "19",
-            "description" : "Reads and writes to"
+            "description" : "Reads and writes to",
+            "technology" : "JDBC"
           }, {
             "id" : "25",
             "sourceId" : "9",
             "destinationId" : "16",
             "description" : "Reads and writes to",
+            "technology" : "JDBC",
             "linkedRelationshipId" : "24"
           } ],
           "documentation" : { }
         }, {
-          "id" : "6",
-          "tags" : "Element,Component,website",
+          "id" : "7",
+          "tags" : "Element,Component",
           "properties" : {
-            "structurizr.dsl.identifier" : "website"
+            "structurizr.dsl.identifier" : "attendee"
           },
-          "name" : "Website",
-          "description" : "React SPA - Shows conference information such as speakers, talks and schedule",
+          "name" : "Attendee System",
+          "description" : "System to manage attendee information, such as talks evaluation and access to slides",
           "relationships" : [ {
-            "id" : "10",
+            "id" : "27",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "f2103073-ea3d-4fda-af4f-abfb59a48469"
+              "structurizr.dsl.identifier" : "d636c03c-998b-4a0a-a289-8c84fb0b7073"
             },
-            "sourceId" : "6",
-            "destinationId" : "9",
-            "description" : "Pull branding information from",
-            "technology" : "HTTP Restful API"
+            "sourceId" : "7",
+            "destinationId" : "17",
+            "description" : "Reads and writes to",
+            "technology" : "JDBC"
           }, {
-            "id" : "11",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "4098db0d-9cbf-4441-b05f-c0ae7e7c394c"
-            },
-            "sourceId" : "6",
-            "destinationId" : "7",
-            "description" : "Reads and writes information from",
-            "technology" : "HTTP Restful API"
-          }, {
-            "id" : "12",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "58946cd7-962b-4da1-8d32-f6f89d75b69e"
-            },
-            "sourceId" : "6",
-            "destinationId" : "8",
-            "description" : "Sends requests and displays aggregation from",
-            "technology" : "HTTPS"
-          }, {
-            "id" : "20",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "1e9e9b0a-bb5d-4ea2-8753-bb4929218f5c"
-            },
-            "sourceId" : "6",
-            "destinationId" : "18",
-            "description" : "Reads from and writes to"
-          }, {
-            "id" : "21",
-            "sourceId" : "6",
+            "id" : "28",
+            "sourceId" : "7",
             "destinationId" : "16",
-            "description" : "Reads from and writes to",
-            "linkedRelationshipId" : "20"
-          }, {
-            "id" : "45",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "a6550037-b04c-49af-9649-e2d8f7297073"
-            },
-            "sourceId" : "6",
-            "destinationId" : "34",
-            "description" : "Read data from"
-          }, {
-            "id" : "46",
-            "sourceId" : "6",
-            "destinationId" : "33",
-            "description" : "Read data from",
-            "linkedRelationshipId" : "45"
-          }, {
-            "id" : "47",
-            "sourceId" : "6",
-            "destinationId" : "32",
-            "description" : "Read data from",
-            "linkedRelationshipId" : "45"
-          }, {
-            "id" : "66",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "52a6be36-5b94-4ffd-a425-dc468f553251"
-            },
-            "sourceId" : "6",
-            "destinationId" : "56",
-            "description" : "Reads Sponsor info from"
-          }, {
-            "id" : "67",
-            "sourceId" : "6",
-            "destinationId" : "55",
-            "description" : "Reads Sponsor info from",
-            "linkedRelationshipId" : "66"
-          }, {
-            "id" : "68",
-            "sourceId" : "6",
-            "destinationId" : "54",
-            "description" : "Reads Sponsor info from",
-            "linkedRelationshipId" : "66"
+            "description" : "Reads and writes to",
+            "technology" : "JDBC",
+            "linkedRelationshipId" : "27"
           } ],
-          "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "16",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "database"
-        },
-        "name" : "Database",
-        "technology" : "Relational database schema",
-        "components" : [ {
-          "id" : "18",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "websitedb"
-          },
-          "name" : "Website DB",
-          "description" : "Relational Database",
-          "technology" : "Database",
-          "documentation" : { }
-        }, {
-          "id" : "17",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "attendeedb"
-          },
-          "name" : "Attendee DB",
-          "description" : "Relational DB for attendee",
-          "technology" : "Database",
-          "documentation" : { }
-        }, {
-          "id" : "19",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "brandingdb"
-          },
-          "name" : "Branding DB",
-          "description" : "Stores information about branding",
-          "technology" : "Database",
           "documentation" : { }
         } ],
         "documentation" : { }
@@ -458,7 +483,7 @@
       "documentation" : { }
     }, {
       "id" : "32",
-      "tags" : "Element,Software System",
+      "tags" : "Element,Software System,external",
       "properties" : {
         "structurizr.dsl.identifier" : "crmsystem"
       },
@@ -489,15 +514,6 @@
           "linkedRelationshipId" : "39"
         } ],
         "components" : [ {
-          "id" : "35",
-          "tags" : "Element,Component,Database",
-          "properties" : {
-            "structurizr.dsl.identifier" : "cfpdb"
-          },
-          "name" : "CFP DB",
-          "description" : "Relational Database",
-          "documentation" : { }
-        }, {
           "id" : "34",
           "tags" : "Element,Component",
           "properties" : {
@@ -508,7 +524,7 @@
             "id" : "37",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "fa8e8cc8-aef9-4ef5-a2e2-3c65588a39c2"
+              "structurizr.dsl.identifier" : "1e480d36-a3fd-40f8-a389-c0dcc7140408"
             },
             "sourceId" : "34",
             "destinationId" : "36",
@@ -517,7 +533,7 @@
             "id" : "38",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "324d6fee-9581-4cc5-877b-66a93d11e4d5"
+              "structurizr.dsl.identifier" : "a3967f04-a45b-46c2-bd17-b002b779d024"
             },
             "sourceId" : "34",
             "destinationId" : "35",
@@ -526,12 +542,21 @@
             "id" : "39",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "6cd7d45e-fc28-44d4-99c5-39188800ecb0"
+              "structurizr.dsl.identifier" : "c2eacf12-28e7-4f01-9cff-ebb8b1d54aa4"
             },
             "sourceId" : "34",
             "destinationId" : "3",
             "description" : "Send CFP info to"
           } ],
+          "documentation" : { }
+        }, {
+          "id" : "35",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "cfpdb"
+          },
+          "name" : "CFP DB",
+          "description" : "Relational Database",
           "documentation" : { }
         }, {
           "id" : "36",
@@ -547,7 +572,7 @@
       "documentation" : { }
     }, {
       "id" : "54",
-      "tags" : "Element,Software System",
+      "tags" : "Element,Software System,external",
       "properties" : {
         "structurizr.dsl.identifier" : "cfpsystem"
       },
@@ -558,13 +583,14 @@
         "sourceId" : "54",
         "destinationId" : "2",
         "description" : "Send emails to",
+        "technology" : "Email",
         "linkedRelationshipId" : "60"
       }, {
         "id" : "65",
         "sourceId" : "54",
         "destinationId" : "1",
         "description" : "Send notifications to",
-        "technology" : "Email",
+        "technology" : "Email, sms",
         "linkedRelationshipId" : "63"
       } ],
       "group" : "Third-party",
@@ -582,13 +608,14 @@
           "sourceId" : "55",
           "destinationId" : "2",
           "description" : "Send emails to",
+          "technology" : "Email",
           "linkedRelationshipId" : "60"
         }, {
           "id" : "64",
           "sourceId" : "55",
           "destinationId" : "1",
           "description" : "Send notifications to",
-          "technology" : "Email",
+          "technology" : "Email, sms",
           "linkedRelationshipId" : "63"
         } ],
         "components" : [ {
@@ -602,21 +629,22 @@
             "id" : "60",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "3844b5e5-9adc-444c-9306-74d81dc8e13c"
+              "structurizr.dsl.identifier" : "45690992-7175-4334-be8a-2098485fda78"
             },
             "sourceId" : "56",
             "destinationId" : "2",
-            "description" : "Send emails to"
+            "description" : "Send emails to",
+            "technology" : "Email"
           }, {
             "id" : "63",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "121a6175-ae3f-42a6-8cee-ccd53d134f20"
+              "structurizr.dsl.identifier" : "22775353-f42a-450e-9067-9a354c4827b3"
             },
             "sourceId" : "56",
             "destinationId" : "1",
             "description" : "Send notifications to",
-            "technology" : "Email"
+            "technology" : "Email, sms"
           } ],
           "documentation" : { }
         } ],
@@ -625,7 +653,7 @@
       "documentation" : { }
     }, {
       "id" : "75",
-      "tags" : "Element,Software System",
+      "tags" : "Element,Software System,external",
       "properties" : {
         "structurizr.dsl.identifier" : "ticketsystem"
       },
@@ -661,7 +689,7 @@
             "id" : "82",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "8cb01ffd-d089-4668-bc0f-948bda615cf4"
+              "structurizr.dsl.identifier" : "9ad33631-9cdb-434e-a302-e9398c516989"
             },
             "sourceId" : "77",
             "destinationId" : "78",
@@ -677,7 +705,7 @@
       "id" : "83",
       "tags" : "Element,Deployment Node,Amazon Web Services - Cloud Map",
       "properties" : {
-        "structurizr.dsl.identifier" : "9be5c331-60ce-40ec-95ca-038ef0a25e9f"
+        "structurizr.dsl.identifier" : "3dda9315-6555-4288-b11e-e03500d4582b"
       },
       "name" : "Amazon Web Services",
       "environment" : "Production",
@@ -694,80 +722,10 @@
         "technology" : "AWS",
         "instances" : "1",
         "children" : [ {
-          "id" : "106",
-          "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
-          "properties" : {
-            "structurizr.dsl.identifier" : "5a5be9fe-f03c-4853-8149-aaeb906562de"
-          },
-          "name" : "Amazon EC2 - CFP",
-          "relationships" : [ {
-            "id" : "114",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "9a3eec9c-7ad5-4830-a629-b6bb7501e200"
-            },
-            "sourceId" : "106",
-            "destinationId" : "88",
-            "description" : "Storages slides"
-          } ],
-          "environment" : "Production",
-          "instances" : "1",
-          "children" : [ {
-            "id" : "107",
-            "tags" : "Element,Deployment Node,Ubuntu",
-            "properties" : {
-              "structurizr.dsl.identifier" : "3c687441-838d-445b-b1ba-7ced8e26a92a"
-            },
-            "name" : "Ubuntu Server - CFP App",
-            "environment" : "Production",
-            "instances" : "1",
-            "softwareSystemInstances" : [ {
-              "id" : "108",
-              "tags" : "Software System Instance",
-              "properties" : {
-                "structurizr.dsl.identifier" : "5de2113a-028d-4836-962a-78012e94b757"
-              },
-              "environment" : "Production",
-              "deploymentGroups" : [ "Default" ],
-              "instanceId" : 1,
-              "softwareSystemId" : "54"
-            } ],
-            "containerInstances" : [ {
-              "id" : "111",
-              "tags" : "Container Instance",
-              "properties" : {
-                "structurizr.dsl.identifier" : "cfpapplicationinstance"
-              },
-              "relationships" : [ {
-                "id" : "115",
-                "tags" : "Relationship",
-                "properties" : {
-                  "structurizr.dsl.identifier" : "5c41e9ae-6f0f-4e33-a461-bded04ffc6be"
-                },
-                "sourceId" : "111",
-                "destinationId" : "88",
-                "description" : "Storages slides"
-              }, {
-                "id" : "126",
-                "tags" : "Relationship",
-                "properties" : {
-                  "structurizr.dsl.identifier" : "35517ce8-d793-43ba-84dd-8e621d3e5da5"
-                },
-                "sourceId" : "111",
-                "destinationId" : "88",
-                "description" : "Storages slides to"
-              } ],
-              "environment" : "Production",
-              "deploymentGroups" : [ "Default" ],
-              "instanceId" : 1,
-              "containerId" : "33"
-            } ]
-          } ]
-        }, {
           "id" : "89",
           "tags" : "Element,Deployment Node,Amazon Web Services - Application Auto Scaling",
           "properties" : {
-            "structurizr.dsl.identifier" : "f7c58a23-c16a-48a0-835b-7e4bb6b6c437"
+            "structurizr.dsl.identifier" : "85a5518b-1c3f-4140-9cce-a59ba1a912fd"
           },
           "name" : "Amazon - Auto Scaling Groups",
           "description" : "Manages elastic EC2 configuration",
@@ -777,7 +735,7 @@
             "id" : "90",
             "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
             "properties" : {
-              "structurizr.dsl.identifier" : "91c2d4ca-f273-441b-8fc5-d95c1ed72633"
+              "structurizr.dsl.identifier" : "f588d04a-2dc5-4b6f-97ba-2b3d5912313e"
             },
             "name" : "Amazon Web Services - EC2",
             "description" : "This EC2 instance is part of an Auto Scaling Group",
@@ -787,31 +745,35 @@
               "id" : "91",
               "tags" : "Software System Instance",
               "properties" : {
-                "structurizr.dsl.identifier" : "b4139920-1123-4efc-b9e5-2bca1e784e94"
+                "structurizr.dsl.identifier" : "010195ec-129b-41e7-8c56-4446e6b7f8e3"
               },
               "relationships" : [ {
                 "id" : "97",
                 "sourceId" : "91",
                 "destinationId" : "95",
-                "description" : "Read data from",
+                "description" : "Reads data from",
+                "technology" : "Https",
                 "linkedRelationshipId" : "53"
               }, {
                 "id" : "100",
                 "sourceId" : "91",
                 "destinationId" : "98",
                 "description" : "Reads Sponsor info from",
+                "technology" : "Https",
                 "linkedRelationshipId" : "73"
               }, {
                 "id" : "110",
                 "sourceId" : "91",
                 "destinationId" : "108",
                 "description" : "Reads Sponsor info from",
+                "technology" : "Https",
                 "linkedRelationshipId" : "74"
               }, {
                 "id" : "113",
                 "sourceId" : "91",
                 "destinationId" : "111",
-                "description" : "Read data from",
+                "description" : "Reads data from",
+                "technology" : "Https",
                 "linkedRelationshipId" : "52"
               } ],
               "environment" : "Production",
@@ -829,31 +791,36 @@
                 "id" : "96",
                 "sourceId" : "92",
                 "destinationId" : "95",
-                "description" : "Read data from",
+                "description" : "Reads data from",
+                "technology" : "Https",
                 "linkedRelationshipId" : "50"
               }, {
                 "id" : "99",
                 "sourceId" : "92",
                 "destinationId" : "98",
                 "description" : "Reads Sponsor info from",
+                "technology" : "Https",
                 "linkedRelationshipId" : "70"
               }, {
                 "id" : "109",
                 "sourceId" : "92",
                 "destinationId" : "108",
                 "description" : "Reads Sponsor info from",
+                "technology" : "Https",
                 "linkedRelationshipId" : "71"
               }, {
                 "id" : "112",
                 "sourceId" : "92",
                 "destinationId" : "111",
-                "description" : "Read data from",
+                "description" : "Reads data from",
+                "technology" : "Https",
                 "linkedRelationshipId" : "49"
               }, {
                 "id" : "119",
                 "sourceId" : "92",
                 "destinationId" : "118",
                 "description" : "Reads from and writes to",
+                "technology" : "JDBC",
                 "linkedRelationshipId" : "23"
               } ],
               "environment" : "Production",
@@ -863,10 +830,51 @@
             } ]
           } ]
         }, {
+          "id" : "101",
+          "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
+          "properties" : {
+            "structurizr.dsl.identifier" : "1a570896-7686-4b75-ab49-29876164c353"
+          },
+          "name" : "Amazon EC2 - Tickets",
+          "environment" : "Production",
+          "instances" : "1",
+          "children" : [ {
+            "id" : "102",
+            "tags" : "Element,Deployment Node,Ubuntu",
+            "properties" : {
+              "structurizr.dsl.identifier" : "f2b894b2-e2da-4155-9aa5-dc277258fc5d"
+            },
+            "name" : "Ubuntu Server - Ticket App",
+            "environment" : "Production",
+            "instances" : "1",
+            "softwareSystemInstances" : [ {
+              "id" : "103",
+              "tags" : "Software System Instance",
+              "properties" : {
+                "structurizr.dsl.identifier" : "2854f05d-b801-41d5-a1ac-e41c55f39b31"
+              },
+              "environment" : "Production",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "softwareSystemId" : "75"
+            } ],
+            "containerInstances" : [ {
+              "id" : "104",
+              "tags" : "Container Instance",
+              "properties" : {
+                "structurizr.dsl.identifier" : "ticketapplicationinstance"
+              },
+              "environment" : "Production",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "containerId" : "76"
+            } ]
+          } ]
+        }, {
           "id" : "116",
           "tags" : "Element,Deployment Node,Amazon Web Services - RDS",
           "properties" : {
-            "structurizr.dsl.identifier" : "f7a15152-fa5a-468b-a121-d4cf1d891a66"
+            "structurizr.dsl.identifier" : "11f2b9f3-0734-4f82-a0d0-a908f135316e"
           },
           "name" : "Amazon RDS",
           "environment" : "Production",
@@ -875,7 +883,7 @@
             "id" : "117",
             "tags" : "Element,Deployment Node,Amazon Web Services - RDS MySQL instance",
             "properties" : {
-              "structurizr.dsl.identifier" : "c4456cb9-376a-4d00-a86d-2f57aa9686b7"
+              "structurizr.dsl.identifier" : "286f526f-649b-475f-8c5d-e9a6c062fda7"
             },
             "name" : "MySQL",
             "environment" : "Production",
@@ -896,7 +904,7 @@
           "id" : "93",
           "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
           "properties" : {
-            "structurizr.dsl.identifier" : "3a311b7f-5a95-4f1e-a67f-8d88d4ae38b4"
+            "structurizr.dsl.identifier" : "4074ff53-9082-46ef-ae55-0c38a96e34f7"
           },
           "name" : "Amazon EC2 - CRM",
           "environment" : "Production",
@@ -905,7 +913,7 @@
             "id" : "94",
             "tags" : "Element,Deployment Node,Ubuntu",
             "properties" : {
-              "structurizr.dsl.identifier" : "47de5ef0-dc12-4058-ae84-c4c6ba6631ff"
+              "structurizr.dsl.identifier" : "9cd47aaa-ca43-4bbc-80c4-4b74628d1471"
             },
             "name" : "Ubuntu Server - CRM App",
             "environment" : "Production",
@@ -914,7 +922,7 @@
               "id" : "95",
               "tags" : "Software System Instance",
               "properties" : {
-                "structurizr.dsl.identifier" : "c19eb30c-8e17-44fc-8e58-2c628b67a8df"
+                "structurizr.dsl.identifier" : "4f99279b-53f6-44a1-8455-8152bb2204e6"
               },
               "environment" : "Production",
               "deploymentGroups" : [ "Default" ],
@@ -934,48 +942,96 @@
             } ]
           } ]
         }, {
-          "id" : "101",
+          "id" : "106",
           "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
           "properties" : {
-            "structurizr.dsl.identifier" : "1dd2446b-c7b9-467d-b249-f26a74e840d9"
+            "structurizr.dsl.identifier" : "b3afa5a4-27ac-4587-88dc-82204b7a7593"
           },
-          "name" : "Amazon EC2 - Tickets",
+          "name" : "Amazon EC2 - CFP",
+          "relationships" : [ {
+            "id" : "114",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "e15f09ce-7f03-46e4-ac4f-a542dbd19079"
+            },
+            "sourceId" : "106",
+            "destinationId" : "88",
+            "description" : "Storages slides"
+          } ],
           "environment" : "Production",
           "instances" : "1",
           "children" : [ {
-            "id" : "102",
+            "id" : "107",
             "tags" : "Element,Deployment Node,Ubuntu",
             "properties" : {
-              "structurizr.dsl.identifier" : "60c69f1f-ad3f-4ed7-b1a0-046b991d3afc"
+              "structurizr.dsl.identifier" : "b9ca9f22-3f95-41f5-9882-0e9b781e8e5a"
             },
-            "name" : "Ubuntu Server - Ticket App",
+            "name" : "Ubuntu Server - CFP App",
             "environment" : "Production",
             "instances" : "1",
             "softwareSystemInstances" : [ {
-              "id" : "103",
+              "id" : "108",
               "tags" : "Software System Instance",
               "properties" : {
-                "structurizr.dsl.identifier" : "d46626b4-b40d-40fa-ada4-9115726e4678"
+                "structurizr.dsl.identifier" : "b0493535-3da3-4c72-8cca-c533b2d50805"
               },
               "environment" : "Production",
               "deploymentGroups" : [ "Default" ],
               "instanceId" : 1,
-              "softwareSystemId" : "75"
+              "softwareSystemId" : "54"
             } ],
             "containerInstances" : [ {
-              "id" : "104",
+              "id" : "111",
               "tags" : "Container Instance",
               "properties" : {
-                "structurizr.dsl.identifier" : "ticketapplicationinstance"
+                "structurizr.dsl.identifier" : "cfpapplicationinstance"
               },
+              "relationships" : [ {
+                "id" : "115",
+                "tags" : "Relationship",
+                "properties" : {
+                  "structurizr.dsl.identifier" : "39aba33d-8947-4eee-9784-2e3340e12cca"
+                },
+                "sourceId" : "111",
+                "destinationId" : "88",
+                "description" : "Storages slides"
+              }, {
+                "id" : "126",
+                "tags" : "Relationship",
+                "properties" : {
+                  "structurizr.dsl.identifier" : "1141173e-3421-4d78-b640-d733fb2c055d"
+                },
+                "sourceId" : "111",
+                "destinationId" : "88",
+                "description" : "Storages slides to"
+              } ],
               "environment" : "Production",
               "deploymentGroups" : [ "Default" ],
               "instanceId" : 1,
-              "containerId" : "76"
+              "containerId" : "33"
             } ]
           } ]
         } ],
         "infrastructureNodes" : [ {
+          "id" : "85",
+          "tags" : "Element,Infrastructure Node,Amazon Web Services - Route 53",
+          "properties" : {
+            "structurizr.dsl.identifier" : "route53"
+          },
+          "name" : "Route 53",
+          "relationships" : [ {
+            "id" : "120",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "1c654650-291f-47cd-9fe9-71534f2ae89a"
+            },
+            "sourceId" : "85",
+            "destinationId" : "86",
+            "description" : "Forwards requests to",
+            "technology" : "HTTPS"
+          } ],
+          "environment" : "Production"
+        }, {
           "id" : "86",
           "tags" : "Element,Infrastructure Node,Amazon Web Services - Elastic Load Balancing",
           "properties" : {
@@ -987,7 +1043,7 @@
             "id" : "105",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "ef969729-4a11-4e34-a193-325a2cb013b5"
+              "structurizr.dsl.identifier" : "4757d4ee-4e4e-4749-bca5-1b7c318d3c55"
             },
             "sourceId" : "86",
             "destinationId" : "101",
@@ -997,7 +1053,7 @@
             "id" : "121",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "781ee95f-65a5-4b3a-a5e7-780d76cda043"
+              "structurizr.dsl.identifier" : "6efc1b7e-9b61-4f1e-b96a-79d41bb57545"
             },
             "sourceId" : "86",
             "destinationId" : "104",
@@ -1007,7 +1063,7 @@
             "id" : "122",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "3fe0fbd3-c41b-4e26-b934-7cbb29296a8e"
+              "structurizr.dsl.identifier" : "a4d17db8-7a28-4250-974a-d1c2205abd38"
             },
             "sourceId" : "86",
             "destinationId" : "98",
@@ -1017,7 +1073,7 @@
             "id" : "123",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "c521a702-7d61-4ff3-a8f6-32a6d8673e57"
+              "structurizr.dsl.identifier" : "f2d2d08d-fd28-42e4-a6bf-2fccd76ad734"
             },
             "sourceId" : "86",
             "destinationId" : "111",
@@ -1027,7 +1083,7 @@
             "id" : "124",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "7f5acb0e-ea29-46b2-ae75-f59fb046065f"
+              "structurizr.dsl.identifier" : "1390c4f4-80c0-41de-98a6-30a0bf7ee217"
             },
             "sourceId" : "86",
             "destinationId" : "92",
@@ -1037,41 +1093,13 @@
             "id" : "125",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "484bf6c2-c27a-4069-b1e7-c6cb57cb988f"
+              "structurizr.dsl.identifier" : "6636b576-f133-48d7-9177-4b1e03538d43"
             },
             "sourceId" : "86",
             "destinationId" : "87",
             "description" : "Forwards request to",
             "technology" : "HTTPS"
           } ],
-          "environment" : "Production"
-        }, {
-          "id" : "85",
-          "tags" : "Element,Infrastructure Node,Amazon Web Services - Route 53",
-          "properties" : {
-            "structurizr.dsl.identifier" : "route53"
-          },
-          "name" : "Route 53",
-          "relationships" : [ {
-            "id" : "120",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "a5925563-e2df-4858-bd81-b3d8a1896870"
-            },
-            "sourceId" : "85",
-            "destinationId" : "86",
-            "description" : "Forwards requests to",
-            "technology" : "HTTPS"
-          } ],
-          "environment" : "Production"
-        }, {
-          "id" : "88",
-          "tags" : "Element,Infrastructure Node,Amazon Web Services - Simple Storage Service",
-          "properties" : {
-            "structurizr.dsl.identifier" : "s3"
-          },
-          "name" : "Storage",
-          "description" : "AWS - S3",
           "environment" : "Production"
         }, {
           "id" : "87",
@@ -1085,12 +1113,21 @@
             "id" : "127",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "4dd0e341-59e9-47bc-9f42-141f12495045"
+              "structurizr.dsl.identifier" : "ff7d8b47-7dfd-4e30-93b4-a9262ee09c83"
             },
             "sourceId" : "87",
             "destinationId" : "88",
             "description" : "Enables access to slides"
           } ],
+          "environment" : "Production"
+        }, {
+          "id" : "88",
+          "tags" : "Element,Infrastructure Node,Amazon Web Services - Simple Storage Service",
+          "properties" : {
+            "structurizr.dsl.identifier" : "s3"
+          },
+          "name" : "Storage",
+          "description" : "AWS - S3",
           "environment" : "Production"
         } ]
       } ]
@@ -1098,53 +1135,60 @@
   },
   "documentation" : {
     "sections" : [ {
-      "content" : "## System Quality attributes\n[List of system quality attributes](https://en.wikipedia.org/wiki/List_of_system_quality_attributes)\n\n### Scalability\nThe system must handle varying loads, especially 'burst' traffic during conferences. This includes the ability to scale resources up or down as needed to accommodate the number of attendees and speakers accessing the system simultaneously.\n\n### Performance\nThe system should provide quick response times and handle requests efficiently, especially important during peak usage times. This includes fast loading of schedules, smooth handling of talk submissions, and efficient processing of attendee votes.\n\n### Availability\nHigh availability is crucial, particularly during the conference. The system should be operational and accessible with minimal downtime.\n\n### Reliability\nThe system should function correctly and provide consistent results. This includes accurate scheduling information, reliable voting mechanisms, and dependable notifications for schedule changes.\n\n### Usability\nThe system must be user-friendly for attendees, speakers, sponsors, and event staff. This includes intuitive navigation, clear interfaces for talk submissions, voting, and schedule viewing.\n\n### Security\nGiven that the system handles personal information of attendees and speakers, robust security measures are essential to protect against unauthorized access and data breaches. This includes securing sensitive data like contact information and talk content.\n\n### Flexibility and Customizability\nThe system should allow for easy branding and customization for different conferences. This includes the ability to change themes, layouts, and branding elements for each event.\n\n### Maintainability\nThe system should be easy to maintain and update, allowing for quick fixes, updates, and the addition of new features without significant downtime or disruption.\n\n### Interoperability\nGiven the integration with third-party systems (like the CFP and CRM systems), the system must effectively interact and integrate with these external systems.\n\n",
+      "content" : "## Requirements\nConference organizer needs a management system for the conferences he runs for both speakers and attendees\n\n### Users\nHundreds of speakers, dozens of event staff, thousands of attendees\n\n### Requirements\n* attendees can access speaking schedule online, including room assignments\n* speakers can manage talks (enter, edit, modify)\n* attendees 'vote up/down' talks\n* organizer can notify attendees of schedule changes up-to-the-minute (if attendees opt in)\n* each conference (being a different subject) can be branded independently\n* speaker slides are accessible online only to attendees\n* evaluation system via web page, email, SMS, or phone\n\n### Additional Context\n\n* Conference runs across the Europe.\n* Small support staff.\n* 'Burst' traffic: extremely busy when the conference is occurring.\n* Conference organizer wants to easily 'skin' the site for different technology offerings.",
       "format" : "Markdown",
-      "filename" : "quality-attributes.md",
+      "filename" : "0001 - requirements.md",
       "order" : 1,
       "title" : ""
     }, {
-      "content" : "## Requirements\nConference organizer needs a management system for the conferences he runs for both speakers and attendees\n\n### Users:\nHundreds of speakers, dozens of event staff, thousands of attendees\n\n### Requirements:\nattendees can access speaking schedule online, including room assignments\nspeakers can manage talks (enter, edit, modify)\nattendees 'vote up/down' talks\norganizer can notify attendees of schedule changes up-to-the-minute (if attendees opt in)\neach conference (being a different subject) can be branded independently\nspeaker slides are accessible online only to attendees\nevaluation system via web page, email, SMS, or phone\n### Additional Context:\n\nConference runs across the Europe.\n\n### Small support staff.\n\n'Burst' traffic: extremely busy when the conference is occurring.\nConference organizer wants to easily 'skin' the site for different technology offerings.",
+      "content" : "## System Quality attributes\n[List of system quality attributes](https://en.wikipedia.org/wiki/List_of_system_quality_attributes)\n\n### Scalability\nThe system must handle varying loads, especially 'burst' traffic during conferences. This includes the ability to scale resources up or down as needed to accommodate the number of attendees and speakers accessing the system simultaneously.\n\n### Performance\nThe system should provide quick response times and handle requests efficiently, especially important during peak usage times. This includes fast loading of schedules, smooth handling of talk submissions, and efficient processing of attendee votes.\n\n### Availability\nHigh availability is crucial, particularly during the conference. The system should be operational and accessible with minimal downtime.\n\n### Reliability\nThe system should function correctly and provide consistent results. This includes accurate scheduling information, reliable voting mechanisms, and dependable notifications for schedule changes.\n\n### Usability\nThe system must be user-friendly for attendees, speakers, sponsors, and event staff. This includes intuitive navigation, clear interfaces for talk submissions, voting, and schedule viewing.\n\n### Security\nGiven that the system handles personal information of attendees and speakers, robust security measures are essential to protect against unauthorized access and data breaches. This includes securing sensitive data like contact information and talk content.\n\n### Flexibility and Customizability\nThe system should allow for easy branding and customization for different conferences. This includes the ability to change themes, layouts, and branding elements for each event.\n\n### Maintainability\nThe system should be easy to maintain and update, allowing for quick fixes, updates, and the addition of new features without significant downtime or disruption.\n\n### Interoperability\nGiven the integration with third-party systems (like the CFP and CRM systems), the system must effectively interact and integrate with these external systems.\n\n",
       "format" : "Markdown",
-      "filename" : "requirements.md",
+      "filename" : "0002 - quality-attributes.md",
       "order" : 2,
       "title" : ""
     } ],
     "decisions" : [ {
-      "content" : "# 1. Record architecture decisions\n\nDate: 2024-01-15\n\n## Status\n\nAccepted\n\n## Context\n\nThe system requires a robust, scalable, \nand secure cloud environment to handle varying loads, especially during peak conference times.\nAWS offers a comprehensive set of services that can fulfill these needs.\n\n## Decision\n\nWe will use AWS\n\n## Consequences\n\n* **Positive**: Scalability with services like EC2 Auto Scaling and Elastic Load Balancer; high availability and reliability; wide range of services for different needs (e.g., S3 for storage, RDS for databases).\n* **Negative**: Potential vendor lock-in; requires AWS-specific knowledge for maintenance and operation.",
+      "content" : "# 1. Use Amazon Web Services\n\nDate: 2024-01-15\n\n## Status\n\nAccepted\n\n## Context\n\nThe system requires a robust, scalable, \nand secure cloud environment to handle varying loads, especially during peak conference times.\nAWS offers a comprehensive set of services that can fulfill these needs.\n\n## Decision\n\nWe will use AWS\n\n## Consequences\n\n* **Positive**: Scalability with services like EC2 Auto Scaling and Elastic Load Balancer; high availability and reliability; wide range of services for different needs (e.g., S3 for storage, RDS for databases).\n* **Negative**: Potential vendor lock-in; requires AWS-specific knowledge for maintenance and operation.",
       "format" : "Markdown",
       "id" : "1",
-      "title" : "Record architecture decisions",
+      "title" : "Use Amazon Web Services",
       "date" : "2024-01-15T00:00:00Z",
       "status" : "Accepted"
     }, {
-      "content" : "# 1. Record architecture decisions\n\nDate: 2024-01-15\n\n## Status\n\nAccepted\n\n## Context\n\nThe system faces 'burst' traffic during conferences, requiring dynamic scaling to maintain performance.\n\n## Decision\n\nThe web application component will be deployed within an AWS Auto Scaling Group.\n\n## Consequences\n\n* **Positive**: The system can automatically scale its resources to match the load, ensuring high availability and performance during peak traffic.\n* **Negative**: Additional complexity in monitoring and managing scaling policies; potential cost implications due to scaling.",
+      "content" : "# 2. Use Auto-scaling\n\nDate: 2024-01-15\n\n## Status\n\nAccepted\n\n## Context\n\nThe system faces 'burst' traffic during conferences, requiring dynamic scaling to maintain performance.\n\n## Decision\n\nThe web application component will be deployed within an AWS Auto Scaling Group.\n\n## Consequences\n\n* **Positive**: The system can automatically scale its resources to match the load, ensuring high availability and performance during peak traffic.\n* **Negative**: Additional complexity in monitoring and managing scaling policies; potential cost implications due to scaling.",
       "format" : "Markdown",
       "id" : "2",
-      "title" : "Record architecture decisions",
+      "title" : "Use Auto-scaling",
       "date" : "2024-01-15T00:00:00Z",
       "status" : "Accepted"
     }, {
-      "content" : "# 1. Record architecture decisions\n\nDate: 2024-01-15\n\n## Status\n\nAccepted\n\n## Context\n\nThe system requires flexibility, scalability, and ease of maintenance. Microservices architecture allows individual components to be developed, deployed, and scaled independently.\n\n## Decision\n\nThe system will be structured as a collection of loosely coupled services (microservices), such as the web application, attendee system, voting system, branding system, etc.\n\n## Consequences\n\n* **Positive**: Improved scalability and maintainability; each service can be deployed independently; easier to implement different technologies per service as needed.\n* **Negative**: Increased complexity in service coordination and communication; potential challenges in distributed data management.",
+      "content" : "# 3. Use microservices\n\nDate: 2024-01-15\n\n## Status\n\nAccepted\n\n## Context\n\nThe system requires flexibility, scalability, and ease of maintenance. Microservices architecture allows individual components to be developed, deployed, and scaled independently.\n\n## Decision\n\nThe system will be structured as a collection of loosely coupled services (microservices), such as the web application, attendee system, voting system, branding system, etc.\n\n## Consequences\n\n* **Positive**: Improved scalability and maintainability; each service can be deployed independently; easier to implement different technologies per service as needed.\n* **Negative**: Increased complexity in service coordination and communication; potential challenges in distributed data management.",
       "format" : "Markdown",
       "id" : "3",
-      "title" : "Record architecture decisions",
+      "title" : "Use microservices",
       "date" : "2024-01-15T00:00:00Z",
       "status" : "Accepted"
     }, {
-      "content" : "# 1. Record architecture decisions\n\nDate: 2024-01-15\n\n## Status\n\nAccepted\n\n## Context\n\nThe need for a dynamic, responsive, and interactive user interface for conference attendees.\n\n## Decision\n\nThe website component of the web application will be implemented as a React SPA.\n\n## Consequences\n\n* **Positive**: Enhanced user experience with fast, responsive interfaces; easier to manage state and UI updates on the client side.\n* **Negative**: Potential for initial load performance issues; reliance on client-side JavaScript can affect users with JavaScript disabled.",
+      "content" : "# 4. Use React for Web Interface\n\nDate: 2024-01-15\n\n## Status\n\nAccepted\n\n## Context\n\nThe need for a dynamic, responsive, and interactive user interface for conference attendees.\n\n## Decision\n\nThe website component of the web application will be implemented as a React SPA.\n\n## Consequences\n\n* **Positive**: Enhanced user experience with fast, responsive interfaces; easier to manage state and UI updates on the client side.\n* **Negative**: Potential for initial load performance issues; reliance on client-side JavaScript can affect users with JavaScript disabled.",
       "format" : "Markdown",
       "id" : "4",
-      "title" : "Record architecture decisions",
+      "title" : "Use React for Web Interface",
       "date" : "2024-01-15T00:00:00Z",
       "status" : "Accepted"
     }, {
-      "content" : "# 1. Record architecture decisions\n\nDate: 2024-01-15\n\n## Status\n\nAccepted\n\n## Context\n\nDeveloping these systems in-house would be resource-intensive. Leveraging third-party services can save time and provide specialized functionality.\n\n## Decision\n\nThe system will integrate with third-party services for the Call For Papers (CFP) system and the Customer Relationship Management (CRM) system.\n\n## Consequences\n\n* **Positive**: Access to established, feature-rich systems; reduced development time and cost.\n* **Negative**: Dependency on external vendors; limitations based on the capabilities and constraints of the third-party systems.",
+      "content" : "# 5. Use Third-Parties for non-business critical parts\n\nDate: 2024-01-15\n\n## Status\n\nAccepted\n\n## Context\n\nDeveloping these systems in-house would be resource-intensive. Leveraging third-party services can save time and provide specialized functionality.\n\n## Decision\n\nThe system will integrate with third-party services for the Call For Papers (CFP) system and the Customer Relationship Management (CRM) system.\n\n## Consequences\n\n* **Positive**: Access to established, feature-rich systems; reduced development time and cost.\n* **Negative**: Dependency on external vendors; limitations based on the capabilities and constraints of the third-party systems.",
       "format" : "Markdown",
       "id" : "5",
-      "title" : "Record architecture decisions",
+      "title" : "Use Third-Parties for non-business critical parts",
       "date" : "2024-01-15T00:00:00Z",
       "status" : "Accepted"
+    }, {
+      "content" : "# 6. Use gRPC for microservice communication\n\nDate: 2024-01-16\n\n## Status\n\nProposed\n\n## Context\n\nThe \"Conference Kata\" system is composed of multiple microservices (e.g., web application, attendee system, voting system, branding system). Efficient and reliable communication between these services is crucial for the overall performance and reliability of the system. gRPC, a high-performance, open-source universal RPC framework, is chosen for this purpose.\n\n## Decision\n\nThe system will utilize gRPC for communication between microservices.\n\n## Consequences\n\n### Positive:\n* **Efficiency:** gRPC uses HTTP/2, which is more efficient than HTTP/1.1 used in typical REST APIs. It allows for lower latency and better resource utilization.\n* **Contract-First API Development:** Using Protocol Buffers (protobuf), gRPC ensures strong API contracts, which can enhance the maintainability and clarity of service interfaces.\n* **Language Agnostic:** gRPC supports multiple programming languages, allowing flexibility in microservices development.\n* **Streaming Capabilities:** gRPC supports bidirectional streaming, which can be beneficial for real-time data exchange scenarios.\n\n### Negative:\n* **Complexity:** Implementing gRPC can be more complex compared to RESTful services, especially for developers unfamiliar with RPC frameworks.\n* **Limited Browser Support:** Direct browser-to-service communication is not as straightforward as with traditional REST APIs, potentially requiring additional components like a gRPC-Web proxy.\n* **Operational Overhead:** Monitoring and debugging gRPC services may require additional tooling compared to REST APIs.\n* **Less Human-Readable:** Unlike JSON over REST, protobuf is not human-readable, which can make manual testing and debugging more challenging.\n",
+      "format" : "Markdown",
+      "id" : "6",
+      "title" : "Use gRPC for microservice communication",
+      "date" : "2024-01-16T00:00:00Z",
+      "status" : "Proposed"
     } ]
   },
   "views" : {
@@ -1256,26 +1300,26 @@
         "x" : 1004,
         "y" : 580
       }, {
-        "id" : "54",
-        "x" : 1772,
-        "y" : 219
-      }, {
         "id" : "32",
         "x" : 1772,
         "y" : 819
+      }, {
+        "id" : "54",
+        "x" : 1772,
+        "y" : 219
       } ],
       "relationships" : [ {
         "id" : "15"
       }, {
         "id" : "74"
       }, {
+        "id" : "53"
+      }, {
         "id" : "65",
         "vertices" : [ {
           "x" : 1154,
           "y" : 370
         } ]
-      }, {
-        "id" : "53"
       } ]
     } ],
     "containerViews" : [ {
@@ -1290,24 +1334,24 @@
       "externalSoftwareSystemBoundariesVisible" : true,
       "elements" : [ {
         "id" : "1",
-        "x" : 199,
-        "y" : 554
-      }, {
-        "id" : "5",
-        "x" : 1911,
-        "y" : 590
+        "x" : 170,
+        "y" : 555
       }, {
         "id" : "16",
-        "x" : 1901,
-        "y" : 1405
+        "x" : 1945,
+        "y" : 605
+      }, {
+        "id" : "5",
+        "x" : 1015,
+        "y" : 605
       }, {
         "id" : "32",
-        "x" : 1929,
-        "y" : 200
+        "x" : 1015,
+        "y" : 80
       }, {
         "id" : "54",
-        "x" : 1034,
-        "y" : 1175
+        "x" : 1015,
+        "y" : 1230
       } ],
       "relationships" : [ {
         "id" : "50"
@@ -1316,13 +1360,9 @@
       }, {
         "id" : "14"
       }, {
-        "id" : "65"
+        "id" : "23"
       }, {
-        "id" : "23",
-        "vertices" : [ {
-          "x" : 2131,
-          "y" : 1285
-        } ]
+        "id" : "65"
       } ]
     } ],
     "componentViews" : [ {
@@ -1376,13 +1416,13 @@
         "x" : 1720,
         "y" : 1278
       }, {
-        "id" : "54",
-        "x" : 2616,
-        "y" : 705
-      }, {
         "id" : "32",
         "x" : 2585,
         "y" : 1278
+      }, {
+        "id" : "54",
+        "x" : 2616,
+        "y" : 705
       } ],
       "relationships" : [ {
         "id" : "28",
@@ -1395,15 +1435,15 @@
       }, {
         "id" : "13"
       }, {
-        "id" : "11"
-      }, {
-        "id" : "12"
-      }, {
         "id" : "65",
         "vertices" : [ {
           "x" : 2840,
           "y" : 250
         } ]
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "11"
       }, {
         "id" : "21",
         "vertices" : [ {
@@ -1418,9 +1458,9 @@
       }, {
         "id" : "10"
       }, {
-        "id" : "68"
-      }, {
         "id" : "47"
+      }, {
+        "id" : "68"
       } ]
     }, {
       "key" : "Component-001",
@@ -1509,10 +1549,6 @@
         "x" : 350,
         "y" : 350
       }, {
-        "id" : "106",
-        "x" : 0,
-        "y" : 0
-      }, {
         "id" : "90",
         "x" : 350,
         "y" : 350
@@ -1521,7 +1557,7 @@
         "x" : 350,
         "y" : 350
       }, {
-        "id" : "107",
+        "id" : "106",
         "x" : 0,
         "y" : 0
       }, {
@@ -1529,13 +1565,17 @@
         "x" : 2640,
         "y" : 1065
       }, {
-        "id" : "108",
-        "x" : 1760,
-        "y" : 1645
+        "id" : "107",
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "92",
         "x" : 1745,
         "y" : 1035
+      }, {
+        "id" : "108",
+        "x" : 1760,
+        "y" : 1645
       }, {
         "id" : "93",
         "x" : 0,
@@ -1603,8 +1643,13 @@
           "border" : "Dotted",
           "opacity" : 75
         }, {
+          "tag" : "external",
+          "background" : "#000088",
+          "shape" : "Component"
+        }, {
           "tag" : "Database",
           "background" : "#00aa00",
+          "color" : "#ffffff",
           "shape" : "Cylinder"
         }, {
           "tag" : "speaker",
@@ -1623,11 +1668,16 @@
           "stroke" : "#e95420",
           "color" : "#e95420",
           "icon" : "data:image/jpeg;base64,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8H41YqvdfwfjQBWooooA0aKKKAK91/B+NVqs3X8H41WoAK0azq0aACq91/B+NWKr3X8H40AVqKKKANGiiigCvdfwfjVarN1/B+NVqACtGs6tGgAqvdfwfjViq91/B+NAFaiiigDRooooAr3X8H41WqzdfwfjVagArRrOrRoAKr3X8H41YqvdfwfjQBWooooA0aKKKAK91/B+NVqs3X8H41WoAK0azq0aACq91/B+NWKr3X8H40AVqKKKANGiiigCvdfwfjVarN1/B+NVqACtGs6tGgAqvdfwfjViq91/B+NAFaiiigDRooooAr3X8H41WqzdfwfjVagArRrOrRoAKr3X8H41YqvdfwfjQBWooooA0aKKKAK91/B+NVqs3X8H41WoAK0azq0aACq91/B+NWKr3X8H40AVqKKKANGiiigCvdfwfjVarN1/B+NVqACtGs6tGgAqvdfwfjViq91/B+NAFaiiigDRooooAKKKKACiiigCtc/w1BiiigAxWhRRQAVWuf4aKKAIMUYoooA0KKKKAK1z/DUGKKKADFaFFFABVa5/hoooAgxRiiigDQooooArXP8ADUGKKKADFaFFFABVa5/hoooAgxRiiigDQooooArXP8NQYoooAMVoUUUAFVrn+GiigCDFGKKKANCiiigCtc/w1BiiigAxWhRRQAVWuf4aKKAIMUYoooA0KKKKAK1z/DUGKKKADFaFFFABVa5/hoooAgxRiiigDQooooArXP8ADUGKKKADFaFFFABVa5/hoooAgxRiiigDQooooArXP8NQYoooAMVoUUUAFVrn+GiigCDFGKKKANCiiigCtc/w1BiiigAxWhRRQAVWuf4aKKAIMUYoooA0KKKKAK1z/DUGKKKADFaFFFABVa5/hoooAgxRiiigDQooooArXP8ADUGKKKADFaFFFABVa5/hoooAgxRiiigDQooooAKKKKAP/9k="
+        } ],
+        "relationships" : [ {
+          "tag" : "gRPC",
+          "color" : "#000088",
+          "style" : "Dotted"
         } ]
       },
       "themes" : [ "https://static.structurizr.com/themes/default/theme.json", "https://static.structurizr.com/themes/amazon-web-services-2023.01.31/theme.json", "https://static.structurizr.com/themes/amazon-web-services-2020.04.30/theme.json" ],
       "terminology" : { },
-      "lastSavedView" : "Production"
+      "lastSavedView" : "Container-001"
     }
   }
 }
