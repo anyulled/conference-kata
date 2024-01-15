@@ -13,9 +13,10 @@ workspace {
         speaker = person "Speaker" "Natural person submitting papers" {
             tags speaker
         }
+
         softwareSystem = softwareSystem "Conference System" "System desgin for Conference Management" {
-            webapp = container "Web Application" "Conference Web Application" {
-                tags website
+            webapp = container "Web Application" "Conference Web Application" website {
+
                 website = component "Website" "React SPA - Shows conference information such as speakers, talks and schedule" {
                     tags "website"
                 }
@@ -26,27 +27,20 @@ workspace {
                 website -> branding "Pull branding information from" "HTTP Restful API"
                 website -> attendee "Reads and writes information from " "HTTP Restful API"
                 website -> voting "Sends requests and displays aggregation from" "HTTPS"
-
+                user -> website "Visits"
             }
 
             database = container "Database" "" "Relational database schema" {
-                attendeeDB = component "Attendee DB" "Relational DB for attendee" {
-                    tags Database
-                }
-                websiteDb = component "Website DB" "Relational Database" {
-                    tags Database
-                }
-                brandingDB = component "Branding DB" "Stores information about branding" {
-                    tags Database
-                }
+
+                attendeeDB = component "Attendee DB" "Relational DB for attendee" Database
+                websiteDb = component "Website DB" "Relational Database" Database
+                brandingDB = component "Branding DB" "Stores information about branding" Database
 
                 website -> websiteDb "Reads from and writes to"
                 branding -> brandingDB "Reads and writes to"
                 attendee -> attendeeDB "Reads and writes to"
+                voting -> websiteDb "Reads from and writes to""JDBC"
             }
-
-            // Interactions
-            user -> website "Visits"
 
         }
 
@@ -72,6 +66,7 @@ workspace {
                 crmContainer = container "CRM System" "Customer Relationship Management - sponsor management and notification system" {
                     crm = component "CRM"
                 }
+
                 sponsor -> crm "Interacts with"
                 crm -> sponsor "Send emails to"
                 crm -> user "Send notifications to" "Email"
@@ -85,6 +80,7 @@ workspace {
                         tags Database
                     }
                 }
+
                 user -> ticket "Buys from"
                 ticket -> ticketDb "Reads and writes tickets info to"
             }
@@ -103,11 +99,13 @@ workspace {
                     route53 = infrastructureNode "Route 53" {
                         tags "Amazon Web Services - Route 53"
                     }
-
+                    elb = infrastructureNode "Elastic Load Balancer" {
+                        description "Automatically distributes incoming application traffic."
+                        tags "Amazon Web Services - Elastic Load Balancing"
+                    }
                     cdn = infrastructureNode "AWS CDN" "Amazon CloudFront" {
                         tags "Amazon Web Services - CloudFront"
                     }
-
                     s3 = infrastructureNode "Storage" "AWS - S3" {
                         tags "Amazon Web Services - Simple Storage Service"
                     }
@@ -121,13 +119,21 @@ workspace {
                             webApplicationInstance = containerInstance webapp
                         }
                     }
+                    deploymentNode "Amazon EC2 - CRM" {
+                        tags "Amazon Web Services - EC2"
 
+                        deploymentNode "Ubuntu Server - CRM App" {
+                            tags "Ubuntu"
+                            softwareSystemInstance crmSystem
+                            crmApplicationInstance = containerInstance crmContainer
+                        }
+                    }
                     deploymentNode "Amazon EC2 - Tickets" {
                         tags "Amazon Web Services - EC2"
 
                         deploymentNode "Ubuntu Server - Ticket App" {
                             tags "Ubuntu"
-                            softwareSystemInstance softwareSystem
+                            softwareSystemInstance ticketSystem
                             ticketApplicationInstance = containerInstance ticketContainer
                         }
                     }
@@ -139,7 +145,6 @@ workspace {
                             cfpApplicationInstance = containerInstance cfpContainer
                         }
                     }
-
                     deploymentNode "Amazon RDS" {
                         tags "Amazon Web Services - RDS"
 
@@ -149,16 +154,13 @@ workspace {
                         }
                     }
 
-                    elb = infrastructureNode "Elastic Load Balancer" {
-                        description "Automatically distributes incoming application traffic."
-                        tags "Amazon Web Services - Elastic Load Balancing"
-                    }
                 }
 
                 route53 -> elb "Forwards requests to" "HTTPS"
-                elb -> webApplicationInstance "Forwards requests to" "HTTPS"
-                elb -> cfpApplicationInstance "Forwards traffic to" "HTTPS"
                 elb -> ticketApplicationInstance "Forwards requests to" "HTTPS"
+                elb -> crmApplicationInstance "Forwards requests to" "HTTPS"
+                elb -> cfpApplicationInstance "Forwards traffic to" "HTTPS"
+                elb -> webApplicationInstance "Forwards requests to" "HTTPS"
                 elb -> cdn "Forwards request to" "HTTPS"
 
                 cfpApplicationInstance -> s3 "Storages slides to"
@@ -192,16 +194,9 @@ workspace {
 
         }
 
-        component cfpContainer {
-            title "Component view of the CFP container"
-            include *
-
-        }
-
         component database {
             title "Container view of Database"
             include *
-
         }
 
         component webapp {
