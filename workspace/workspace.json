@@ -1,0 +1,1430 @@
+{
+  "id" : 1,
+  "name" : "Conference Kata",
+  "description" : "The software architecture of the Conference Kata.",
+  "lastModifiedDate" : "2024-01-15T01:12:50Z",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKICAgIG5hbWUgIkNvbmZlcmVuY2UgS2F0YSIKICAgIGRlc2NyaXB0aW9uICJUaGUgc29mdHdhcmUgYXJjaGl0ZWN0dXJlIG9mIHRoZSBDb25mZXJlbmNlIEthdGEuIgoKICAgIG1vZGVsIHsKICAgICAgICB1c2VyID0gcGVyc29uICJBdHRlbmRlZSIKICAgICAgICBzcG9uc29yID0gcGVyc29uICJTcG9uc29yIiJCdXNpbmVzcyBwZXJzb24iIHsKICAgICAgICAgICAgdGFncyBzcG9uc29yCiAgICAgICAgfQogICAgICAgIHNwZWFrZXIgPSBwZXJzb24gIlNwZWFrZXIiIk5hdHVyYWwgcGVyc29uIHN1Ym1pdHRpbmcgcGFwZXJzIiB7CiAgICAgICAgICAgIHRhZ3Mgc3BlYWtlcgogICAgICAgIH0KICAgICAgICBzb2Z0d2FyZVN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJDb25mZXJlbmNlIFN5c3RlbSIiU3lzdGVtIGRlc2dpbiBmb3IgQ29uZmVyZW5jZSBNYW5hZ2VtZW50IiB7CiAgICAgICAgICAgIHdlYmFwcCA9IGNvbnRhaW5lciAiV2ViIEFwcGxpY2F0aW9uIiAiQ29uZmVyZW5jZSBXZWIgQXBwbGljYXRpb24iIHsKICAgICAgICAgICAgICAgIHRhZ3Mgd2Vic2l0ZQogICAgICAgICAgICAgICAgd2Vic2l0ZSA9IGNvbXBvbmVudCAiV2Vic2l0ZSIiUmVhY3QgU1BBIC0gU2hvd3MgY29uZmVyZW5jZSBpbmZvcm1hdGlvbiBzdWNoIGFzIHNwZWFrZXJzLCB0YWxrcyBhbmQgc2NoZWR1bGUiIHsKICAgICAgICAgICAgICAgICAgICB0YWdzICJ3ZWJzaXRlIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgYXR0ZW5kZWUgPSBjb21wb25lbnQgIkF0dGVuZGVlIFN5c3RlbSIiU3lzdGVtIHRvIG1hbmFnZSBhdHRlbmRlZSBpbmZvcm1hdGlvbiwgc3VjaCBhcyB0YWxrcyBldmFsdWF0aW9uIGFuZCBhY2Nlc3MgdG8gc2xpZGVzIgogICAgICAgICAgICAgICAgdm90aW5nID0gY29tcG9uZW50ICJWb3Rpbmcgc3lzdGVtIiJTZW5kIGFuZCByZWNlaXZlcyBldmFsdWF0aW9uIHZpYSB3ZWIsIGVtYWlsLCBTTVMgb3IgcGhvbmUgY2FsbHMiCiAgICAgICAgICAgICAgICBicmFuZGluZyA9IGNvbXBvbmVudCAiQnJhbmRpbmcgc3lzdGVtIiJBbGxvdyBjdXN0b21pemF0aW9uIGZvciBzZXZlcmFsIGNvbmZlcmVuY2UgYnJhbmRzIgoKICAgICAgICAgICAgICAgIHdlYnNpdGUgLT4gYnJhbmRpbmcgIlB1bGwgYnJhbmRpbmcgaW5mb3JtYXRpb24gZnJvbSIiSFRUUCBSZXN0ZnVsIEFQSSIKICAgICAgICAgICAgICAgIHdlYnNpdGUgLT4gYXR0ZW5kZWUgIlJlYWRzIGFuZCB3cml0ZXMgaW5mb3JtYXRpb24gZnJvbSAiIkhUVFAgUmVzdGZ1bCBBUEkiCiAgICAgICAgICAgICAgICB3ZWJzaXRlIC0+IHZvdGluZyAiU2VuZHMgcmVxdWVzdHMgYW5kIGRpc3BsYXlzIGFnZ3JlZ2F0aW9uIGZyb20iIkhUVFBTIgoKICAgICAgICAgICAgfQogICAgICAgICAgICBncm91cCAiVGhpcmQtcGFydHkiIHsKICAgICAgICAgICAgICAgIGNmcENvbnRhaW5lciA9IGNvbnRhaW5lciAiQ0ZQIFN5c3RlbSIiQ2FsbCBGb3IgUGFwZXJzIFN5c3RlbSAtIEZ1bGwgbWFuYWdlbWVudCBvZiBzcGVha2VycywgdGFsa3MsIGFuZCBzY2hlZHVsZSJ7CiAgICAgICAgICAgICAgICAgICAgY2ZwID0gY29tcG9uZW50ICJDRlAiCiAgICAgICAgICAgICAgICAgICAgY2ZwU3RvcmFnZSA9IGNvbXBvbmVudCAic3RvcmFnZSIKCiAgICAgICAgICAgICAgICAgICAgY2ZwIC0+IGNmcFN0b3JhZ2UgIlNhdmVzIHNsaWRlcyB0byIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNybUNvbnRhaW5lciA9IGNvbnRhaW5lciAiQ1JNIFN5c3RlbSIgIkN1c3RvbWVyIFJlbGF0aW9uc2hpcCBNYW5hZ2VtZW50IC0gc3BvbnNvciBtYW5hZ2VtZW50IGFuZCBub3RpZmljYXRpb24gc3lzdGVtInsKICAgICAgICAgICAgICAgICAgICBjcm0gPSBjb21wb25lbnQgIkNSTSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHRpY2tldENvbnRhaW5lciA9IGNvbnRhaW5lciAiQWxmLmlvIiJUaWNrZXRpbmcgU3lzdGVtInsKICAgICAgICAgICAgICAgICAgICB0aWNrZXQgPSBjb21wb25lbnQgIlRpY2tldGluZyBTeXN0ZW0iCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGRhdGFiYXNlID0gY29udGFpbmVyICJEYXRhYmFzZSIgIiIgIlJlbGF0aW9uYWwgZGF0YWJhc2Ugc2NoZW1hIiB7CiAgICAgICAgICAgICAgICBhdHRlbmRlZURCID0gY29tcG9uZW50ICJBdHRlbmRlZSBEQiIiUmVsYXRpb25hbCBEQiBmb3IgYXR0ZW5kZWUiIHsKICAgICAgICAgICAgICAgICAgICB0YWdzIERhdGFiYXNlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB0aWNrZXREYiA9IGNvbXBvbmVudCAiVGlja2V0IERCIiJSZWxhdGlvbmFsIERhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyBEYXRhYmFzZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgd2Vic2l0ZURiID0gY29tcG9uZW50ICJXZWJzaXRlIERCIiJSZWxhdGlvbmFsIERhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyBEYXRhYmFzZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY2ZwREIgPSBjb21wb25lbnQgIkNGUCBEQiIiUmVsYXRpb25hbCBEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgRGF0YWJhc2UKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGJyYW5kaW5nREIgPSBjb21wb25lbnQgIkJyYW5kaW5nIERCIiJTdG9yZXMgaW5mb3JtYXRpb24gYWJvdXQgYnJhbmRpbmciIHsKICAgICAgICAgICAgICAgICAgICB0YWdzIERhdGFiYXNlCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgdGlja2V0IC0+IHRpY2tldERiICJSZWFkcyBhbmQgd3JpdGVzIHRpY2tldHMgaW5mbyB0byIKICAgICAgICAgICAgICAgIHdlYnNpdGUgLT4gd2Vic2l0ZURiICJSZWFkcyBmcm9tIGFuZCB3cml0ZXMgdG8iCgogICAgICAgICAgICAgICAgY2ZwIC0+IGNmcERCICJSZWFkcyBmcm9tIGFuZCB3cml0ZXMgdG8iCiAgICAgICAgICAgICAgICBicmFuZGluZyAtPiBicmFuZGluZ0RCICJSZWFkcyBhbmQgd3JpdGVzIHRvIgogICAgICAgICAgICAgICAgYXR0ZW5kZWUgLT4gYXR0ZW5kZWVEQiAiUmVhZHMgYW5kIHdyaXRlcyB0byIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gSW50ZXJhY3Rpb25zCiAgICAgICAgICAgIHVzZXIgLT4gd2Vic2l0ZSAiVmlzaXRzIgogICAgICAgICAgICB1c2VyIC0+IHRpY2tldCAiQnV5cyBmcm9tIgoKICAgICAgICAgICAgc3BlYWtlciAtPiBjZnAgIkFwcGxpZXMgdG8iCiAgICAgICAgICAgIGNmcCAtPiBzcGVha2VyICJTZW5kIENGUCBpbmZvIHRvIgoKICAgICAgICAgICAgc3BvbnNvciAtPiBjcm0gIkludGVyYWN0cyB3aXRoIgogICAgICAgICAgICBjcm0gLT4gc3BvbnNvciAiU2VuZCBlbWFpbHMgdG8iCgogICAgICAgICAgICB3ZWJzaXRlIC0+IGNmcCAiUmVhZCBkYXRhIGZyb20iCiAgICAgICAgICAgIGNybSAtPiB1c2VyICJTZW5kIG5vdGlmaWNhdGlvbnMgdG8iIkVtYWlsIgoKICAgICAgICAgICAgd2Vic2l0ZSAtPiBjcm0gIlJlYWRzIFNwb25zb3IgaW5mbyBmcm9tIgogICAgICAgIH0KCiAgICAgICAgcHJvZCA9IGRlcGxveW1lbnRFbnZpcm9ubWVudCAiUHJvZHVjdGlvbiIgewogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIFdlYiBTZXJ2aWNlcyIgewogICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIENsb3VkIgoKICAgICAgICAgICAgICAgIHJlZ2lvbiA9IGRlcGxveW1lbnROb2RlICJFVS1FYXN0LTEiIHsKICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiQVdTIC0gRXVyb3BlIFpvbmUiCiAgICAgICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiQVdTIgogICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBSZWdpb24iCgogICAgICAgICAgICAgICAgICAgIHJvdXRlNTMgPSBpbmZyYXN0cnVjdHVyZU5vZGUgIlJvdXRlIDUzIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBSb3V0ZSA1MyIKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGNkbiA9IGluZnJhc3RydWN0dXJlTm9kZSAiQVdTIENETiIiQW1hem9uIENsb3VkRnJvbnQiewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gQ2xvdWRGcm9udCIKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIHMzID0gaW5mcmFzdHJ1Y3R1cmVOb2RlICJTdG9yYWdlIiJBV1MgLSBTMyIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gU2ltcGxlIFN0b3JhZ2UgU2VydmljZSIKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJBbWF6b24gLSBBdXRvIFNjYWxpbmcgR3JvdXBzIiJNYW5hZ2VzIGVsYXN0aWMgRUMyIGNvbmZpZ3VyYXRpb24iIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEFwcGxpY2F0aW9uIEF1dG8gU2NhbGluZyIKCiAgICAgICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gRUMyIiJUaGlzIEVDMiBpbnN0YW5jZSBpcyBwYXJ0IG9mIGFuIEF1dG8gU2NhbGluZyBHcm91cCIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgc29mdHdhcmVTeXN0ZW1JbnN0YW5jZSBzb2Z0d2FyZVN5c3RlbQogICAgICAgICAgICAgICAgICAgICAgICAgICAgd2ViQXBwbGljYXRpb25JbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIHdlYmFwcAogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIEVDMiAtIFRpY2tldHMiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEVDMiIKCiAgICAgICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJVYnVudHUgU2VydmVyIiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzb2Z0d2FyZVN5c3RlbUluc3RhbmNlIHNvZnR3YXJlU3lzdGVtCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aWNrZXRBcHBsaWNhdGlvbkluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgdGlja2V0Q29udGFpbmVyCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBFQzIgLSBDRlAiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEVDMiIKICAgICAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIlVidW50dSBTZXJ2ZXIiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNvZnR3YXJlU3lzdGVtSW5zdGFuY2Ugc29mdHdhcmVTeXN0ZW0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNmcEFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBjZnBDb250YWluZXIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBSRFMiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFJEUyIKCiAgICAgICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJNeVNRTCIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFJEUyBNeVNRTCBpbnN0YW5jZSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRhdGFiYXNlQXBwbGljYXRpb25JbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGRhdGFiYXNlCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGVsYiA9IGluZnJhc3RydWN0dXJlTm9kZSAiRWxhc3RpYyBMb2FkIEJhbGFuY2VyIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJBdXRvbWF0aWNhbGx5IGRpc3RyaWJ1dGVzIGluY29taW5nIGFwcGxpY2F0aW9uIHRyYWZmaWMuIgogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gRWxhc3RpYyBMb2FkIEJhbGFuY2luZyIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgcm91dGU1MyAtPiBlbGIgIkZvcndhcmRzIHJlcXVlc3RzIHRvIiAiSFRUUFMiCiAgICAgICAgICAgICAgICBlbGIgLT4gd2ViQXBwbGljYXRpb25JbnN0YW5jZSAiRm9yd2FyZHMgcmVxdWVzdHMgdG8iICJIVFRQUyIKICAgICAgICAgICAgICAgIGVsYiAtPiBjZnBBcHBsaWNhdGlvbkluc3RhbmNlICJGb3J3YXJkcyB0cmFmZmljIHRvIiAiSFRUUFMiCiAgICAgICAgICAgICAgICBlbGIgLT4gdGlja2V0QXBwbGljYXRpb25JbnN0YW5jZSAiRm9yd2FyZHMgcmVxdWVzdHMgdG8iIkhUVFBTIgogICAgICAgICAgICAgICAgZWxiIC0+IGNkbiAiRm9yd2FyZHMgcmVxdWVzdCB0byIiSFRUUFMiCgogICAgICAgICAgICAgICAgY2ZwQXBwbGljYXRpb25JbnN0YW5jZSAtPiBzMyAiU3RvcmFnZXMgc2xpZGVzIHRvIgogICAgICAgICAgICAgICAgY2RuIC0+IHMzICJFbmFibGVzIGFjY2VzcyB0byBzbGlkZXMiCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUxhbmRzY2FwZSBzb2Z0d2FyZVN5c3RlbSB7CiAgICAgICAgICAgIHRpdGxlICJDb25mZXJlbmNlIFN5c3RlbSBMYW5kc2NhcGUiCiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvbGF5b3V0IGxyCiAgICAgICAgICAgIGFuaW1hdGlvbiB7CiAgICAgICAgICAgICAgICBzb2Z0d2FyZVN5c3RlbQogICAgICAgICAgICAgICAgdXNlcgogICAgICAgICAgICAgICAgc3BvbnNvcgogICAgICAgICAgICAgICAgc3BlYWtlcgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBzeXN0ZW1Db250ZXh0IHNvZnR3YXJlU3lzdGVtIHsKICAgICAgICAgICAgdGl0bGUgIkNvbmZlcmVuY2UgU3lzdGVtIENvbnRleHQiCiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvbGF5b3V0IGxyCiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgc29mdHdhcmVTeXN0ZW0gewogICAgICAgICAgICB0aXRsZSAiQ29udGFpbmVyIHZpZXcgb2Ygc29mdHdhcmUgc3lzdGVtIgogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b2xheW91dCBscgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGNmcENvbnRhaW5lciB7CiAgICAgICAgICAgIHRpdGxlICJDb21wb25lbnQgdmlldyBvZiB0aGUgQ0ZQIGNvbnRhaW5lciIKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQgbHIKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBkYXRhYmFzZSB7CiAgICAgICAgICAgIHRpdGxlICJDb250YWluZXIgdmlldyBvZiBEYXRhYmFzZSIKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQgbHIKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCB3ZWJhcHAgewogICAgICAgICAgICB0aXRsZSAiQ29tcG9uZW50IHZpZXcgb2Ygd2ViIGFwcGxpY2F0aW9uIgogICAgICAgICAgICBpbmNsdWRlICogdGlja2V0RGIgd2Vic2l0ZURiCiAgICAgICAgICAgIC8qYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIHVzZXIKICAgICAgICAgICAgICAgIHdlYnNpdGUKICAgICAgICAgICAgICAgIHRpY2tldENvbnRhaW5lcgogICAgICAgICAgICAgICAgZGF0YWJhc2UKICAgICAgICAgICAgICAgIHNwb25zb3IKICAgICAgICAgICAgICAgIGNybQogICAgICAgICAgICAgICAgc3BlYWtlcgogICAgICAgICAgICAgICAgY2ZwCiAgICAgICAgICAgIH0qLwogICAgICAgIH0KCiAgICAgICAgZGVwbG95bWVudCBzb2Z0d2FyZVN5c3RlbSBwcm9kICJQcm9kdWN0aW9uInsKICAgICAgICAgICAgdGl0bGUgIkRlcGxveW1lbnQgaW4gcHJvZHVjdGlvbiIKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQgbHIKCiAgICAgICAgICAgIGFuaW1hdGlvbiB7CiAgICAgICAgICAgICAgICBlbGIKICAgICAgICAgICAgICAgIHJlZ2lvbgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJHcm91cDpUaGlyZC1wYXJ0eSIgewogICAgICAgICAgICAgICAgYm9yZGVyIGRvdHRlZAogICAgICAgICAgICAgICAgY29sb3IgI0FBMDAwMAogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjQkIwMDAwCiAgICAgICAgICAgICAgICBvcGFjaXR5IDc1CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlInsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzAwYWEwMAogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJzcGVha2VyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMwMDAwMDAKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJzcG9uc29yIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNGRjAwMDAKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgc2hhcGUgY3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJ3ZWJzaXRlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHRoZW1lIGRlZmF1bHQKICAgICAgICB0aGVtZXMgaHR0cHM6Ly9zdGF0aWMuc3RydWN0dXJpenIuY29tL3RoZW1lcy9hbWF6b24td2ViLXNlcnZpY2VzLTIwMjMuMDEuMzEvdGhlbWUuanNvbgogICAgfQoKfQo="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "user"
+      },
+      "name" : "Attendee",
+      "relationships" : [ {
+        "id" : "45",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "c3bf9c50-51b0-4926-8703-a9968d444ad2"
+        },
+        "sourceId" : "1",
+        "destinationId" : "6",
+        "description" : "Visits"
+      }, {
+        "id" : "46",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Visits",
+        "linkedRelationshipId" : "45"
+      }, {
+        "id" : "47",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Visits",
+        "linkedRelationshipId" : "45"
+      }, {
+        "id" : "48",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "6ead0005-2215-41f1-a15a-719c293f03bc"
+        },
+        "sourceId" : "1",
+        "destinationId" : "20",
+        "description" : "Buys from"
+      }, {
+        "id" : "49",
+        "sourceId" : "1",
+        "destinationId" : "19",
+        "description" : "Buys from",
+        "linkedRelationshipId" : "48"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person,sponsor",
+      "properties" : {
+        "structurizr.dsl.identifier" : "sponsor"
+      },
+      "name" : "Sponsor",
+      "description" : "Business person",
+      "relationships" : [ {
+        "id" : "56",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "43311339-6d7f-406f-9f10-012f147984b0"
+        },
+        "sourceId" : "2",
+        "destinationId" : "18",
+        "description" : "Interacts with"
+      }, {
+        "id" : "57",
+        "sourceId" : "2",
+        "destinationId" : "17",
+        "description" : "Interacts with",
+        "linkedRelationshipId" : "56"
+      }, {
+        "id" : "58",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Interacts with",
+        "linkedRelationshipId" : "56"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "3",
+      "tags" : "Element,Person,speaker",
+      "properties" : {
+        "structurizr.dsl.identifier" : "speaker"
+      },
+      "name" : "Speaker",
+      "description" : "Natural person submitting papers",
+      "relationships" : [ {
+        "id" : "50",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "2a8b594a-b4b7-4e15-af61-44afd23c3e4b"
+        },
+        "sourceId" : "3",
+        "destinationId" : "14",
+        "description" : "Applies to"
+      }, {
+        "id" : "51",
+        "sourceId" : "3",
+        "destinationId" : "13",
+        "description" : "Applies to",
+        "linkedRelationshipId" : "50"
+      }, {
+        "id" : "52",
+        "sourceId" : "3",
+        "destinationId" : "4",
+        "description" : "Applies to",
+        "linkedRelationshipId" : "50"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "4",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "softwaresystem"
+      },
+      "name" : "Conference System",
+      "description" : "System desgin for Conference Management",
+      "relationships" : [ {
+        "id" : "55",
+        "sourceId" : "4",
+        "destinationId" : "3",
+        "description" : "Send CFP info to",
+        "linkedRelationshipId" : "53"
+      }, {
+        "id" : "61",
+        "sourceId" : "4",
+        "destinationId" : "2",
+        "description" : "Send emails to",
+        "linkedRelationshipId" : "59"
+      }, {
+        "id" : "68",
+        "sourceId" : "4",
+        "destinationId" : "1",
+        "description" : "Send notifications to",
+        "technology" : "Email",
+        "linkedRelationshipId" : "66"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "17",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "crmcontainer"
+        },
+        "name" : "CRM System",
+        "description" : "Customer Relationship Management - sponsor management and notification system",
+        "relationships" : [ {
+          "id" : "60",
+          "sourceId" : "17",
+          "destinationId" : "2",
+          "description" : "Send emails to",
+          "linkedRelationshipId" : "59"
+        }, {
+          "id" : "67",
+          "sourceId" : "17",
+          "destinationId" : "1",
+          "description" : "Send notifications to",
+          "technology" : "Email",
+          "linkedRelationshipId" : "66"
+        } ],
+        "group" : "Third-party",
+        "components" : [ {
+          "id" : "18",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "crm"
+          },
+          "name" : "CRM",
+          "relationships" : [ {
+            "id" : "59",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "cf743dd8-f0a5-40d0-81ad-869449a0bcec"
+            },
+            "sourceId" : "18",
+            "destinationId" : "2",
+            "description" : "Send emails to"
+          }, {
+            "id" : "66",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "815c3701-8ad7-4649-aa6f-8f3e42cb6c6b"
+            },
+            "sourceId" : "18",
+            "destinationId" : "1",
+            "description" : "Send notifications to",
+            "technology" : "Email"
+          } ],
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "19",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "ticketcontainer"
+        },
+        "name" : "Alf.io",
+        "description" : "Ticketing System",
+        "relationships" : [ {
+          "id" : "29",
+          "sourceId" : "19",
+          "destinationId" : "23",
+          "description" : "Reads and writes tickets info to",
+          "linkedRelationshipId" : "27"
+        }, {
+          "id" : "30",
+          "sourceId" : "19",
+          "destinationId" : "21",
+          "description" : "Reads and writes tickets info to",
+          "linkedRelationshipId" : "27"
+        } ],
+        "group" : "Third-party",
+        "components" : [ {
+          "id" : "20",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "ticket"
+          },
+          "name" : "Ticketing System",
+          "relationships" : [ {
+            "id" : "27",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "1d042255-2df7-4a8a-85a6-1c4af4654c14"
+            },
+            "sourceId" : "20",
+            "destinationId" : "23",
+            "description" : "Reads and writes tickets info to"
+          }, {
+            "id" : "28",
+            "sourceId" : "20",
+            "destinationId" : "21",
+            "description" : "Reads and writes tickets info to",
+            "linkedRelationshipId" : "27"
+          } ],
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "cfpcontainer"
+        },
+        "name" : "CFP System",
+        "description" : "Call For Papers System - Full management of speakers, talks, and schedule",
+        "relationships" : [ {
+          "id" : "37",
+          "sourceId" : "13",
+          "destinationId" : "25",
+          "description" : "Reads from and writes to",
+          "linkedRelationshipId" : "35"
+        }, {
+          "id" : "38",
+          "sourceId" : "13",
+          "destinationId" : "21",
+          "description" : "Reads from and writes to",
+          "linkedRelationshipId" : "35"
+        }, {
+          "id" : "54",
+          "sourceId" : "13",
+          "destinationId" : "3",
+          "description" : "Send CFP info to",
+          "linkedRelationshipId" : "53"
+        } ],
+        "group" : "Third-party",
+        "components" : [ {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "cfp"
+          },
+          "name" : "CFP",
+          "relationships" : [ {
+            "id" : "16",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "47856c56-2db3-48b1-b52d-99a57199ce83"
+            },
+            "sourceId" : "14",
+            "destinationId" : "15",
+            "description" : "Saves slides to"
+          }, {
+            "id" : "35",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "82b7a7a0-96c3-477b-bf41-62538d8b6a4b"
+            },
+            "sourceId" : "14",
+            "destinationId" : "25",
+            "description" : "Reads from and writes to"
+          }, {
+            "id" : "36",
+            "sourceId" : "14",
+            "destinationId" : "21",
+            "description" : "Reads from and writes to",
+            "linkedRelationshipId" : "35"
+          }, {
+            "id" : "53",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "4e540c05-31b2-4fe1-82be-380a08694a0c"
+            },
+            "sourceId" : "14",
+            "destinationId" : "3",
+            "description" : "Send CFP info to"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "15",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "cfpstorage"
+          },
+          "name" : "storage",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container,website",
+        "properties" : {
+          "structurizr.dsl.identifier" : "webapp"
+        },
+        "name" : "Web Application",
+        "description" : "Conference Web Application",
+        "relationships" : [ {
+          "id" : "33",
+          "sourceId" : "5",
+          "destinationId" : "24",
+          "description" : "Reads from and writes to",
+          "linkedRelationshipId" : "31"
+        }, {
+          "id" : "34",
+          "sourceId" : "5",
+          "destinationId" : "21",
+          "description" : "Reads from and writes to",
+          "linkedRelationshipId" : "31"
+        }, {
+          "id" : "41",
+          "sourceId" : "5",
+          "destinationId" : "26",
+          "description" : "Reads and writes to",
+          "linkedRelationshipId" : "39"
+        }, {
+          "id" : "44",
+          "sourceId" : "5",
+          "destinationId" : "22",
+          "description" : "Reads and writes to",
+          "linkedRelationshipId" : "42"
+        }, {
+          "id" : "64",
+          "sourceId" : "5",
+          "destinationId" : "14",
+          "description" : "Read data from",
+          "linkedRelationshipId" : "62"
+        }, {
+          "id" : "65",
+          "sourceId" : "5",
+          "destinationId" : "13",
+          "description" : "Read data from",
+          "linkedRelationshipId" : "62"
+        }, {
+          "id" : "71",
+          "sourceId" : "5",
+          "destinationId" : "18",
+          "description" : "Reads Sponsor info from",
+          "linkedRelationshipId" : "69"
+        }, {
+          "id" : "72",
+          "sourceId" : "5",
+          "destinationId" : "17",
+          "description" : "Reads Sponsor info from",
+          "linkedRelationshipId" : "69"
+        } ],
+        "components" : [ {
+          "id" : "6",
+          "tags" : "Element,Component,website",
+          "properties" : {
+            "structurizr.dsl.identifier" : "website"
+          },
+          "name" : "Website",
+          "description" : "React SPA - Shows conference information such as speakers, talks and schedule",
+          "relationships" : [ {
+            "id" : "10",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "ae892a99-737f-4845-95b5-e617a69fdf55"
+            },
+            "sourceId" : "6",
+            "destinationId" : "9",
+            "description" : "Pull branding information from",
+            "technology" : "HTTP Restful API"
+          }, {
+            "id" : "11",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "c9227cff-b4f3-4cd7-ae80-9c63f928009c"
+            },
+            "sourceId" : "6",
+            "destinationId" : "7",
+            "description" : "Reads and writes information from",
+            "technology" : "HTTP Restful API"
+          }, {
+            "id" : "12",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "170855c2-512b-4d5b-b23b-ce85fcf020db"
+            },
+            "sourceId" : "6",
+            "destinationId" : "8",
+            "description" : "Sends requests and displays aggregation from",
+            "technology" : "HTTPS"
+          }, {
+            "id" : "31",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "c2eb35f4-e212-4243-aee9-6afaf09fb263"
+            },
+            "sourceId" : "6",
+            "destinationId" : "24",
+            "description" : "Reads from and writes to"
+          }, {
+            "id" : "32",
+            "sourceId" : "6",
+            "destinationId" : "21",
+            "description" : "Reads from and writes to",
+            "linkedRelationshipId" : "31"
+          }, {
+            "id" : "62",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "c45bbbca-8bf8-4c01-b804-088b4237a6d4"
+            },
+            "sourceId" : "6",
+            "destinationId" : "14",
+            "description" : "Read data from"
+          }, {
+            "id" : "63",
+            "sourceId" : "6",
+            "destinationId" : "13",
+            "description" : "Read data from",
+            "linkedRelationshipId" : "62"
+          }, {
+            "id" : "69",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "954cf8a0-db5e-4328-b732-24e07722257c"
+            },
+            "sourceId" : "6",
+            "destinationId" : "18",
+            "description" : "Reads Sponsor info from"
+          }, {
+            "id" : "70",
+            "sourceId" : "6",
+            "destinationId" : "17",
+            "description" : "Reads Sponsor info from",
+            "linkedRelationshipId" : "69"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "attendee"
+          },
+          "name" : "Attendee System",
+          "description" : "System to manage attendee information, such as talks evaluation and access to slides",
+          "relationships" : [ {
+            "id" : "42",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "5f99a519-1bf7-41ed-802e-1a0e5a0fb495"
+            },
+            "sourceId" : "7",
+            "destinationId" : "22",
+            "description" : "Reads and writes to"
+          }, {
+            "id" : "43",
+            "sourceId" : "7",
+            "destinationId" : "21",
+            "description" : "Reads and writes to",
+            "linkedRelationshipId" : "42"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "9",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "branding"
+          },
+          "name" : "Branding system",
+          "description" : "Allow customization for several conference brands",
+          "relationships" : [ {
+            "id" : "39",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "ee49f41b-901f-444f-b53b-b658d7041a20"
+            },
+            "sourceId" : "9",
+            "destinationId" : "26",
+            "description" : "Reads and writes to"
+          }, {
+            "id" : "40",
+            "sourceId" : "9",
+            "destinationId" : "21",
+            "description" : "Reads and writes to",
+            "linkedRelationshipId" : "39"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "8",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "voting"
+          },
+          "name" : "Voting system",
+          "description" : "Send and receives evaluation via web, email, SMS or phone calls",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "21",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "database"
+        },
+        "name" : "Database",
+        "technology" : "Relational database schema",
+        "components" : [ {
+          "id" : "26",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "brandingdb"
+          },
+          "name" : "Branding DB",
+          "description" : "Stores information about branding",
+          "documentation" : { }
+        }, {
+          "id" : "22",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "attendeedb"
+          },
+          "name" : "Attendee DB",
+          "description" : "Relational DB for attendee",
+          "documentation" : { }
+        }, {
+          "id" : "23",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "ticketdb"
+          },
+          "name" : "Ticket DB",
+          "description" : "Relational Database",
+          "documentation" : { }
+        }, {
+          "id" : "25",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "cfpdb"
+          },
+          "name" : "CFP DB",
+          "description" : "Relational Database",
+          "documentation" : { }
+        }, {
+          "id" : "24",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "websitedb"
+          },
+          "name" : "Website DB",
+          "description" : "Relational Database",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ],
+    "deploymentNodes" : [ {
+      "id" : "73",
+      "tags" : "Element,Deployment Node,Amazon Web Services - Cloud",
+      "properties" : {
+        "structurizr.dsl.identifier" : "aa049180-cd50-450c-9bf7-337194d050d2"
+      },
+      "name" : "Amazon Web Services",
+      "environment" : "Production",
+      "instances" : "1",
+      "children" : [ {
+        "id" : "74",
+        "tags" : "Element,Deployment Node,Amazon Web Services - Region",
+        "properties" : {
+          "structurizr.dsl.identifier" : "region"
+        },
+        "name" : "EU-East-1",
+        "description" : "AWS - Europe Zone",
+        "environment" : "Production",
+        "technology" : "AWS",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "86",
+          "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
+          "properties" : {
+            "structurizr.dsl.identifier" : "8d0c3a87-dc41-4377-b1c8-25c18dc42ece"
+          },
+          "name" : "Amazon EC2 - CFP",
+          "environment" : "Production",
+          "instances" : "1",
+          "children" : [ {
+            "id" : "87",
+            "tags" : "Element,Deployment Node",
+            "properties" : {
+              "structurizr.dsl.identifier" : "970134ce-ab99-4a72-817c-8f165ed567ba"
+            },
+            "name" : "Ubuntu Server",
+            "environment" : "Production",
+            "instances" : "1",
+            "softwareSystemInstances" : [ {
+              "id" : "88",
+              "tags" : "Software System Instance",
+              "properties" : {
+                "structurizr.dsl.identifier" : "978185bb-4890-412f-bc53-daddaf3eb790"
+              },
+              "environment" : "Production",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "softwareSystemId" : "4"
+            } ],
+            "containerInstances" : [ {
+              "id" : "89",
+              "tags" : "Container Instance",
+              "properties" : {
+                "structurizr.dsl.identifier" : "cfpapplicationinstance"
+              },
+              "relationships" : [ {
+                "id" : "95",
+                "sourceId" : "89",
+                "destinationId" : "93",
+                "description" : "Reads from and writes to",
+                "linkedRelationshipId" : "38"
+              }, {
+                "id" : "103",
+                "tags" : "Relationship",
+                "properties" : {
+                  "structurizr.dsl.identifier" : "f2335c5c-1a8a-4c39-a8fc-50c06711d0e1"
+                },
+                "sourceId" : "89",
+                "destinationId" : "77",
+                "description" : "Storages slides to"
+              } ],
+              "environment" : "Production",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "containerId" : "13"
+            } ]
+          } ]
+        }, {
+          "id" : "91",
+          "tags" : "Element,Deployment Node,Amazon Web Services - RDS",
+          "properties" : {
+            "structurizr.dsl.identifier" : "932786b1-453c-4657-8954-edff8959b107"
+          },
+          "name" : "Amazon RDS",
+          "environment" : "Production",
+          "instances" : "1",
+          "children" : [ {
+            "id" : "92",
+            "tags" : "Element,Deployment Node,Amazon Web Services - RDS MySQL instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "d27f1009-972a-46eb-8bb8-1b83bf2ec3a5"
+            },
+            "name" : "MySQL",
+            "environment" : "Production",
+            "instances" : "1",
+            "containerInstances" : [ {
+              "id" : "93",
+              "tags" : "Container Instance",
+              "properties" : {
+                "structurizr.dsl.identifier" : "databaseapplicationinstance"
+              },
+              "environment" : "Production",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "containerId" : "21"
+            } ]
+          } ]
+        }, {
+          "id" : "82",
+          "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
+          "properties" : {
+            "structurizr.dsl.identifier" : "9de06efb-948b-44c7-b0a6-9b4f0e4ef8e7"
+          },
+          "name" : "Amazon EC2 - Tickets",
+          "environment" : "Production",
+          "instances" : "1",
+          "children" : [ {
+            "id" : "83",
+            "tags" : "Element,Deployment Node",
+            "properties" : {
+              "structurizr.dsl.identifier" : "2a4bd5e2-25f4-4bbc-8d7b-84a7cbe2a2ae"
+            },
+            "name" : "Ubuntu Server",
+            "environment" : "Production",
+            "instances" : "1",
+            "softwareSystemInstances" : [ {
+              "id" : "84",
+              "tags" : "Software System Instance",
+              "properties" : {
+                "structurizr.dsl.identifier" : "40f7b3e8-1338-4381-ab9c-e721ea18e4df"
+              },
+              "environment" : "Production",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "softwareSystemId" : "4"
+            } ],
+            "containerInstances" : [ {
+              "id" : "85",
+              "tags" : "Container Instance",
+              "properties" : {
+                "structurizr.dsl.identifier" : "ticketapplicationinstance"
+              },
+              "relationships" : [ {
+                "id" : "96",
+                "sourceId" : "85",
+                "destinationId" : "93",
+                "description" : "Reads and writes tickets info to",
+                "linkedRelationshipId" : "30"
+              } ],
+              "environment" : "Production",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "containerId" : "19"
+            } ]
+          } ]
+        }, {
+          "id" : "78",
+          "tags" : "Element,Deployment Node,Amazon Web Services - Application Auto Scaling",
+          "properties" : {
+            "structurizr.dsl.identifier" : "5c0a34d1-4ce8-4dcb-9044-a3a6b242f80d"
+          },
+          "name" : "Amazon - Auto Scaling Groups",
+          "description" : "Manages elastic EC2 configuration",
+          "environment" : "Production",
+          "instances" : "1",
+          "children" : [ {
+            "id" : "79",
+            "tags" : "Element,Deployment Node",
+            "properties" : {
+              "structurizr.dsl.identifier" : "47fa2690-ecdc-4442-ac7b-c0f161d11a67"
+            },
+            "name" : "Amazon Web Services - EC2",
+            "description" : "This EC2 instance is part of an Auto Scaling Group",
+            "environment" : "Production",
+            "instances" : "1",
+            "softwareSystemInstances" : [ {
+              "id" : "80",
+              "tags" : "Software System Instance",
+              "properties" : {
+                "structurizr.dsl.identifier" : "ec825a57-1f1c-4b71-a237-ba83df9c85b7"
+              },
+              "environment" : "Production",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "softwareSystemId" : "4"
+            } ],
+            "containerInstances" : [ {
+              "id" : "81",
+              "tags" : "Container Instance",
+              "properties" : {
+                "structurizr.dsl.identifier" : "webapplicationinstance"
+              },
+              "relationships" : [ {
+                "id" : "90",
+                "sourceId" : "81",
+                "destinationId" : "89",
+                "description" : "Read data from",
+                "linkedRelationshipId" : "65"
+              }, {
+                "id" : "94",
+                "sourceId" : "81",
+                "destinationId" : "93",
+                "description" : "Reads from and writes to",
+                "linkedRelationshipId" : "34"
+              } ],
+              "environment" : "Production",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "containerId" : "5"
+            } ]
+          } ]
+        } ],
+        "infrastructureNodes" : [ {
+          "id" : "76",
+          "tags" : "Element,Infrastructure Node,Amazon Web Services - CloudFront",
+          "properties" : {
+            "structurizr.dsl.identifier" : "cdn"
+          },
+          "name" : "AWS CDN",
+          "description" : "Amazon CloudFront",
+          "relationships" : [ {
+            "id" : "104",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "5b68031e-3ac1-40ca-a647-2146c535acf6"
+            },
+            "sourceId" : "76",
+            "destinationId" : "77",
+            "description" : "Enables access to slides"
+          } ],
+          "environment" : "Production"
+        }, {
+          "id" : "97",
+          "tags" : "Element,Infrastructure Node,Amazon Web Services - Elastic Load Balancing",
+          "properties" : {
+            "structurizr.dsl.identifier" : "elb"
+          },
+          "name" : "Elastic Load Balancer",
+          "description" : "Automatically distributes incoming application traffic.",
+          "relationships" : [ {
+            "id" : "99",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "b64c5f58-e815-485c-9efc-65fe227c7c96"
+            },
+            "sourceId" : "97",
+            "destinationId" : "81",
+            "description" : "Forwards requests to",
+            "technology" : "HTTPS"
+          }, {
+            "id" : "100",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "54655265-0518-4f1c-ac08-0b70f34be318"
+            },
+            "sourceId" : "97",
+            "destinationId" : "89",
+            "description" : "Forwards traffic to",
+            "technology" : "HTTPS"
+          }, {
+            "id" : "101",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "cbaf44d1-0a23-411b-af2e-7dc733622567"
+            },
+            "sourceId" : "97",
+            "destinationId" : "85",
+            "description" : "Forwards requests to",
+            "technology" : "HTTPS"
+          }, {
+            "id" : "102",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "ec902fd8-e06c-4653-9636-71ef54a6f3f5"
+            },
+            "sourceId" : "97",
+            "destinationId" : "76",
+            "description" : "Forwards request to",
+            "technology" : "HTTPS"
+          } ],
+          "environment" : "Production"
+        }, {
+          "id" : "77",
+          "tags" : "Element,Infrastructure Node,Amazon Web Services - Simple Storage Service",
+          "properties" : {
+            "structurizr.dsl.identifier" : "s3"
+          },
+          "name" : "Storage",
+          "description" : "AWS - S3",
+          "environment" : "Production"
+        }, {
+          "id" : "75",
+          "tags" : "Element,Infrastructure Node,Amazon Web Services - Route 53",
+          "properties" : {
+            "structurizr.dsl.identifier" : "route53"
+          },
+          "name" : "Route 53",
+          "relationships" : [ {
+            "id" : "98",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "99ae4995-e85a-4873-adf3-320ab75ed13a"
+            },
+            "sourceId" : "75",
+            "destinationId" : "97",
+            "description" : "Forwards requests to",
+            "technology" : "HTTPS"
+          } ],
+          "environment" : "Production"
+        } ]
+      } ]
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "softwareSystem",
+      "order" : 1,
+      "title" : "Conference System Landscape",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : false
+      },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "4" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "1" ],
+        "relationships" : [ "68", "47" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "2" ],
+        "relationships" : [ "58", "61" ]
+      }, {
+        "order" : 4,
+        "elements" : [ "3" ],
+        "relationships" : [ "55", "52" ]
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "61"
+      }, {
+        "id" : "52"
+      }, {
+        "id" : "55"
+      }, {
+        "id" : "47"
+      }, {
+        "id" : "68"
+      }, {
+        "id" : "58"
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "key" : "SystemContext-001",
+      "order" : 2,
+      "title" : "Conference System Context",
+      "softwareSystemId" : "4",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "61"
+      }, {
+        "id" : "52"
+      }, {
+        "id" : "55"
+      }, {
+        "id" : "58"
+      }, {
+        "id" : "47"
+      }, {
+        "id" : "68"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Container-001",
+      "order" : 3,
+      "title" : "Container view of software system",
+      "softwareSystemId" : "4",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "13",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "5",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "17",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "19",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "21",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "72"
+      }, {
+        "id" : "60"
+      }, {
+        "id" : "51"
+      }, {
+        "id" : "65"
+      }, {
+        "id" : "34"
+      }, {
+        "id" : "54"
+      }, {
+        "id" : "67"
+      }, {
+        "id" : "57"
+      }, {
+        "id" : "46"
+      }, {
+        "id" : "30"
+      }, {
+        "id" : "49"
+      }, {
+        "id" : "38"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Component-001",
+      "order" : 4,
+      "title" : "Component view of the CFP container",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : false
+      },
+      "containerId" : "13",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "14",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "15",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "5",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "21",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "16"
+      }, {
+        "id" : "50"
+      }, {
+        "id" : "36"
+      }, {
+        "id" : "34"
+      }, {
+        "id" : "53"
+      }, {
+        "id" : "64"
+      } ]
+    }, {
+      "key" : "Component-003",
+      "order" : 6,
+      "title" : "Component view of web application",
+      "paperSize" : "A3_Portrait",
+      "dimensions" : {
+        "width" : 2504,
+        "height" : 4470
+      },
+      "containerId" : "5",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 1260,
+        "y" : 3285
+      }, {
+        "id" : "13",
+        "x" : 1079,
+        "y" : 2129
+      }, {
+        "id" : "6",
+        "x" : 329,
+        "y" : 1529
+      }, {
+        "id" : "17",
+        "x" : 340,
+        "y" : 2595
+      }, {
+        "id" : "7",
+        "x" : 1079,
+        "y" : 1529
+      }, {
+        "id" : "8",
+        "x" : 1079,
+        "y" : 929
+      }, {
+        "id" : "9",
+        "x" : 1079,
+        "y" : 329
+      }, {
+        "id" : "21",
+        "x" : 1970,
+        "y" : 1565
+      } ],
+      "relationships" : [ {
+        "id" : "70"
+      }, {
+        "id" : "63"
+      }, {
+        "id" : "40",
+        "vertices" : [ {
+          "x" : 1633,
+          "y" : 779
+        } ]
+      }, {
+        "id" : "11"
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "43"
+      }, {
+        "id" : "32",
+        "vertices" : [ {
+          "x" : 1079,
+          "y" : 2579
+        }, {
+          "x" : 1633,
+          "y" : 2579
+        } ]
+      }, {
+        "id" : "67"
+      }, {
+        "id" : "45",
+        "vertices" : [ {
+          "x" : 1079,
+          "y" : 2654
+        } ]
+      }, {
+        "id" : "10",
+        "vertices" : [ {
+          "x" : 1079,
+          "y" : 779
+        } ]
+      }, {
+        "id" : "38"
+      } ]
+    }, {
+      "key" : "Component-002",
+      "order" : 5,
+      "title" : "Container view of Database",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : false
+      },
+      "containerId" : "21",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "22",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "23",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "13",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "24",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "25",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "26",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "5",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "19",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "37"
+      }, {
+        "id" : "41"
+      }, {
+        "id" : "65"
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "44"
+      } ]
+    } ],
+    "deploymentViews" : [ {
+      "key" : "Production",
+      "order" : 7,
+      "title" : "Deployment in production",
+      "softwareSystemId" : "4",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false,
+        "applied" : false
+      },
+      "environment" : "Production",
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "73", "74", "97" ]
+      } ],
+      "elements" : [ {
+        "id" : "77",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "89",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "78",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "79",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "91",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "92",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "81",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "93",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "82",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "83",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "73",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "85",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "74",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "97",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "75",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "86",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "76",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "87",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "94"
+      }, {
+        "id" : "98"
+      }, {
+        "id" : "95"
+      }, {
+        "id" : "96"
+      }, {
+        "id" : "100"
+      }, {
+        "id" : "102"
+      }, {
+        "id" : "99"
+      }, {
+        "id" : "101"
+      }, {
+        "id" : "104"
+      }, {
+        "id" : "103"
+      }, {
+        "id" : "90"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Group:Third-party",
+          "background" : "#bb0000",
+          "color" : "#aa0000",
+          "border" : "Dotted",
+          "opacity" : 75
+        }, {
+          "tag" : "Database",
+          "background" : "#00aa00",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "speaker",
+          "background" : "#000000",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "sponsor",
+          "background" : "#ff0000",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "website",
+          "shape" : "WebBrowser"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json", "https://static.structurizr.com/themes/amazon-web-services-2023.01.31/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "softwareSystem"
+    }
+  }
+}
