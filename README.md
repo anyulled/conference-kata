@@ -2,6 +2,12 @@
 
 System design for [Conference Kata](https://nealford.com/katas/kata?id=AllStuffNoCruft)
 
+### System Landscape
+![Component View](workspace/.structurizr/images/Component-002-thumbnail.png)
+
+### Deployment view
+![Deployment view](workspace/.structurizr/images/Production-thumbnail.png)
+
 ## How to run this example
 
 Execute this command to run a Docker container with a structurizr lite image.
