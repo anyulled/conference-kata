@@ -2,83 +2,93 @@ workspace {
     name "Conference Kata"
     description "The software architecture of the Conference Kata."
 
+    !adrs adrs
+    !docs docs
+
     model {
         user = person "Attendee"
-        sponsor = person "Sponsor""Business person" {
+        sponsor = person "Sponsor" "Business person" {
             tags sponsor
         }
-        speaker = person "Speaker""Natural person submitting papers" {
+        speaker = person "Speaker" "Natural person submitting papers" {
             tags speaker
         }
-        softwareSystem = softwareSystem "Conference System""System desgin for Conference Management" {
+        softwareSystem = softwareSystem "Conference System" "System desgin for Conference Management" {
             webapp = container "Web Application" "Conference Web Application" {
                 tags website
-                website = component "Website""React SPA - Shows conference information such as speakers, talks and schedule" {
+                website = component "Website" "React SPA - Shows conference information such as speakers, talks and schedule" {
                     tags "website"
                 }
-                attendee = component "Attendee System""System to manage attendee information, such as talks evaluation and access to slides"
-                voting = component "Voting system""Send and receives evaluation via web, email, SMS or phone calls"
-                branding = component "Branding system""Allow customization for several conference brands"
+                attendee = component "Attendee System" "System to manage attendee information, such as talks evaluation and access to slides"
+                voting = component "Voting system" "Send and receives evaluation via web, email, SMS or phone calls"
+                branding = component "Branding system" "Allow customization for several conference brands"
 
-                website -> branding "Pull branding information from""HTTP Restful API"
-                website -> attendee "Reads and writes information from ""HTTP Restful API"
-                website -> voting "Sends requests and displays aggregation from""HTTPS"
+                website -> branding "Pull branding information from" "HTTP Restful API"
+                website -> attendee "Reads and writes information from " "HTTP Restful API"
+                website -> voting "Sends requests and displays aggregation from" "HTTPS"
 
-            }
-            group "Third-party" {
-                cfpContainer = container "CFP System""Call For Papers System - Full management of speakers, talks, and schedule"{
-                    cfp = component "CFP"
-                    cfpStorage = component "storage"
-
-                    cfp -> cfpStorage "Saves slides to"
-                }
-                crmContainer = container "CRM System" "Customer Relationship Management - sponsor management and notification system"{
-                    crm = component "CRM"
-                }
-                ticketContainer = container "Ticket System""Ticketing System"{
-                    ticket = component "Ticketing System"
-                }
             }
 
             database = container "Database" "" "Relational database schema" {
-                attendeeDB = component "Attendee DB""Relational DB for attendee" {
+                attendeeDB = component "Attendee DB" "Relational DB for attendee" {
                     tags Database
                 }
-                ticketDb = component "Ticket DB""Relational Database" {
+                websiteDb = component "Website DB" "Relational Database" {
                     tags Database
                 }
-                websiteDb = component "Website DB""Relational Database" {
-                    tags Database
-                }
-                cfpDB = component "CFP DB""Relational Database" {
-                    tags Database
-                }
-                brandingDB = component "Branding DB""Stores information about branding" {
+                brandingDB = component "Branding DB" "Stores information about branding" {
                     tags Database
                 }
 
-                ticket -> ticketDb "Reads and writes tickets info to"
                 website -> websiteDb "Reads from and writes to"
-
-                cfp -> cfpDB "Reads from and writes to"
                 branding -> brandingDB "Reads and writes to"
                 attendee -> attendeeDB "Reads and writes to"
             }
 
             // Interactions
             user -> website "Visits"
-            user -> ticket "Buys from"
 
-            speaker -> cfp "Applies to"
-            cfp -> speaker "Send CFP info to"
+        }
 
-            sponsor -> crm "Interacts with"
-            crm -> sponsor "Send emails to"
+        group "Third-party" {
 
-            website -> cfp "Read data from"
-            crm -> user "Send notifications to""Email"
+            cfpSystem = softwareSystem "CRM" "Customer relationship manager" {
+                cfpContainer = container "CFP System" "Call For Papers System - Full management of speakers, talks, and schedule" {
+                    cfp = component "CFP"
+                    cfpDB = component "CFP DB" "Relational Database" {
+                        tags Database
+                    }
+                    cfpStorage = component "storage"
 
-            website -> crm "Reads Sponsor info from"
+                    cfp -> cfpStorage "Saves slides to"
+                    cfp -> cfpDB "Reads from and writes to"
+                    cfp -> speaker "Send CFP info to"
+                    speaker -> cfp "Applies to"
+                    website -> cfp "Read data from"
+                }
+            }
+
+            crmSystem = softwareSystem "CFP" "Call for papers" {
+                crmContainer = container "CRM System" "Customer Relationship Management - sponsor management and notification system" {
+                    crm = component "CRM"
+                }
+                sponsor -> crm "Interacts with"
+                crm -> sponsor "Send emails to"
+                crm -> user "Send notifications to" "Email"
+                website -> crm "Reads Sponsor info from"
+            }
+
+            ticketSystem = softwareSystem "Ticket" "Ticket management" {
+                ticketContainer = container "Ticket System" "Ticketing System" {
+                    ticket = component "Ticketing System"
+                    ticketDb = component "Ticket DB" "Relational Database" {
+                        tags Database
+                    }
+                }
+                user -> ticket "Buys from"
+                ticket -> ticketDb "Reads and writes tickets info to"
+            }
+
         }
 
         prod = deploymentEnvironment "Production" {
@@ -94,18 +104,18 @@ workspace {
                         tags "Amazon Web Services - Route 53"
                     }
 
-                    cdn = infrastructureNode "AWS CDN""Amazon CloudFront"{
+                    cdn = infrastructureNode "AWS CDN" "Amazon CloudFront" {
                         tags "Amazon Web Services - CloudFront"
                     }
 
-                    s3 = infrastructureNode "Storage""AWS - S3" {
+                    s3 = infrastructureNode "Storage" "AWS - S3" {
                         tags "Amazon Web Services - Simple Storage Service"
                     }
 
-                    deploymentNode "Amazon - Auto Scaling Groups""Manages elastic EC2 configuration" {
+                    deploymentNode "Amazon - Auto Scaling Groups" "Manages elastic EC2 configuration" {
                         tags "Amazon Web Services - Application Auto Scaling"
 
-                        deploymentNode "Amazon Web Services - EC2""This EC2 instance is part of an Auto Scaling Group" {
+                        deploymentNode "Amazon Web Services - EC2" "This EC2 instance is part of an Auto Scaling Group" {
                             tags "Amazon Web Services - EC2"
                             softwareSystemInstance softwareSystem
                             webApplicationInstance = containerInstance webapp
@@ -148,8 +158,8 @@ workspace {
                 route53 -> elb "Forwards requests to" "HTTPS"
                 elb -> webApplicationInstance "Forwards requests to" "HTTPS"
                 elb -> cfpApplicationInstance "Forwards traffic to" "HTTPS"
-                elb -> ticketApplicationInstance "Forwards requests to""HTTPS"
-                elb -> cdn "Forwards request to""HTTPS"
+                elb -> ticketApplicationInstance "Forwards requests to" "HTTPS"
+                elb -> cdn "Forwards request to" "HTTPS"
 
                 cfpApplicationInstance -> s3 "Storages slides to"
                 cdn -> s3 "Enables access to slides"
@@ -196,20 +206,16 @@ workspace {
 
         component webapp {
             title "Component view of web application"
-            include * ticketDb websiteDb
-            /*animation {
+            include *
+            animation {
                 user
                 website
-                ticketContainer
+                branding
                 database
-                sponsor
-                crm
-                speaker
-                cfp
-            }*/
+            }
         }
 
-        deployment softwareSystem prod "Production"{
+        deployment softwareSystem prod "Production" {
             title "Deployment in production"
             include *
 
@@ -227,7 +233,7 @@ workspace {
                 opacity 75
             }
 
-            element "Database"{
+            element "Database" {
                 background #00aa00
             }
 

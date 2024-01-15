@@ -2,45 +2,13 @@
   "id" : 1,
   "name" : "Conference Kata",
   "description" : "The software architecture of the Conference Kata.",
-  "lastModifiedDate" : "2024-01-15T02:11:23Z",
-  "lastModifiedAgent" : "structurizr-javascript",
+  "lastModifiedDate" : "2024-01-15T10:30:14Z",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlIHsKICAgIG5hbWUgIkNvbmZlcmVuY2UgS2F0YSIKICAgIGRlc2NyaXB0aW9uICJUaGUgc29mdHdhcmUgYXJjaGl0ZWN0dXJlIG9mIHRoZSBDb25mZXJlbmNlIEthdGEuIgoKICAgIG1vZGVsIHsKICAgICAgICB1c2VyID0gcGVyc29uICJBdHRlbmRlZSIKICAgICAgICBzcG9uc29yID0gcGVyc29uICJTcG9uc29yIiJCdXNpbmVzcyBwZXJzb24iIHsKICAgICAgICAgICAgdGFncyBzcG9uc29yCiAgICAgICAgfQogICAgICAgIHNwZWFrZXIgPSBwZXJzb24gIlNwZWFrZXIiIk5hdHVyYWwgcGVyc29uIHN1Ym1pdHRpbmcgcGFwZXJzIiB7CiAgICAgICAgICAgIHRhZ3Mgc3BlYWtlcgogICAgICAgIH0KICAgICAgICBzb2Z0d2FyZVN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJDb25mZXJlbmNlIFN5c3RlbSIiU3lzdGVtIGRlc2dpbiBmb3IgQ29uZmVyZW5jZSBNYW5hZ2VtZW50IiB7CiAgICAgICAgICAgIHdlYmFwcCA9IGNvbnRhaW5lciAiV2ViIEFwcGxpY2F0aW9uIiAiQ29uZmVyZW5jZSBXZWIgQXBwbGljYXRpb24iIHsKICAgICAgICAgICAgICAgIHRhZ3Mgd2Vic2l0ZQogICAgICAgICAgICAgICAgd2Vic2l0ZSA9IGNvbXBvbmVudCAiV2Vic2l0ZSIiUmVhY3QgU1BBIC0gU2hvd3MgY29uZmVyZW5jZSBpbmZvcm1hdGlvbiBzdWNoIGFzIHNwZWFrZXJzLCB0YWxrcyBhbmQgc2NoZWR1bGUiIHsKICAgICAgICAgICAgICAgICAgICB0YWdzICJ3ZWJzaXRlIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgYXR0ZW5kZWUgPSBjb21wb25lbnQgIkF0dGVuZGVlIFN5c3RlbSIiU3lzdGVtIHRvIG1hbmFnZSBhdHRlbmRlZSBpbmZvcm1hdGlvbiwgc3VjaCBhcyB0YWxrcyBldmFsdWF0aW9uIGFuZCBhY2Nlc3MgdG8gc2xpZGVzIgogICAgICAgICAgICAgICAgdm90aW5nID0gY29tcG9uZW50ICJWb3Rpbmcgc3lzdGVtIiJTZW5kIGFuZCByZWNlaXZlcyBldmFsdWF0aW9uIHZpYSB3ZWIsIGVtYWlsLCBTTVMgb3IgcGhvbmUgY2FsbHMiCiAgICAgICAgICAgICAgICBicmFuZGluZyA9IGNvbXBvbmVudCAiQnJhbmRpbmcgc3lzdGVtIiJBbGxvdyBjdXN0b21pemF0aW9uIGZvciBzZXZlcmFsIGNvbmZlcmVuY2UgYnJhbmRzIgoKICAgICAgICAgICAgICAgIHdlYnNpdGUgLT4gYnJhbmRpbmcgIlB1bGwgYnJhbmRpbmcgaW5mb3JtYXRpb24gZnJvbSIiSFRUUCBSZXN0ZnVsIEFQSSIKICAgICAgICAgICAgICAgIHdlYnNpdGUgLT4gYXR0ZW5kZWUgIlJlYWRzIGFuZCB3cml0ZXMgaW5mb3JtYXRpb24gZnJvbSAiIkhUVFAgUmVzdGZ1bCBBUEkiCiAgICAgICAgICAgICAgICB3ZWJzaXRlIC0+IHZvdGluZyAiU2VuZHMgcmVxdWVzdHMgYW5kIGRpc3BsYXlzIGFnZ3JlZ2F0aW9uIGZyb20iIkhUVFBTIgoKICAgICAgICAgICAgfQogICAgICAgICAgICBncm91cCAiVGhpcmQtcGFydHkiIHsKICAgICAgICAgICAgICAgIGNmcENvbnRhaW5lciA9IGNvbnRhaW5lciAiQ0ZQIFN5c3RlbSIiQ2FsbCBGb3IgUGFwZXJzIFN5c3RlbSAtIEZ1bGwgbWFuYWdlbWVudCBvZiBzcGVha2VycywgdGFsa3MsIGFuZCBzY2hlZHVsZSJ7CiAgICAgICAgICAgICAgICAgICAgY2ZwID0gY29tcG9uZW50ICJDRlAiCiAgICAgICAgICAgICAgICAgICAgY2ZwU3RvcmFnZSA9IGNvbXBvbmVudCAic3RvcmFnZSIKCiAgICAgICAgICAgICAgICAgICAgY2ZwIC0+IGNmcFN0b3JhZ2UgIlNhdmVzIHNsaWRlcyB0byIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNybUNvbnRhaW5lciA9IGNvbnRhaW5lciAiQ1JNIFN5c3RlbSIgIkN1c3RvbWVyIFJlbGF0aW9uc2hpcCBNYW5hZ2VtZW50IC0gc3BvbnNvciBtYW5hZ2VtZW50IGFuZCBub3RpZmljYXRpb24gc3lzdGVtInsKICAgICAgICAgICAgICAgICAgICBjcm0gPSBjb21wb25lbnQgIkNSTSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHRpY2tldENvbnRhaW5lciA9IGNvbnRhaW5lciAiVGlja2V0IFN5c3RlbSIiVGlja2V0aW5nIFN5c3RlbSJ7CiAgICAgICAgICAgICAgICAgICAgdGlja2V0ID0gY29tcG9uZW50ICJUaWNrZXRpbmcgU3lzdGVtIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBkYXRhYmFzZSA9IGNvbnRhaW5lciAiRGF0YWJhc2UiICIiICJSZWxhdGlvbmFsIGRhdGFiYXNlIHNjaGVtYSIgewogICAgICAgICAgICAgICAgYXR0ZW5kZWVEQiA9IGNvbXBvbmVudCAiQXR0ZW5kZWUgREIiIlJlbGF0aW9uYWwgREIgZm9yIGF0dGVuZGVlIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyBEYXRhYmFzZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdGlja2V0RGIgPSBjb21wb25lbnQgIlRpY2tldCBEQiIiUmVsYXRpb25hbCBEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgRGF0YWJhc2UKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHdlYnNpdGVEYiA9IGNvbXBvbmVudCAiV2Vic2l0ZSBEQiIiUmVsYXRpb25hbCBEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgRGF0YWJhc2UKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNmcERCID0gY29tcG9uZW50ICJDRlAgREIiIlJlbGF0aW9uYWwgRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgICAgICB0YWdzIERhdGFiYXNlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBicmFuZGluZ0RCID0gY29tcG9uZW50ICJCcmFuZGluZyBEQiIiU3RvcmVzIGluZm9ybWF0aW9uIGFib3V0IGJyYW5kaW5nIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyBEYXRhYmFzZQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHRpY2tldCAtPiB0aWNrZXREYiAiUmVhZHMgYW5kIHdyaXRlcyB0aWNrZXRzIGluZm8gdG8iCiAgICAgICAgICAgICAgICB3ZWJzaXRlIC0+IHdlYnNpdGVEYiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIgoKICAgICAgICAgICAgICAgIGNmcCAtPiBjZnBEQiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIgogICAgICAgICAgICAgICAgYnJhbmRpbmcgLT4gYnJhbmRpbmdEQiAiUmVhZHMgYW5kIHdyaXRlcyB0byIKICAgICAgICAgICAgICAgIGF0dGVuZGVlIC0+IGF0dGVuZGVlREIgIlJlYWRzIGFuZCB3cml0ZXMgdG8iCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIEludGVyYWN0aW9ucwogICAgICAgICAgICB1c2VyIC0+IHdlYnNpdGUgIlZpc2l0cyIKICAgICAgICAgICAgdXNlciAtPiB0aWNrZXQgIkJ1eXMgZnJvbSIKCiAgICAgICAgICAgIHNwZWFrZXIgLT4gY2ZwICJBcHBsaWVzIHRvIgogICAgICAgICAgICBjZnAgLT4gc3BlYWtlciAiU2VuZCBDRlAgaW5mbyB0byIKCiAgICAgICAgICAgIHNwb25zb3IgLT4gY3JtICJJbnRlcmFjdHMgd2l0aCIKICAgICAgICAgICAgY3JtIC0+IHNwb25zb3IgIlNlbmQgZW1haWxzIHRvIgoKICAgICAgICAgICAgd2Vic2l0ZSAtPiBjZnAgIlJlYWQgZGF0YSBmcm9tIgogICAgICAgICAgICBjcm0gLT4gdXNlciAiU2VuZCBub3RpZmljYXRpb25zIHRvIiJFbWFpbCIKCiAgICAgICAgICAgIHdlYnNpdGUgLT4gY3JtICJSZWFkcyBTcG9uc29yIGluZm8gZnJvbSIKICAgICAgICB9CgogICAgICAgIHByb2QgPSBkZXBsb3ltZW50RW52aXJvbm1lbnQgIlByb2R1Y3Rpb24iIHsKICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBXZWIgU2VydmljZXMiIHsKICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBDbG91ZCBNYXAJIgoKICAgICAgICAgICAgICAgIHJlZ2lvbiA9IGRlcGxveW1lbnROb2RlICJFVS1FYXN0LTEiIHsKICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiQVdTIC0gRXVyb3BlIFpvbmUiCiAgICAgICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiQVdTIgogICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBSZWdpb24iCgogICAgICAgICAgICAgICAgICAgIHJvdXRlNTMgPSBpbmZyYXN0cnVjdHVyZU5vZGUgIlJvdXRlIDUzIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBSb3V0ZSA1MyIKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGNkbiA9IGluZnJhc3RydWN0dXJlTm9kZSAiQVdTIENETiIiQW1hem9uIENsb3VkRnJvbnQiewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gQ2xvdWRGcm9udCIKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIHMzID0gaW5mcmFzdHJ1Y3R1cmVOb2RlICJTdG9yYWdlIiJBV1MgLSBTMyIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gU2ltcGxlIFN0b3JhZ2UgU2VydmljZSIKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJBbWF6b24gLSBBdXRvIFNjYWxpbmcgR3JvdXBzIiJNYW5hZ2VzIGVsYXN0aWMgRUMyIGNvbmZpZ3VyYXRpb24iIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEFwcGxpY2F0aW9uIEF1dG8gU2NhbGluZyIKCiAgICAgICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gRUMyIiJUaGlzIEVDMiBpbnN0YW5jZSBpcyBwYXJ0IG9mIGFuIEF1dG8gU2NhbGluZyBHcm91cCIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEVDMiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNvZnR3YXJlU3lzdGVtSW5zdGFuY2Ugc29mdHdhcmVTeXN0ZW0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdlYkFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSB3ZWJhcHAKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBFQzIgLSBUaWNrZXRzIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBFQzIiCgogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiVWJ1bnR1IFNlcnZlciAtIFRpY2tldCBBcHAiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIlVidW50dSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNvZnR3YXJlU3lzdGVtSW5zdGFuY2Ugc29mdHdhcmVTeXN0ZW0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpY2tldEFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSB0aWNrZXRDb250YWluZXIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIEVDMiAtIENGUCIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gRUMyIgogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiVWJ1bnR1IFNlcnZlciAtIENGUCBBcHAiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIlVidW50dSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNvZnR3YXJlU3lzdGVtSW5zdGFuY2Ugc29mdHdhcmVTeXN0ZW0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNmcEFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBjZnBDb250YWluZXIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBSRFMiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFJEUyIKCiAgICAgICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJNeVNRTCIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFJEUyBNeVNRTCBpbnN0YW5jZSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRhdGFiYXNlQXBwbGljYXRpb25JbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGRhdGFiYXNlCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGVsYiA9IGluZnJhc3RydWN0dXJlTm9kZSAiRWxhc3RpYyBMb2FkIEJhbGFuY2VyIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJBdXRvbWF0aWNhbGx5IGRpc3RyaWJ1dGVzIGluY29taW5nIGFwcGxpY2F0aW9uIHRyYWZmaWMuIgogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gRWxhc3RpYyBMb2FkIEJhbGFuY2luZyIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgcm91dGU1MyAtPiBlbGIgIkZvcndhcmRzIHJlcXVlc3RzIHRvIiAiSFRUUFMiCiAgICAgICAgICAgICAgICBlbGIgLT4gd2ViQXBwbGljYXRpb25JbnN0YW5jZSAiRm9yd2FyZHMgcmVxdWVzdHMgdG8iICJIVFRQUyIKICAgICAgICAgICAgICAgIGVsYiAtPiBjZnBBcHBsaWNhdGlvbkluc3RhbmNlICJGb3J3YXJkcyB0cmFmZmljIHRvIiAiSFRUUFMiCiAgICAgICAgICAgICAgICBlbGIgLT4gdGlja2V0QXBwbGljYXRpb25JbnN0YW5jZSAiRm9yd2FyZHMgcmVxdWVzdHMgdG8iIkhUVFBTIgogICAgICAgICAgICAgICAgZWxiIC0+IGNkbiAiRm9yd2FyZHMgcmVxdWVzdCB0byIiSFRUUFMiCgogICAgICAgICAgICAgICAgY2ZwQXBwbGljYXRpb25JbnN0YW5jZSAtPiBzMyAiU3RvcmFnZXMgc2xpZGVzIHRvIgogICAgICAgICAgICAgICAgY2RuIC0+IHMzICJFbmFibGVzIGFjY2VzcyB0byBzbGlkZXMiCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUxhbmRzY2FwZSBzb2Z0d2FyZVN5c3RlbSB7CiAgICAgICAgICAgIHRpdGxlICJDb25mZXJlbmNlIFN5c3RlbSBMYW5kc2NhcGUiCiAgICAgICAgICAgIGluY2x1ZGUgKgoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIHNvZnR3YXJlU3lzdGVtCiAgICAgICAgICAgICAgICB1c2VyCiAgICAgICAgICAgICAgICBzcG9uc29yCiAgICAgICAgICAgICAgICBzcGVha2VyCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHN5c3RlbUNvbnRleHQgc29mdHdhcmVTeXN0ZW0gewogICAgICAgICAgICB0aXRsZSAiQ29uZmVyZW5jZSBTeXN0ZW0gQ29udGV4dCIKICAgICAgICAgICAgaW5jbHVkZSAqCgogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIHNvZnR3YXJlU3lzdGVtIHsKICAgICAgICAgICAgdGl0bGUgIkNvbnRhaW5lciB2aWV3IG9mIHNvZnR3YXJlIHN5c3RlbSIKICAgICAgICAgICAgaW5jbHVkZSAqCgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGNmcENvbnRhaW5lciB7CiAgICAgICAgICAgIHRpdGxlICJDb21wb25lbnQgdmlldyBvZiB0aGUgQ0ZQIGNvbnRhaW5lciIKICAgICAgICAgICAgaW5jbHVkZSAqCgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGRhdGFiYXNlIHsKICAgICAgICAgICAgdGl0bGUgIkNvbnRhaW5lciB2aWV3IG9mIERhdGFiYXNlIgogICAgICAgICAgICBpbmNsdWRlICoKCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgd2ViYXBwIHsKICAgICAgICAgICAgdGl0bGUgIkNvbXBvbmVudCB2aWV3IG9mIHdlYiBhcHBsaWNhdGlvbiIKICAgICAgICAgICAgaW5jbHVkZSAqIHRpY2tldERiIHdlYnNpdGVEYgogICAgICAgICAgICAvKmFuaW1hdGlvbiB7CiAgICAgICAgICAgICAgICB1c2VyCiAgICAgICAgICAgICAgICB3ZWJzaXRlCiAgICAgICAgICAgICAgICB0aWNrZXRDb250YWluZXIKICAgICAgICAgICAgICAgIGRhdGFiYXNlCiAgICAgICAgICAgICAgICBzcG9uc29yCiAgICAgICAgICAgICAgICBjcm0KICAgICAgICAgICAgICAgIHNwZWFrZXIKICAgICAgICAgICAgICAgIGNmcAogICAgICAgICAgICB9Ki8KICAgICAgICB9CgogICAgICAgIGRlcGxveW1lbnQgc29mdHdhcmVTeXN0ZW0gcHJvZCAiUHJvZHVjdGlvbiJ7CiAgICAgICAgICAgIHRpdGxlICJEZXBsb3ltZW50IGluIHByb2R1Y3Rpb24iCiAgICAgICAgICAgIGluY2x1ZGUgKgoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIGVsYgogICAgICAgICAgICAgICAgcmVnaW9uCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIkdyb3VwOlRoaXJkLXBhcnR5IiB7CiAgICAgICAgICAgICAgICBib3JkZXIgZG90dGVkCiAgICAgICAgICAgICAgICBjb2xvciAjQUEwMDAwCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNCQjAwMDAKICAgICAgICAgICAgICAgIG9wYWNpdHkgNzUKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAiRGF0YWJhc2UiewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMDBhYTAwCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgInNwZWFrZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzAwMDAwMAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgInNwb25zb3IiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI0ZGMDAwMAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBjeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIndlYnNpdGUiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFdlYkJyb3dzZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJVYnVudHUiIHsKICAgICAgICAgICAgICAgIGNvbG9yICNFOTU0MjAKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI0U5NTQyMAogICAgICAgICAgICAgICAgc3Ryb2tlICNFOTU0MjAKICAgICAgICAgICAgICAgIGljb24gImltYWdlcy91YnVudHUtbG9nby5qcGVnIgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB0aGVtZSBkZWZhdWx0CiAgICAgICAgdGhlbWVzIGh0dHBzOi8vc3RhdGljLnN0cnVjdHVyaXpyLmNvbS90aGVtZXMvYW1hem9uLXdlYi1zZXJ2aWNlcy0yMDIzLjAxLjMxL3RoZW1lLmpzb24KICAgICAgICB0aGVtZXMgaHR0cHM6Ly9zdGF0aWMuc3RydWN0dXJpenIuY29tL3RoZW1lcy9hbWF6b24td2ViLXNlcnZpY2VzLTIwMjAuMDQuMzAvdGhlbWUuanNvbgogICAgfQoKfQo="
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKICAgIG5hbWUgIkNvbmZlcmVuY2UgS2F0YSIKICAgIGRlc2NyaXB0aW9uICJUaGUgc29mdHdhcmUgYXJjaGl0ZWN0dXJlIG9mIHRoZSBDb25mZXJlbmNlIEthdGEuIgoKICAgICFhZHJzIGFkcnMKICAgICFkb2NzIGRvY3MKCiAgICBtb2RlbCB7CiAgICAgICAgdXNlciA9IHBlcnNvbiAiQXR0ZW5kZWUiCiAgICAgICAgc3BvbnNvciA9IHBlcnNvbiAiU3BvbnNvciIgIkJ1c2luZXNzIHBlcnNvbiIgewogICAgICAgICAgICB0YWdzIHNwb25zb3IKICAgICAgICB9CiAgICAgICAgc3BlYWtlciA9IHBlcnNvbiAiU3BlYWtlciIgIk5hdHVyYWwgcGVyc29uIHN1Ym1pdHRpbmcgcGFwZXJzIiB7CiAgICAgICAgICAgIHRhZ3Mgc3BlYWtlcgogICAgICAgIH0KICAgICAgICBzb2Z0d2FyZVN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJDb25mZXJlbmNlIFN5c3RlbSIgIlN5c3RlbSBkZXNnaW4gZm9yIENvbmZlcmVuY2UgTWFuYWdlbWVudCIgewogICAgICAgICAgICB3ZWJhcHAgPSBjb250YWluZXIgIldlYiBBcHBsaWNhdGlvbiIgIkNvbmZlcmVuY2UgV2ViIEFwcGxpY2F0aW9uIiB7CiAgICAgICAgICAgICAgICB0YWdzIHdlYnNpdGUKICAgICAgICAgICAgICAgIHdlYnNpdGUgPSBjb21wb25lbnQgIldlYnNpdGUiICJSZWFjdCBTUEEgLSBTaG93cyBjb25mZXJlbmNlIGluZm9ybWF0aW9uIHN1Y2ggYXMgc3BlYWtlcnMsIHRhbGtzIGFuZCBzY2hlZHVsZSIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgIndlYnNpdGUiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBhdHRlbmRlZSA9IGNvbXBvbmVudCAiQXR0ZW5kZWUgU3lzdGVtIiAiU3lzdGVtIHRvIG1hbmFnZSBhdHRlbmRlZSBpbmZvcm1hdGlvbiwgc3VjaCBhcyB0YWxrcyBldmFsdWF0aW9uIGFuZCBhY2Nlc3MgdG8gc2xpZGVzIgogICAgICAgICAgICAgICAgdm90aW5nID0gY29tcG9uZW50ICJWb3Rpbmcgc3lzdGVtIiAiU2VuZCBhbmQgcmVjZWl2ZXMgZXZhbHVhdGlvbiB2aWEgd2ViLCBlbWFpbCwgU01TIG9yIHBob25lIGNhbGxzIgogICAgICAgICAgICAgICAgYnJhbmRpbmcgPSBjb21wb25lbnQgIkJyYW5kaW5nIHN5c3RlbSIgIkFsbG93IGN1c3RvbWl6YXRpb24gZm9yIHNldmVyYWwgY29uZmVyZW5jZSBicmFuZHMiCgogICAgICAgICAgICAgICAgd2Vic2l0ZSAtPiBicmFuZGluZyAiUHVsbCBicmFuZGluZyBpbmZvcm1hdGlvbiBmcm9tIiAiSFRUUCBSZXN0ZnVsIEFQSSIKICAgICAgICAgICAgICAgIHdlYnNpdGUgLT4gYXR0ZW5kZWUgIlJlYWRzIGFuZCB3cml0ZXMgaW5mb3JtYXRpb24gZnJvbSAiICJIVFRQIFJlc3RmdWwgQVBJIgogICAgICAgICAgICAgICAgd2Vic2l0ZSAtPiB2b3RpbmcgIlNlbmRzIHJlcXVlc3RzIGFuZCBkaXNwbGF5cyBhZ2dyZWdhdGlvbiBmcm9tIiAiSFRUUFMiCgogICAgICAgICAgICB9CgogICAgICAgICAgICBkYXRhYmFzZSA9IGNvbnRhaW5lciAiRGF0YWJhc2UiICIiICJSZWxhdGlvbmFsIGRhdGFiYXNlIHNjaGVtYSIgewogICAgICAgICAgICAgICAgYXR0ZW5kZWVEQiA9IGNvbXBvbmVudCAiQXR0ZW5kZWUgREIiICJSZWxhdGlvbmFsIERCIGZvciBhdHRlbmRlZSIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgRGF0YWJhc2UKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHdlYnNpdGVEYiA9IGNvbXBvbmVudCAiV2Vic2l0ZSBEQiIgIlJlbGF0aW9uYWwgRGF0YWJhc2UiIHsKICAgICAgICAgICAgICAgICAgICB0YWdzIERhdGFiYXNlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBicmFuZGluZ0RCID0gY29tcG9uZW50ICJCcmFuZGluZyBEQiIgIlN0b3JlcyBpbmZvcm1hdGlvbiBhYm91dCBicmFuZGluZyIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgRGF0YWJhc2UKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICB3ZWJzaXRlIC0+IHdlYnNpdGVEYiAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIgogICAgICAgICAgICAgICAgYnJhbmRpbmcgLT4gYnJhbmRpbmdEQiAiUmVhZHMgYW5kIHdyaXRlcyB0byIKICAgICAgICAgICAgICAgIGF0dGVuZGVlIC0+IGF0dGVuZGVlREIgIlJlYWRzIGFuZCB3cml0ZXMgdG8iCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIEludGVyYWN0aW9ucwogICAgICAgICAgICB1c2VyIC0+IHdlYnNpdGUgIlZpc2l0cyIKCiAgICAgICAgfQoKICAgICAgICBncm91cCAiVGhpcmQtcGFydHkiIHsKCiAgICAgICAgICAgIGNmcFN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJDUk0iICJDdXN0b21lciByZWxhdGlvbnNoaXAgbWFuYWdlciIgewogICAgICAgICAgICAgICAgY2ZwQ29udGFpbmVyID0gY29udGFpbmVyICJDRlAgU3lzdGVtIiAiQ2FsbCBGb3IgUGFwZXJzIFN5c3RlbSAtIEZ1bGwgbWFuYWdlbWVudCBvZiBzcGVha2VycywgdGFsa3MsIGFuZCBzY2hlZHVsZSIgewogICAgICAgICAgICAgICAgICAgIGNmcCA9IGNvbXBvbmVudCAiQ0ZQIgogICAgICAgICAgICAgICAgICAgIGNmcERCID0gY29tcG9uZW50ICJDRlAgREIiICJSZWxhdGlvbmFsIERhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgRGF0YWJhc2UKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgY2ZwU3RvcmFnZSA9IGNvbXBvbmVudCAic3RvcmFnZSIKCiAgICAgICAgICAgICAgICAgICAgY2ZwIC0+IGNmcFN0b3JhZ2UgIlNhdmVzIHNsaWRlcyB0byIKICAgICAgICAgICAgICAgICAgICBjZnAgLT4gY2ZwREIgIlJlYWRzIGZyb20gYW5kIHdyaXRlcyB0byIKICAgICAgICAgICAgICAgICAgICBjZnAgLT4gc3BlYWtlciAiU2VuZCBDRlAgaW5mbyB0byIKICAgICAgICAgICAgICAgICAgICBzcGVha2VyIC0+IGNmcCAiQXBwbGllcyB0byIKICAgICAgICAgICAgICAgICAgICB3ZWJzaXRlIC0+IGNmcCAiUmVhZCBkYXRhIGZyb20iCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGNybVN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJDRlAiICJDYWxsIGZvciBwYXBlcnMiIHsKICAgICAgICAgICAgICAgIGNybUNvbnRhaW5lciA9IGNvbnRhaW5lciAiQ1JNIFN5c3RlbSIgIkN1c3RvbWVyIFJlbGF0aW9uc2hpcCBNYW5hZ2VtZW50IC0gc3BvbnNvciBtYW5hZ2VtZW50IGFuZCBub3RpZmljYXRpb24gc3lzdGVtIiB7CiAgICAgICAgICAgICAgICAgICAgY3JtID0gY29tcG9uZW50ICJDUk0iCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBzcG9uc29yIC0+IGNybSAiSW50ZXJhY3RzIHdpdGgiCiAgICAgICAgICAgICAgICBjcm0gLT4gc3BvbnNvciAiU2VuZCBlbWFpbHMgdG8iCiAgICAgICAgICAgICAgICBjcm0gLT4gdXNlciAiU2VuZCBub3RpZmljYXRpb25zIHRvIiAiRW1haWwiCiAgICAgICAgICAgICAgICB3ZWJzaXRlIC0+IGNybSAiUmVhZHMgU3BvbnNvciBpbmZvIGZyb20iCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHRpY2tldFN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJUaWNrZXQiICJUaWNrZXQgbWFuYWdlbWVudCIgewogICAgICAgICAgICAgICAgdGlja2V0Q29udGFpbmVyID0gY29udGFpbmVyICJUaWNrZXQgU3lzdGVtIiAiVGlja2V0aW5nIFN5c3RlbSIgewogICAgICAgICAgICAgICAgICAgIHRpY2tldCA9IGNvbXBvbmVudCAiVGlja2V0aW5nIFN5c3RlbSIKICAgICAgICAgICAgICAgICAgICB0aWNrZXREYiA9IGNvbXBvbmVudCAiVGlja2V0IERCIiAiUmVsYXRpb25hbCBEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzIERhdGFiYXNlCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdXNlciAtPiB0aWNrZXQgIkJ1eXMgZnJvbSIKICAgICAgICAgICAgICAgIHRpY2tldCAtPiB0aWNrZXREYiAiUmVhZHMgYW5kIHdyaXRlcyB0aWNrZXRzIGluZm8gdG8iCiAgICAgICAgICAgIH0KCiAgICAgICAgfQoKICAgICAgICBwcm9kID0gZGVwbG95bWVudEVudmlyb25tZW50ICJQcm9kdWN0aW9uIiB7CiAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJBbWF6b24gV2ViIFNlcnZpY2VzIiB7CiAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gQ2xvdWQgTWFwCSIKCiAgICAgICAgICAgICAgICByZWdpb24gPSBkZXBsb3ltZW50Tm9kZSAiRVUtRWFzdC0xIiB7CiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIkFXUyAtIEV1cm9wZSBab25lIgogICAgICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIkFXUyIKICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gUmVnaW9uIgoKICAgICAgICAgICAgICAgICAgICByb3V0ZTUzID0gaW5mcmFzdHJ1Y3R1cmVOb2RlICJSb3V0ZSA1MyIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gUm91dGUgNTMiCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBjZG4gPSBpbmZyYXN0cnVjdHVyZU5vZGUgIkFXUyBDRE4iICJBbWF6b24gQ2xvdWRGcm9udCIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gQ2xvdWRGcm9udCIKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIHMzID0gaW5mcmFzdHJ1Y3R1cmVOb2RlICJTdG9yYWdlIiAiQVdTIC0gUzMiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFNpbXBsZSBTdG9yYWdlIFNlcnZpY2UiCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIC0gQXV0byBTY2FsaW5nIEdyb3VwcyIgIk1hbmFnZXMgZWxhc3RpYyBFQzIgY29uZmlndXJhdGlvbiIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gQXBwbGljYXRpb24gQXV0byBTY2FsaW5nIgoKICAgICAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBFQzIiICJUaGlzIEVDMiBpbnN0YW5jZSBpcyBwYXJ0IG9mIGFuIEF1dG8gU2NhbGluZyBHcm91cCIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEVDMiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNvZnR3YXJlU3lzdGVtSW5zdGFuY2Ugc29mdHdhcmVTeXN0ZW0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdlYkFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSB3ZWJhcHAKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBFQzIgLSBUaWNrZXRzIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBFQzIiCgogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiVWJ1bnR1IFNlcnZlciAtIFRpY2tldCBBcHAiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIlVidW50dSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNvZnR3YXJlU3lzdGVtSW5zdGFuY2Ugc29mdHdhcmVTeXN0ZW0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpY2tldEFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSB0aWNrZXRDb250YWluZXIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIEVDMiAtIENGUCIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gRUMyIgogICAgICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiVWJ1bnR1IFNlcnZlciAtIENGUCBBcHAiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIlVidW50dSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNvZnR3YXJlU3lzdGVtSW5zdGFuY2Ugc29mdHdhcmVTeXN0ZW0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNmcEFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBjZnBDb250YWluZXIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBSRFMiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFJEUyIKCiAgICAgICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJNeVNRTCIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFJEUyBNeVNRTCBpbnN0YW5jZSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRhdGFiYXNlQXBwbGljYXRpb25JbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGRhdGFiYXNlCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGVsYiA9IGluZnJhc3RydWN0dXJlTm9kZSAiRWxhc3RpYyBMb2FkIEJhbGFuY2VyIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJBdXRvbWF0aWNhbGx5IGRpc3RyaWJ1dGVzIGluY29taW5nIGFwcGxpY2F0aW9uIHRyYWZmaWMuIgogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gRWxhc3RpYyBMb2FkIEJhbGFuY2luZyIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgcm91dGU1MyAtPiBlbGIgIkZvcndhcmRzIHJlcXVlc3RzIHRvIiAiSFRUUFMiCiAgICAgICAgICAgICAgICBlbGIgLT4gd2ViQXBwbGljYXRpb25JbnN0YW5jZSAiRm9yd2FyZHMgcmVxdWVzdHMgdG8iICJIVFRQUyIKICAgICAgICAgICAgICAgIGVsYiAtPiBjZnBBcHBsaWNhdGlvbkluc3RhbmNlICJGb3J3YXJkcyB0cmFmZmljIHRvIiAiSFRUUFMiCiAgICAgICAgICAgICAgICBlbGIgLT4gdGlja2V0QXBwbGljYXRpb25JbnN0YW5jZSAiRm9yd2FyZHMgcmVxdWVzdHMgdG8iICJIVFRQUyIKICAgICAgICAgICAgICAgIGVsYiAtPiBjZG4gIkZvcndhcmRzIHJlcXVlc3QgdG8iICJIVFRQUyIKCiAgICAgICAgICAgICAgICBjZnBBcHBsaWNhdGlvbkluc3RhbmNlIC0+IHMzICJTdG9yYWdlcyBzbGlkZXMgdG8iCiAgICAgICAgICAgICAgICBjZG4gLT4gczMgIkVuYWJsZXMgYWNjZXNzIHRvIHNsaWRlcyIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtTGFuZHNjYXBlIHNvZnR3YXJlU3lzdGVtIHsKICAgICAgICAgICAgdGl0bGUgIkNvbmZlcmVuY2UgU3lzdGVtIExhbmRzY2FwZSIKICAgICAgICAgICAgaW5jbHVkZSAqCgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgc29mdHdhcmVTeXN0ZW0KICAgICAgICAgICAgICAgIHVzZXIKICAgICAgICAgICAgICAgIHNwb25zb3IKICAgICAgICAgICAgICAgIHNwZWFrZXIKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgc3lzdGVtQ29udGV4dCBzb2Z0d2FyZVN5c3RlbSB7CiAgICAgICAgICAgIHRpdGxlICJDb25mZXJlbmNlIFN5c3RlbSBDb250ZXh0IgogICAgICAgICAgICBpbmNsdWRlICoKCiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgc29mdHdhcmVTeXN0ZW0gewogICAgICAgICAgICB0aXRsZSAiQ29udGFpbmVyIHZpZXcgb2Ygc29mdHdhcmUgc3lzdGVtIgogICAgICAgICAgICBpbmNsdWRlICoKCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgY2ZwQ29udGFpbmVyIHsKICAgICAgICAgICAgdGl0bGUgIkNvbXBvbmVudCB2aWV3IG9mIHRoZSBDRlAgY29udGFpbmVyIgogICAgICAgICAgICBpbmNsdWRlICoKCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgZGF0YWJhc2UgewogICAgICAgICAgICB0aXRsZSAiQ29udGFpbmVyIHZpZXcgb2YgRGF0YWJhc2UiCiAgICAgICAgICAgIGluY2x1ZGUgKgoKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCB3ZWJhcHAgewogICAgICAgICAgICB0aXRsZSAiQ29tcG9uZW50IHZpZXcgb2Ygd2ViIGFwcGxpY2F0aW9uIgogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIHVzZXIKICAgICAgICAgICAgICAgIHdlYnNpdGUKICAgICAgICAgICAgICAgIGJyYW5kaW5nCiAgICAgICAgICAgICAgICBkYXRhYmFzZQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBkZXBsb3ltZW50IHNvZnR3YXJlU3lzdGVtIHByb2QgIlByb2R1Y3Rpb24iIHsKICAgICAgICAgICAgdGl0bGUgIkRlcGxveW1lbnQgaW4gcHJvZHVjdGlvbiIKICAgICAgICAgICAgaW5jbHVkZSAqCgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgZWxiCiAgICAgICAgICAgICAgICByZWdpb24KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiR3JvdXA6VGhpcmQtcGFydHkiIHsKICAgICAgICAgICAgICAgIGJvcmRlciBkb3R0ZWQKICAgICAgICAgICAgICAgIGNvbG9yICNBQTAwMDAKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI0JCMDAwMAogICAgICAgICAgICAgICAgb3BhY2l0eSA3NQogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMDBhYTAwCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgInNwZWFrZXIiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzAwMDAwMAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgInNwb25zb3IiIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI0ZGMDAwMAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBjeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIndlYnNpdGUiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFdlYkJyb3dzZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJVYnVudHUiIHsKICAgICAgICAgICAgICAgIGNvbG9yICNFOTU0MjAKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI0U5NTQyMAogICAgICAgICAgICAgICAgc3Ryb2tlICNFOTU0MjAKICAgICAgICAgICAgICAgIGljb24gImltYWdlcy91YnVudHUtbG9nby5qcGVnIgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB0aGVtZSBkZWZhdWx0CiAgICAgICAgdGhlbWVzIGh0dHBzOi8vc3RhdGljLnN0cnVjdHVyaXpyLmNvbS90aGVtZXMvYW1hem9uLXdlYi1zZXJ2aWNlcy0yMDIzLjAxLjMxL3RoZW1lLmpzb24KICAgICAgICB0aGVtZXMgaHR0cHM6Ly9zdGF0aWMuc3RydWN0dXJpenIuY29tL3RoZW1lcy9hbWF6b24td2ViLXNlcnZpY2VzLTIwMjAuMDQuMzAvdGhlbWUuanNvbgogICAgfQoKfQo="
   },
   "configuration" : { },
   "model" : {
     "people" : [ {
-      "id" : "3",
-      "tags" : "Element,Person,speaker",
-      "properties" : {
-        "structurizr.dsl.identifier" : "speaker"
-      },
-      "name" : "Speaker",
-      "description" : "Natural person submitting papers",
-      "relationships" : [ {
-        "id" : "51",
-        "sourceId" : "3",
-        "destinationId" : "13",
-        "description" : "Applies to",
-        "linkedRelationshipId" : "50"
-      }, {
-        "id" : "52",
-        "sourceId" : "3",
-        "destinationId" : "4",
-        "description" : "Applies to",
-        "linkedRelationshipId" : "50"
-      }, {
-        "id" : "50",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "87e68e35-af43-4dcb-9673-7540c5cd56e1"
-        },
-        "sourceId" : "3",
-        "destinationId" : "14",
-        "description" : "Applies to"
-      } ],
-      "location" : "Unspecified"
-    }, {
       "id" : "1",
       "tags" : "Element,Person",
       "properties" : {
@@ -48,41 +16,47 @@
       },
       "name" : "Attendee",
       "relationships" : [ {
-        "id" : "49",
-        "sourceId" : "1",
-        "destinationId" : "19",
-        "description" : "Buys from",
-        "linkedRelationshipId" : "48"
-      }, {
-        "id" : "48",
+        "id" : "27",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "4e4452b2-f8b0-4fcc-8735-961e7f3a5612"
-        },
-        "sourceId" : "1",
-        "destinationId" : "20",
-        "description" : "Buys from"
-      }, {
-        "id" : "46",
-        "sourceId" : "1",
-        "destinationId" : "5",
-        "description" : "Visits",
-        "linkedRelationshipId" : "45"
-      }, {
-        "id" : "47",
-        "sourceId" : "1",
-        "destinationId" : "4",
-        "description" : "Visits",
-        "linkedRelationshipId" : "45"
-      }, {
-        "id" : "45",
-        "tags" : "Relationship",
-        "properties" : {
-          "structurizr.dsl.identifier" : "0d17828d-3ab9-4106-a2e8-55deff40396d"
+          "structurizr.dsl.identifier" : "e6afee03-e556-42b2-9617-19d033ec5c1f"
         },
         "sourceId" : "1",
         "destinationId" : "6",
         "description" : "Visits"
+      }, {
+        "id" : "28",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Visits",
+        "linkedRelationshipId" : "27"
+      }, {
+        "id" : "29",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Visits",
+        "linkedRelationshipId" : "27"
+      }, {
+        "id" : "77",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "9f311e6b-3c4f-4b6b-9f81-193a0b1e2317"
+        },
+        "sourceId" : "1",
+        "destinationId" : "75",
+        "description" : "Buys from"
+      }, {
+        "id" : "78",
+        "sourceId" : "1",
+        "destinationId" : "74",
+        "description" : "Buys from",
+        "linkedRelationshipId" : "77"
+      }, {
+        "id" : "79",
+        "sourceId" : "1",
+        "destinationId" : "73",
+        "description" : "Buys from",
+        "linkedRelationshipId" : "77"
       } ],
       "location" : "Unspecified"
     }, {
@@ -94,26 +68,57 @@
       "name" : "Sponsor",
       "description" : "Business person",
       "relationships" : [ {
-        "id" : "58",
+        "id" : "55",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "d940d903-30a0-4666-802a-45abc70b4969"
+        },
         "sourceId" : "2",
-        "destinationId" : "4",
+        "destinationId" : "54",
+        "description" : "Interacts with"
+      }, {
+        "id" : "56",
+        "sourceId" : "2",
+        "destinationId" : "53",
         "description" : "Interacts with",
-        "linkedRelationshipId" : "56"
+        "linkedRelationshipId" : "55"
       }, {
         "id" : "57",
         "sourceId" : "2",
-        "destinationId" : "17",
+        "destinationId" : "52",
         "description" : "Interacts with",
-        "linkedRelationshipId" : "56"
-      }, {
-        "id" : "56",
+        "linkedRelationshipId" : "55"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "3",
+      "tags" : "Element,Person,speaker",
+      "properties" : {
+        "structurizr.dsl.identifier" : "speaker"
+      },
+      "name" : "Speaker",
+      "description" : "Natural person submitting papers",
+      "relationships" : [ {
+        "id" : "40",
         "tags" : "Relationship",
         "properties" : {
-          "structurizr.dsl.identifier" : "bab5e4b2-b60c-4904-918d-cfc88c6d1f0e"
+          "structurizr.dsl.identifier" : "39572cac-103c-414f-b2d2-870c8bb2d291"
         },
-        "sourceId" : "2",
-        "destinationId" : "18",
-        "description" : "Interacts with"
+        "sourceId" : "3",
+        "destinationId" : "32",
+        "description" : "Applies to"
+      }, {
+        "id" : "41",
+        "sourceId" : "3",
+        "destinationId" : "31",
+        "description" : "Applies to",
+        "linkedRelationshipId" : "40"
+      }, {
+        "id" : "42",
+        "sourceId" : "3",
+        "destinationId" : "30",
+        "description" : "Applies to",
+        "linkedRelationshipId" : "40"
       } ],
       "location" : "Unspecified"
     } ],
@@ -126,263 +131,44 @@
       "name" : "Conference System",
       "description" : "System desgin for Conference Management",
       "relationships" : [ {
-        "id" : "55",
+        "id" : "49",
         "sourceId" : "4",
-        "destinationId" : "3",
-        "description" : "Send CFP info to",
-        "linkedRelationshipId" : "53"
+        "destinationId" : "32",
+        "description" : "Read data from",
+        "linkedRelationshipId" : "43"
       }, {
-        "id" : "68",
+        "id" : "50",
         "sourceId" : "4",
-        "destinationId" : "1",
-        "description" : "Send notifications to",
-        "technology" : "Email",
-        "linkedRelationshipId" : "66"
+        "destinationId" : "31",
+        "description" : "Read data from",
+        "linkedRelationshipId" : "43"
       }, {
-        "id" : "61",
+        "id" : "51",
         "sourceId" : "4",
-        "destinationId" : "2",
-        "description" : "Send emails to",
-        "linkedRelationshipId" : "59"
+        "destinationId" : "30",
+        "description" : "Read data from",
+        "linkedRelationshipId" : "43"
+      }, {
+        "id" : "70",
+        "sourceId" : "4",
+        "destinationId" : "54",
+        "description" : "Reads Sponsor info from",
+        "linkedRelationshipId" : "64"
+      }, {
+        "id" : "71",
+        "sourceId" : "4",
+        "destinationId" : "53",
+        "description" : "Reads Sponsor info from",
+        "linkedRelationshipId" : "64"
+      }, {
+        "id" : "72",
+        "sourceId" : "4",
+        "destinationId" : "52",
+        "description" : "Reads Sponsor info from",
+        "linkedRelationshipId" : "64"
       } ],
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "19",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "ticketcontainer"
-        },
-        "name" : "Ticket System",
-        "description" : "Ticketing System",
-        "relationships" : [ {
-          "id" : "30",
-          "sourceId" : "19",
-          "destinationId" : "21",
-          "description" : "Reads and writes tickets info to",
-          "linkedRelationshipId" : "27"
-        }, {
-          "id" : "29",
-          "sourceId" : "19",
-          "destinationId" : "23",
-          "description" : "Reads and writes tickets info to",
-          "linkedRelationshipId" : "27"
-        } ],
-        "group" : "Third-party",
-        "components" : [ {
-          "id" : "20",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "ticket"
-          },
-          "name" : "Ticketing System",
-          "relationships" : [ {
-            "id" : "28",
-            "sourceId" : "20",
-            "destinationId" : "21",
-            "description" : "Reads and writes tickets info to",
-            "linkedRelationshipId" : "27"
-          }, {
-            "id" : "27",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "2d8cc832-01ce-4a79-b056-49e19d5a7104"
-            },
-            "sourceId" : "20",
-            "destinationId" : "23",
-            "description" : "Reads and writes tickets info to"
-          } ],
-          "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "17",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "crmcontainer"
-        },
-        "name" : "CRM System",
-        "description" : "Customer Relationship Management - sponsor management and notification system",
-        "relationships" : [ {
-          "id" : "67",
-          "sourceId" : "17",
-          "destinationId" : "1",
-          "description" : "Send notifications to",
-          "technology" : "Email",
-          "linkedRelationshipId" : "66"
-        }, {
-          "id" : "60",
-          "sourceId" : "17",
-          "destinationId" : "2",
-          "description" : "Send emails to",
-          "linkedRelationshipId" : "59"
-        } ],
-        "group" : "Third-party",
-        "components" : [ {
-          "id" : "18",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "crm"
-          },
-          "name" : "CRM",
-          "relationships" : [ {
-            "id" : "66",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "2dd592f3-a2be-42d9-b879-991571a04ae3"
-            },
-            "sourceId" : "18",
-            "destinationId" : "1",
-            "description" : "Send notifications to",
-            "technology" : "Email"
-          }, {
-            "id" : "59",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "fab398d7-9b43-4e29-84e5-37a84c2aa52d"
-            },
-            "sourceId" : "18",
-            "destinationId" : "2",
-            "description" : "Send emails to"
-          } ],
-          "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "21",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "database"
-        },
-        "name" : "Database",
-        "technology" : "Relational database schema",
-        "components" : [ {
-          "id" : "25",
-          "tags" : "Element,Component,Database",
-          "properties" : {
-            "structurizr.dsl.identifier" : "cfpdb"
-          },
-          "name" : "CFP DB",
-          "description" : "Relational Database",
-          "documentation" : { }
-        }, {
-          "id" : "22",
-          "tags" : "Element,Component,Database",
-          "properties" : {
-            "structurizr.dsl.identifier" : "attendeedb"
-          },
-          "name" : "Attendee DB",
-          "description" : "Relational DB for attendee",
-          "documentation" : { }
-        }, {
-          "id" : "24",
-          "tags" : "Element,Component,Database",
-          "properties" : {
-            "structurizr.dsl.identifier" : "websitedb"
-          },
-          "name" : "Website DB",
-          "description" : "Relational Database",
-          "documentation" : { }
-        }, {
-          "id" : "23",
-          "tags" : "Element,Component,Database",
-          "properties" : {
-            "structurizr.dsl.identifier" : "ticketdb"
-          },
-          "name" : "Ticket DB",
-          "description" : "Relational Database",
-          "documentation" : { }
-        }, {
-          "id" : "26",
-          "tags" : "Element,Component,Database",
-          "properties" : {
-            "structurizr.dsl.identifier" : "brandingdb"
-          },
-          "name" : "Branding DB",
-          "description" : "Stores information about branding",
-          "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "13",
-        "tags" : "Element,Container",
-        "properties" : {
-          "structurizr.dsl.identifier" : "cfpcontainer"
-        },
-        "name" : "CFP System",
-        "description" : "Call For Papers System - Full management of speakers, talks, and schedule",
-        "relationships" : [ {
-          "id" : "38",
-          "sourceId" : "13",
-          "destinationId" : "21",
-          "description" : "Reads from and writes to",
-          "linkedRelationshipId" : "35"
-        }, {
-          "id" : "54",
-          "sourceId" : "13",
-          "destinationId" : "3",
-          "description" : "Send CFP info to",
-          "linkedRelationshipId" : "53"
-        }, {
-          "id" : "37",
-          "sourceId" : "13",
-          "destinationId" : "25",
-          "description" : "Reads from and writes to",
-          "linkedRelationshipId" : "35"
-        } ],
-        "group" : "Third-party",
-        "components" : [ {
-          "id" : "14",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "cfp"
-          },
-          "name" : "CFP",
-          "relationships" : [ {
-            "id" : "36",
-            "sourceId" : "14",
-            "destinationId" : "21",
-            "description" : "Reads from and writes to",
-            "linkedRelationshipId" : "35"
-          }, {
-            "id" : "35",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "44772e18-ed8a-4162-93f6-b093eac6a1cf"
-            },
-            "sourceId" : "14",
-            "destinationId" : "25",
-            "description" : "Reads from and writes to"
-          }, {
-            "id" : "16",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "f7e5533d-4b22-4256-a9d8-38b69028ae5c"
-            },
-            "sourceId" : "14",
-            "destinationId" : "15",
-            "description" : "Saves slides to"
-          }, {
-            "id" : "53",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "6fc32eb4-3788-494c-bc7f-84300afa214e"
-            },
-            "sourceId" : "14",
-            "destinationId" : "3",
-            "description" : "Send CFP info to"
-          } ],
-          "documentation" : { }
-        }, {
-          "id" : "15",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "cfpstorage"
-          },
-          "name" : "storage",
-          "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
         "id" : "5",
         "tags" : "Element,Container,website",
         "properties" : {
@@ -391,53 +177,65 @@
         "name" : "Web Application",
         "description" : "Conference Web Application",
         "relationships" : [ {
-          "id" : "64",
+          "id" : "19",
           "sourceId" : "5",
-          "destinationId" : "14",
-          "description" : "Read data from",
-          "linkedRelationshipId" : "62"
-        }, {
-          "id" : "44",
-          "sourceId" : "5",
-          "destinationId" : "22",
-          "description" : "Reads and writes to",
-          "linkedRelationshipId" : "42"
-        }, {
-          "id" : "41",
-          "sourceId" : "5",
-          "destinationId" : "26",
-          "description" : "Reads and writes to",
-          "linkedRelationshipId" : "39"
-        }, {
-          "id" : "33",
-          "sourceId" : "5",
-          "destinationId" : "24",
+          "destinationId" : "15",
           "description" : "Reads from and writes to",
-          "linkedRelationshipId" : "31"
+          "linkedRelationshipId" : "17"
         }, {
-          "id" : "65",
+          "id" : "20",
           "sourceId" : "5",
           "destinationId" : "13",
-          "description" : "Read data from",
-          "linkedRelationshipId" : "62"
-        }, {
-          "id" : "34",
-          "sourceId" : "5",
-          "destinationId" : "21",
           "description" : "Reads from and writes to",
-          "linkedRelationshipId" : "31"
+          "linkedRelationshipId" : "17"
         }, {
-          "id" : "72",
+          "id" : "23",
           "sourceId" : "5",
-          "destinationId" : "17",
-          "description" : "Reads Sponsor info from",
-          "linkedRelationshipId" : "69"
+          "destinationId" : "16",
+          "description" : "Reads and writes to",
+          "linkedRelationshipId" : "21"
         }, {
-          "id" : "71",
+          "id" : "26",
           "sourceId" : "5",
-          "destinationId" : "18",
+          "destinationId" : "14",
+          "description" : "Reads and writes to",
+          "linkedRelationshipId" : "24"
+        }, {
+          "id" : "46",
+          "sourceId" : "5",
+          "destinationId" : "32",
+          "description" : "Read data from",
+          "linkedRelationshipId" : "43"
+        }, {
+          "id" : "47",
+          "sourceId" : "5",
+          "destinationId" : "31",
+          "description" : "Read data from",
+          "linkedRelationshipId" : "43"
+        }, {
+          "id" : "48",
+          "sourceId" : "5",
+          "destinationId" : "30",
+          "description" : "Read data from",
+          "linkedRelationshipId" : "43"
+        }, {
+          "id" : "67",
+          "sourceId" : "5",
+          "destinationId" : "54",
           "description" : "Reads Sponsor info from",
-          "linkedRelationshipId" : "69"
+          "linkedRelationshipId" : "64"
+        }, {
+          "id" : "68",
+          "sourceId" : "5",
+          "destinationId" : "53",
+          "description" : "Reads Sponsor info from",
+          "linkedRelationshipId" : "64"
+        }, {
+          "id" : "69",
+          "sourceId" : "5",
+          "destinationId" : "52",
+          "description" : "Reads Sponsor info from",
+          "linkedRelationshipId" : "64"
         } ],
         "components" : [ {
           "id" : "9",
@@ -448,30 +246,21 @@
           "name" : "Branding system",
           "description" : "Allow customization for several conference brands",
           "relationships" : [ {
-            "id" : "40",
-            "sourceId" : "9",
-            "destinationId" : "21",
-            "description" : "Reads and writes to",
-            "linkedRelationshipId" : "39"
-          }, {
-            "id" : "39",
+            "id" : "21",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "bde3dc5e-71eb-4191-a326-0d57cb38ae52"
+              "structurizr.dsl.identifier" : "dbc8f213-50c5-4542-9ada-a9044b2afe72"
             },
             "sourceId" : "9",
-            "destinationId" : "26",
+            "destinationId" : "16",
             "description" : "Reads and writes to"
+          }, {
+            "id" : "22",
+            "sourceId" : "9",
+            "destinationId" : "13",
+            "description" : "Reads and writes to",
+            "linkedRelationshipId" : "21"
           } ],
-          "documentation" : { }
-        }, {
-          "id" : "8",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "voting"
-          },
-          "name" : "Voting system",
-          "description" : "Send and receives evaluation via web, email, SMS or phone calls",
           "documentation" : { }
         }, {
           "id" : "7",
@@ -482,20 +271,20 @@
           "name" : "Attendee System",
           "description" : "System to manage attendee information, such as talks evaluation and access to slides",
           "relationships" : [ {
-            "id" : "42",
+            "id" : "24",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "208fe49d-2d8a-4ec4-b24d-fd4bcae0c029"
+              "structurizr.dsl.identifier" : "54832e85-f292-4395-93a7-569e5398af77"
             },
             "sourceId" : "7",
-            "destinationId" : "22",
+            "destinationId" : "14",
             "description" : "Reads and writes to"
           }, {
-            "id" : "43",
+            "id" : "25",
             "sourceId" : "7",
-            "destinationId" : "21",
+            "destinationId" : "13",
             "description" : "Reads and writes to",
-            "linkedRelationshipId" : "42"
+            "linkedRelationshipId" : "24"
           } ],
           "documentation" : { }
         }, {
@@ -507,81 +296,355 @@
           "name" : "Website",
           "description" : "React SPA - Shows conference information such as speakers, talks and schedule",
           "relationships" : [ {
-            "id" : "69",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "cea3e721-2cb2-46f5-bad5-2f6add470551"
-            },
-            "sourceId" : "6",
-            "destinationId" : "18",
-            "description" : "Reads Sponsor info from"
-          }, {
-            "id" : "62",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "1d72873c-16cc-4029-92c9-00c101fb59f5"
-            },
-            "sourceId" : "6",
-            "destinationId" : "14",
-            "description" : "Read data from"
-          }, {
-            "id" : "12",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "93e985b9-c0b4-496c-a66c-bdd0b0cf9560"
-            },
-            "sourceId" : "6",
-            "destinationId" : "8",
-            "description" : "Sends requests and displays aggregation from",
-            "technology" : "HTTPS"
-          }, {
             "id" : "10",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "e8fc5ac4-46a0-462d-969c-6521924fa489"
+              "structurizr.dsl.identifier" : "1d4147f7-8cd6-4ba2-a5f5-12c9079ff2ed"
             },
             "sourceId" : "6",
             "destinationId" : "9",
             "description" : "Pull branding information from",
             "technology" : "HTTP Restful API"
           }, {
-            "id" : "70",
-            "sourceId" : "6",
-            "destinationId" : "17",
-            "description" : "Reads Sponsor info from",
-            "linkedRelationshipId" : "69"
-          }, {
             "id" : "11",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "f78f0157-512e-4161-b534-45a26d5de2a1"
+              "structurizr.dsl.identifier" : "aea21ff3-5319-4872-9617-fdc9c4d5020f"
             },
             "sourceId" : "6",
             "destinationId" : "7",
             "description" : "Reads and writes information from",
             "technology" : "HTTP Restful API"
           }, {
-            "id" : "31",
+            "id" : "12",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "93f64c4b-a2ff-43c1-bcb8-1fb96c506568"
+              "structurizr.dsl.identifier" : "a15ef25a-e04d-45a6-90cb-fbe8f168d5ab"
             },
             "sourceId" : "6",
-            "destinationId" : "24",
+            "destinationId" : "8",
+            "description" : "Sends requests and displays aggregation from",
+            "technology" : "HTTPS"
+          }, {
+            "id" : "17",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "c292febb-615a-4b1a-99f8-59e3574771ae"
+            },
+            "sourceId" : "6",
+            "destinationId" : "15",
             "description" : "Reads from and writes to"
           }, {
-            "id" : "63",
+            "id" : "18",
             "sourceId" : "6",
             "destinationId" : "13",
-            "description" : "Read data from",
-            "linkedRelationshipId" : "62"
-          }, {
-            "id" : "32",
-            "sourceId" : "6",
-            "destinationId" : "21",
             "description" : "Reads from and writes to",
-            "linkedRelationshipId" : "31"
+            "linkedRelationshipId" : "17"
+          }, {
+            "id" : "43",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "0635355c-fb07-4482-bdec-9d948f9dd800"
+            },
+            "sourceId" : "6",
+            "destinationId" : "32",
+            "description" : "Read data from"
+          }, {
+            "id" : "44",
+            "sourceId" : "6",
+            "destinationId" : "31",
+            "description" : "Read data from",
+            "linkedRelationshipId" : "43"
+          }, {
+            "id" : "45",
+            "sourceId" : "6",
+            "destinationId" : "30",
+            "description" : "Read data from",
+            "linkedRelationshipId" : "43"
+          }, {
+            "id" : "64",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "8c9feb4e-5f10-441c-9331-0d958b9098de"
+            },
+            "sourceId" : "6",
+            "destinationId" : "54",
+            "description" : "Reads Sponsor info from"
+          }, {
+            "id" : "65",
+            "sourceId" : "6",
+            "destinationId" : "53",
+            "description" : "Reads Sponsor info from",
+            "linkedRelationshipId" : "64"
+          }, {
+            "id" : "66",
+            "sourceId" : "6",
+            "destinationId" : "52",
+            "description" : "Reads Sponsor info from",
+            "linkedRelationshipId" : "64"
           } ],
+          "documentation" : { }
+        }, {
+          "id" : "8",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "voting"
+          },
+          "name" : "Voting system",
+          "description" : "Send and receives evaluation via web, email, SMS or phone calls",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "13",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "database"
+        },
+        "name" : "Database",
+        "technology" : "Relational database schema",
+        "components" : [ {
+          "id" : "16",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "brandingdb"
+          },
+          "name" : "Branding DB",
+          "description" : "Stores information about branding",
+          "documentation" : { }
+        }, {
+          "id" : "15",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "websitedb"
+          },
+          "name" : "Website DB",
+          "description" : "Relational Database",
+          "documentation" : { }
+        }, {
+          "id" : "14",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "attendeedb"
+          },
+          "name" : "Attendee DB",
+          "description" : "Relational DB for attendee",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "30",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "cfpsystem"
+      },
+      "name" : "CRM",
+      "description" : "Customer relationship manager",
+      "relationships" : [ {
+        "id" : "39",
+        "sourceId" : "30",
+        "destinationId" : "3",
+        "description" : "Send CFP info to",
+        "linkedRelationshipId" : "37"
+      } ],
+      "group" : "Third-party",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "31",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "cfpcontainer"
+        },
+        "name" : "CFP System",
+        "description" : "Call For Papers System - Full management of speakers, talks, and schedule",
+        "relationships" : [ {
+          "id" : "38",
+          "sourceId" : "31",
+          "destinationId" : "3",
+          "description" : "Send CFP info to",
+          "linkedRelationshipId" : "37"
+        } ],
+        "components" : [ {
+          "id" : "33",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "cfpdb"
+          },
+          "name" : "CFP DB",
+          "description" : "Relational Database",
+          "documentation" : { }
+        }, {
+          "id" : "34",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "cfpstorage"
+          },
+          "name" : "storage",
+          "documentation" : { }
+        }, {
+          "id" : "32",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "cfp"
+          },
+          "name" : "CFP",
+          "relationships" : [ {
+            "id" : "35",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "de3ef0ea-0b22-4b8b-b6c6-44a66c11c7aa"
+            },
+            "sourceId" : "32",
+            "destinationId" : "34",
+            "description" : "Saves slides to"
+          }, {
+            "id" : "36",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "b7f6101b-a347-4466-bfdf-859c3f1ad366"
+            },
+            "sourceId" : "32",
+            "destinationId" : "33",
+            "description" : "Reads from and writes to"
+          }, {
+            "id" : "37",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "77e51545-ea79-4b85-96a6-175f667979ff"
+            },
+            "sourceId" : "32",
+            "destinationId" : "3",
+            "description" : "Send CFP info to"
+          } ],
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "52",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "crmsystem"
+      },
+      "name" : "CFP",
+      "description" : "Call for papers",
+      "relationships" : [ {
+        "id" : "60",
+        "sourceId" : "52",
+        "destinationId" : "2",
+        "description" : "Send emails to",
+        "linkedRelationshipId" : "58"
+      }, {
+        "id" : "63",
+        "sourceId" : "52",
+        "destinationId" : "1",
+        "description" : "Send notifications to",
+        "technology" : "Email",
+        "linkedRelationshipId" : "61"
+      } ],
+      "group" : "Third-party",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "53",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "crmcontainer"
+        },
+        "name" : "CRM System",
+        "description" : "Customer Relationship Management - sponsor management and notification system",
+        "relationships" : [ {
+          "id" : "59",
+          "sourceId" : "53",
+          "destinationId" : "2",
+          "description" : "Send emails to",
+          "linkedRelationshipId" : "58"
+        }, {
+          "id" : "62",
+          "sourceId" : "53",
+          "destinationId" : "1",
+          "description" : "Send notifications to",
+          "technology" : "Email",
+          "linkedRelationshipId" : "61"
+        } ],
+        "components" : [ {
+          "id" : "54",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "crm"
+          },
+          "name" : "CRM",
+          "relationships" : [ {
+            "id" : "58",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "eefc6bfa-4a20-4c5e-96e3-a31ef2025c93"
+            },
+            "sourceId" : "54",
+            "destinationId" : "2",
+            "description" : "Send emails to"
+          }, {
+            "id" : "61",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "162b7588-d25b-44bf-9e68-6338bfad63a3"
+            },
+            "sourceId" : "54",
+            "destinationId" : "1",
+            "description" : "Send notifications to",
+            "technology" : "Email"
+          } ],
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "73",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "ticketsystem"
+      },
+      "name" : "Ticket",
+      "description" : "Ticket management",
+      "group" : "Third-party",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "74",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "ticketcontainer"
+        },
+        "name" : "Ticket System",
+        "description" : "Ticketing System",
+        "components" : [ {
+          "id" : "75",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "ticket"
+          },
+          "name" : "Ticketing System",
+          "relationships" : [ {
+            "id" : "80",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "51d5fe87-8238-4f0c-9cb3-a1ae75db551a"
+            },
+            "sourceId" : "75",
+            "destinationId" : "76",
+            "description" : "Reads and writes tickets info to"
+          } ],
+          "documentation" : { }
+        }, {
+          "id" : "76",
+          "tags" : "Element,Component,Database",
+          "properties" : {
+            "structurizr.dsl.identifier" : "ticketdb"
+          },
+          "name" : "Ticket DB",
+          "description" : "Relational Database",
           "documentation" : { }
         } ],
         "documentation" : { }
@@ -589,16 +652,16 @@
       "documentation" : { }
     } ],
     "deploymentNodes" : [ {
-      "id" : "73",
+      "id" : "81",
       "tags" : "Element,Deployment Node,Amazon Web Services - Cloud Map",
       "properties" : {
-        "structurizr.dsl.identifier" : "e947d906-d1da-45f3-8c6e-090eec2452ab"
+        "structurizr.dsl.identifier" : "8c4fc329-2709-4024-8d44-464562b347b0"
       },
       "name" : "Amazon Web Services",
       "environment" : "Production",
       "instances" : "1",
       "children" : [ {
-        "id" : "74",
+        "id" : "82",
         "tags" : "Element,Deployment Node,Amazon Web Services - Region",
         "properties" : {
           "structurizr.dsl.identifier" : "region"
@@ -609,133 +672,174 @@
         "technology" : "AWS",
         "instances" : "1",
         "children" : [ {
-          "id" : "82",
+          "id" : "90",
           "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
           "properties" : {
-            "structurizr.dsl.identifier" : "511923e2-46b0-414e-8570-e546b0846207"
+            "structurizr.dsl.identifier" : "abf4279e-ffe6-4d72-bd6f-b66d5f05c6a4"
           },
           "name" : "Amazon EC2 - Tickets",
           "environment" : "Production",
           "instances" : "1",
           "children" : [ {
-            "id" : "83",
+            "id" : "91",
             "tags" : "Element,Deployment Node,Ubuntu",
             "properties" : {
-              "structurizr.dsl.identifier" : "7eeb7f77-632f-4e90-9b08-e563850b206c"
+              "structurizr.dsl.identifier" : "bd9fe348-64c2-4819-98d0-db230a3379c1"
             },
             "name" : "Ubuntu Server - Ticket App",
             "environment" : "Production",
             "instances" : "1",
             "softwareSystemInstances" : [ {
-              "id" : "84",
+              "id" : "92",
               "tags" : "Software System Instance",
               "properties" : {
-                "structurizr.dsl.identifier" : "284c3ca1-e817-4745-ace2-5b469da5d904"
+                "structurizr.dsl.identifier" : "a82b98af-ba95-4c46-8b51-a8e884191287"
               },
+              "relationships" : [ {
+                "id" : "101",
+                "sourceId" : "92",
+                "destinationId" : "97",
+                "description" : "Read data from",
+                "linkedRelationshipId" : "50"
+              } ],
               "environment" : "Production",
               "deploymentGroups" : [ "Default" ],
               "instanceId" : 1,
               "softwareSystemId" : "4"
             } ],
             "containerInstances" : [ {
-              "id" : "85",
+              "id" : "93",
               "tags" : "Container Instance",
               "properties" : {
                 "structurizr.dsl.identifier" : "ticketapplicationinstance"
               },
+              "environment" : "Production",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "containerId" : "74"
+            } ]
+          } ]
+        }, {
+          "id" : "94",
+          "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
+          "properties" : {
+            "structurizr.dsl.identifier" : "0f21fa2d-80fc-4cdf-a15a-a46e26a66f91"
+          },
+          "name" : "Amazon EC2 - CFP",
+          "environment" : "Production",
+          "instances" : "1",
+          "children" : [ {
+            "id" : "95",
+            "tags" : "Element,Deployment Node,Ubuntu",
+            "properties" : {
+              "structurizr.dsl.identifier" : "a471296b-3821-4e19-a9e1-054f6a579c97"
+            },
+            "name" : "Ubuntu Server - CFP App",
+            "environment" : "Production",
+            "instances" : "1",
+            "softwareSystemInstances" : [ {
+              "id" : "96",
+              "tags" : "Software System Instance",
+              "properties" : {
+                "structurizr.dsl.identifier" : "d45d915a-059b-4787-99ed-93fc784b906c"
+              },
               "relationships" : [ {
-                "id" : "96",
-                "sourceId" : "85",
-                "destinationId" : "93",
-                "description" : "Reads and writes tickets info to",
-                "linkedRelationshipId" : "30"
+                "id" : "98",
+                "sourceId" : "96",
+                "destinationId" : "97",
+                "description" : "Read data from",
+                "linkedRelationshipId" : "50"
               } ],
               "environment" : "Production",
               "deploymentGroups" : [ "Default" ],
               "instanceId" : 1,
-              "containerId" : "19"
+              "softwareSystemId" : "4"
+            } ],
+            "containerInstances" : [ {
+              "id" : "97",
+              "tags" : "Container Instance",
+              "properties" : {
+                "structurizr.dsl.identifier" : "cfpapplicationinstance"
+              },
+              "relationships" : [ {
+                "id" : "112",
+                "tags" : "Relationship",
+                "properties" : {
+                  "structurizr.dsl.identifier" : "424576cf-0a33-4824-a5bf-ff62a1875e21"
+                },
+                "sourceId" : "97",
+                "destinationId" : "85",
+                "description" : "Storages slides to"
+              } ],
+              "environment" : "Production",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "containerId" : "31"
             } ]
           } ]
         }, {
-          "id" : "78",
+          "id" : "102",
+          "tags" : "Element,Deployment Node,Amazon Web Services - RDS",
+          "properties" : {
+            "structurizr.dsl.identifier" : "0a41a601-c636-44bf-96eb-6e6a26b9e3b6"
+          },
+          "name" : "Amazon RDS",
+          "environment" : "Production",
+          "instances" : "1",
+          "children" : [ {
+            "id" : "103",
+            "tags" : "Element,Deployment Node,Amazon Web Services - RDS MySQL instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "8d2aab4b-759e-4503-89a7-304b23de9661"
+            },
+            "name" : "MySQL",
+            "environment" : "Production",
+            "instances" : "1",
+            "containerInstances" : [ {
+              "id" : "104",
+              "tags" : "Container Instance",
+              "properties" : {
+                "structurizr.dsl.identifier" : "databaseapplicationinstance"
+              },
+              "environment" : "Production",
+              "deploymentGroups" : [ "Default" ],
+              "instanceId" : 1,
+              "containerId" : "13"
+            } ]
+          } ]
+        }, {
+          "id" : "86",
           "tags" : "Element,Deployment Node,Amazon Web Services - Application Auto Scaling",
           "properties" : {
-            "structurizr.dsl.identifier" : "9af427a0-f448-4a8a-bdc0-b5ecf64ab290"
+            "structurizr.dsl.identifier" : "785bf319-c800-4a8a-a49e-21d8782b7714"
           },
           "name" : "Amazon - Auto Scaling Groups",
           "description" : "Manages elastic EC2 configuration",
           "environment" : "Production",
           "instances" : "1",
           "children" : [ {
-            "id" : "79",
+            "id" : "87",
             "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
             "properties" : {
-              "structurizr.dsl.identifier" : "5f85f94c-3564-492b-9822-e77c2b596c71"
+              "structurizr.dsl.identifier" : "7cf99645-fd08-4965-a236-214730ea1d47"
             },
             "name" : "Amazon Web Services - EC2",
             "description" : "This EC2 instance is part of an Auto Scaling Group",
             "environment" : "Production",
             "instances" : "1",
             "softwareSystemInstances" : [ {
-              "id" : "80",
-              "tags" : "Software System Instance",
-              "properties" : {
-                "structurizr.dsl.identifier" : "4b7cf335-8061-4cef-88e1-937248afe7c3"
-              },
-              "environment" : "Production",
-              "deploymentGroups" : [ "Default" ],
-              "instanceId" : 1,
-              "softwareSystemId" : "4"
-            } ],
-            "containerInstances" : [ {
-              "id" : "81",
-              "tags" : "Container Instance",
-              "properties" : {
-                "structurizr.dsl.identifier" : "webapplicationinstance"
-              },
-              "relationships" : [ {
-                "id" : "95",
-                "sourceId" : "81",
-                "destinationId" : "93",
-                "description" : "Reads from and writes to",
-                "linkedRelationshipId" : "34"
-              }, {
-                "id" : "90",
-                "sourceId" : "81",
-                "destinationId" : "89",
-                "description" : "Read data from",
-                "linkedRelationshipId" : "65"
-              } ],
-              "environment" : "Production",
-              "deploymentGroups" : [ "Default" ],
-              "instanceId" : 1,
-              "containerId" : "5"
-            } ]
-          } ]
-        }, {
-          "id" : "86",
-          "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
-          "properties" : {
-            "structurizr.dsl.identifier" : "9a20b6fb-fa38-48db-bdd4-e648b6bb1a79"
-          },
-          "name" : "Amazon EC2 - CFP",
-          "environment" : "Production",
-          "instances" : "1",
-          "children" : [ {
-            "id" : "87",
-            "tags" : "Element,Deployment Node,Ubuntu",
-            "properties" : {
-              "structurizr.dsl.identifier" : "5cbfba5f-b6e0-4ad2-bed9-9f08c2964ada"
-            },
-            "name" : "Ubuntu Server - CFP App",
-            "environment" : "Production",
-            "instances" : "1",
-            "softwareSystemInstances" : [ {
               "id" : "88",
               "tags" : "Software System Instance",
               "properties" : {
-                "structurizr.dsl.identifier" : "07fcce31-d329-43a3-bee1-2ecd24d24491"
+                "structurizr.dsl.identifier" : "4e8f92b8-fbf2-4255-9076-43dfd3a2241e"
               },
+              "relationships" : [ {
+                "id" : "99",
+                "sourceId" : "88",
+                "destinationId" : "97",
+                "description" : "Read data from",
+                "linkedRelationshipId" : "50"
+              } ],
               "environment" : "Production",
               "deploymentGroups" : [ "Default" ],
               "instanceId" : 1,
@@ -745,63 +849,49 @@
               "id" : "89",
               "tags" : "Container Instance",
               "properties" : {
-                "structurizr.dsl.identifier" : "cfpapplicationinstance"
+                "structurizr.dsl.identifier" : "webapplicationinstance"
               },
               "relationships" : [ {
-                "id" : "94",
+                "id" : "100",
                 "sourceId" : "89",
-                "destinationId" : "93",
-                "description" : "Reads from and writes to",
-                "linkedRelationshipId" : "38"
+                "destinationId" : "97",
+                "description" : "Read data from",
+                "linkedRelationshipId" : "47"
               }, {
-                "id" : "103",
-                "tags" : "Relationship",
-                "properties" : {
-                  "structurizr.dsl.identifier" : "dfbb6c2e-ebf5-4e46-8724-df7012ea3975"
-                },
+                "id" : "105",
                 "sourceId" : "89",
-                "destinationId" : "77",
-                "description" : "Storages slides to"
+                "destinationId" : "104",
+                "description" : "Reads from and writes to",
+                "linkedRelationshipId" : "20"
               } ],
               "environment" : "Production",
               "deploymentGroups" : [ "Default" ],
               "instanceId" : 1,
-              "containerId" : "13"
-            } ]
-          } ]
-        }, {
-          "id" : "91",
-          "tags" : "Element,Deployment Node,Amazon Web Services - RDS",
-          "properties" : {
-            "structurizr.dsl.identifier" : "e906a347-70e1-4873-a235-9a65f47a937b"
-          },
-          "name" : "Amazon RDS",
-          "environment" : "Production",
-          "instances" : "1",
-          "children" : [ {
-            "id" : "92",
-            "tags" : "Element,Deployment Node,Amazon Web Services - RDS MySQL instance",
-            "properties" : {
-              "structurizr.dsl.identifier" : "1f3e08ae-9cc7-479c-bec1-d1584539e624"
-            },
-            "name" : "MySQL",
-            "environment" : "Production",
-            "instances" : "1",
-            "containerInstances" : [ {
-              "id" : "93",
-              "tags" : "Container Instance",
-              "properties" : {
-                "structurizr.dsl.identifier" : "databaseapplicationinstance"
-              },
-              "environment" : "Production",
-              "deploymentGroups" : [ "Default" ],
-              "instanceId" : 1,
-              "containerId" : "21"
+              "containerId" : "5"
             } ]
           } ]
         } ],
         "infrastructureNodes" : [ {
-          "id" : "76",
+          "id" : "83",
+          "tags" : "Element,Infrastructure Node,Amazon Web Services - Route 53",
+          "properties" : {
+            "structurizr.dsl.identifier" : "route53"
+          },
+          "name" : "Route 53",
+          "relationships" : [ {
+            "id" : "107",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "88029445-2af5-4e99-bc41-ce49490fa909"
+            },
+            "sourceId" : "83",
+            "destinationId" : "106",
+            "description" : "Forwards requests to",
+            "technology" : "HTTPS"
+          } ],
+          "environment" : "Production"
+        }, {
+          "id" : "84",
           "tags" : "Element,Infrastructure Node,Amazon Web Services - CloudFront",
           "properties" : {
             "structurizr.dsl.identifier" : "cdn"
@@ -809,18 +899,18 @@
           "name" : "AWS CDN",
           "description" : "Amazon CloudFront",
           "relationships" : [ {
-            "id" : "104",
+            "id" : "113",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "4456c0f5-6175-40a6-8fae-53edf0a7ad4d"
+              "structurizr.dsl.identifier" : "1d633192-40e5-43c3-b674-02b7bd2b1cd9"
             },
-            "sourceId" : "76",
-            "destinationId" : "77",
+            "sourceId" : "84",
+            "destinationId" : "85",
             "description" : "Enables access to slides"
           } ],
           "environment" : "Production"
         }, {
-          "id" : "77",
+          "id" : "85",
           "tags" : "Element,Infrastructure Node,Amazon Web Services - Simple Storage Service",
           "properties" : {
             "structurizr.dsl.identifier" : "s3"
@@ -829,26 +919,7 @@
           "description" : "AWS - S3",
           "environment" : "Production"
         }, {
-          "id" : "75",
-          "tags" : "Element,Infrastructure Node,Amazon Web Services - Route 53",
-          "properties" : {
-            "structurizr.dsl.identifier" : "route53"
-          },
-          "name" : "Route 53",
-          "relationships" : [ {
-            "id" : "98",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "063b88e0-b6d8-4530-a08e-7116beb0717b"
-            },
-            "sourceId" : "75",
-            "destinationId" : "97",
-            "description" : "Forwards requests to",
-            "technology" : "HTTPS"
-          } ],
-          "environment" : "Production"
-        }, {
-          "id" : "97",
+          "id" : "106",
           "tags" : "Element,Infrastructure Node,Amazon Web Services - Elastic Load Balancing",
           "properties" : {
             "structurizr.dsl.identifier" : "elb"
@@ -856,44 +927,44 @@
           "name" : "Elastic Load Balancer",
           "description" : "Automatically distributes incoming application traffic.",
           "relationships" : [ {
-            "id" : "102",
+            "id" : "108",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "643f896a-bea7-499f-be9c-ca12d5efdd00"
+              "structurizr.dsl.identifier" : "68aa0bb7-f7ba-4eda-94e0-b888ff38fc9e"
             },
-            "sourceId" : "97",
-            "destinationId" : "76",
-            "description" : "Forwards request to",
-            "technology" : "HTTPS"
-          }, {
-            "id" : "101",
-            "tags" : "Relationship",
-            "properties" : {
-              "structurizr.dsl.identifier" : "25921f89-b7db-48b7-af16-d2fd2751919f"
-            },
-            "sourceId" : "97",
-            "destinationId" : "85",
+            "sourceId" : "106",
+            "destinationId" : "89",
             "description" : "Forwards requests to",
             "technology" : "HTTPS"
           }, {
-            "id" : "100",
+            "id" : "109",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "7b237d4e-5668-4d35-8730-7099b1fd95ed"
+              "structurizr.dsl.identifier" : "2c7a8768-03d4-44e2-ba1c-3e25ea9cdb48"
             },
-            "sourceId" : "97",
-            "destinationId" : "89",
+            "sourceId" : "106",
+            "destinationId" : "97",
             "description" : "Forwards traffic to",
             "technology" : "HTTPS"
           }, {
-            "id" : "99",
+            "id" : "110",
             "tags" : "Relationship",
             "properties" : {
-              "structurizr.dsl.identifier" : "6894ed92-8604-4e90-95dc-ced95bf7a48a"
+              "structurizr.dsl.identifier" : "3c50ad19-1f76-4f31-98af-9850327c170b"
             },
-            "sourceId" : "97",
-            "destinationId" : "81",
+            "sourceId" : "106",
+            "destinationId" : "93",
             "description" : "Forwards requests to",
+            "technology" : "HTTPS"
+          }, {
+            "id" : "111",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "78fa1137-73fc-49f5-95fd-f8db700b6600"
+            },
+            "sourceId" : "106",
+            "destinationId" : "84",
+            "description" : "Forwards request to",
             "technology" : "HTTPS"
           } ],
           "environment" : "Production"
@@ -901,16 +972,66 @@
       } ]
     } ]
   },
-  "documentation" : { },
+  "documentation" : {
+    "sections" : [ {
+      "content" : "## System Quality attributes\n[List of system quality attributes](https://en.wikipedia.org/wiki/List_of_system_quality_attributes)\n\n### Scalability\nThe system must handle varying loads, especially 'burst' traffic during conferences. This includes the ability to scale resources up or down as needed to accommodate the number of attendees and speakers accessing the system simultaneously.\n\n### Performance\nThe system should provide quick response times and handle requests efficiently, especially important during peak usage times. This includes fast loading of schedules, smooth handling of talk submissions, and efficient processing of attendee votes.\n\n### Availability\nHigh availability is crucial, particularly during the conference. The system should be operational and accessible with minimal downtime.\n\n### Reliability\nThe system should function correctly and provide consistent results. This includes accurate scheduling information, reliable voting mechanisms, and dependable notifications for schedule changes.\n\n### Usability\nThe system must be user-friendly for attendees, speakers, sponsors, and event staff. This includes intuitive navigation, clear interfaces for talk submissions, voting, and schedule viewing.\n\n### Security\nGiven that the system handles personal information of attendees and speakers, robust security measures are essential to protect against unauthorized access and data breaches. This includes securing sensitive data like contact information and talk content.\n\n### Flexibility and Customizability\nThe system should allow for easy branding and customization for different conferences. This includes the ability to change themes, layouts, and branding elements for each event.\n\n### Maintainability\nThe system should be easy to maintain and update, allowing for quick fixes, updates, and the addition of new features without significant downtime or disruption.\n\n### Interoperability\nGiven the integration with third-party systems (like the CFP and CRM systems), the system must effectively interact and integrate with these external systems.\n\n",
+      "format" : "Markdown",
+      "filename" : "quality-attributes.md",
+      "order" : 1,
+      "title" : ""
+    }, {
+      "content" : "## Requirements\nConference organizer needs a management system for the conferences he runs for both speakers and attendees\n\n### Users:\nHundreds of speakers, dozens of event staff, thousands of attendees\n\n### Requirements:\nattendees can access speaking schedule online, including room assignments\nspeakers can manage talks (enter, edit, modify)\nattendees 'vote up/down' talks\norganizer can notify attendees of schedule changes up-to-the-minute (if attendees opt in)\neach conference (being a different subject) can be branded independently\nspeaker slides are accessible online only to attendees\nevaluation system via web page, email, SMS, or phone\n### Additional Context:\n\nConference runs across the Europe.\n\n### Small support staff.\n\n'Burst' traffic: extremely busy when the conference is occurring.\nConference organizer wants to easily 'skin' the site for different technology offerings.",
+      "format" : "Markdown",
+      "filename" : "requirements.md",
+      "order" : 2,
+      "title" : ""
+    } ],
+    "decisions" : [ {
+      "content" : "# 1. Record architecture decisions\n\nDate: 2024-01-15\n\n## Status\n\nAccepted\n\n## Context\n\nThe system requires a robust, scalable, \nand secure cloud environment to handle varying loads, especially during peak conference times.\nAWS offers a comprehensive set of services that can fulfill these needs.\n\n## Decision\n\nWe will use AWS\n\n## Consequences\n\n* **Positive**: Scalability with services like EC2 Auto Scaling and Elastic Load Balancer; high availability and reliability; wide range of services for different needs (e.g., S3 for storage, RDS for databases).\n* **Negative**: Potential vendor lock-in; requires AWS-specific knowledge for maintenance and operation.",
+      "format" : "Markdown",
+      "id" : "1",
+      "title" : "Record architecture decisions",
+      "date" : "2024-01-15T00:00:00Z",
+      "status" : "Accepted"
+    }, {
+      "content" : "# 1. Record architecture decisions\n\nDate: 2024-01-15\n\n## Status\n\nAccepted\n\n## Context\n\nThe system faces 'burst' traffic during conferences, requiring dynamic scaling to maintain performance.\n\n## Decision\n\nThe web application component will be deployed within an AWS Auto Scaling Group.\n\n## Consequences\n\n* **Positive**: The system can automatically scale its resources to match the load, ensuring high availability and performance during peak traffic.\n* **Negative**: Additional complexity in monitoring and managing scaling policies; potential cost implications due to scaling.",
+      "format" : "Markdown",
+      "id" : "2",
+      "title" : "Record architecture decisions",
+      "date" : "2024-01-15T00:00:00Z",
+      "status" : "Accepted"
+    }, {
+      "content" : "# 1. Record architecture decisions\n\nDate: 2024-01-15\n\n## Status\n\nAccepted\n\n## Context\n\nThe system requires flexibility, scalability, and ease of maintenance. Microservices architecture allows individual components to be developed, deployed, and scaled independently.\n\n## Decision\n\nThe system will be structured as a collection of loosely coupled services (microservices), such as the web application, attendee system, voting system, branding system, etc.\n\n## Consequences\n\n* **Positive**: Improved scalability and maintainability; each service can be deployed independently; easier to implement different technologies per service as needed.\n* **Negative**: Increased complexity in service coordination and communication; potential challenges in distributed data management.",
+      "format" : "Markdown",
+      "id" : "3",
+      "title" : "Record architecture decisions",
+      "date" : "2024-01-15T00:00:00Z",
+      "status" : "Accepted"
+    }, {
+      "content" : "# 1. Record architecture decisions\n\nDate: 2024-01-15\n\n## Status\n\nAccepted\n\n## Context\n\nThe need for a dynamic, responsive, and interactive user interface for conference attendees.\n\n## Decision\n\nThe website component of the web application will be implemented as a React SPA.\n\n## Consequences\n\n* **Positive**: Enhanced user experience with fast, responsive interfaces; easier to manage state and UI updates on the client side.\n* **Negative**: Potential for initial load performance issues; reliance on client-side JavaScript can affect users with JavaScript disabled.",
+      "format" : "Markdown",
+      "id" : "4",
+      "title" : "Record architecture decisions",
+      "date" : "2024-01-15T00:00:00Z",
+      "status" : "Accepted"
+    }, {
+      "content" : "# 1. Record architecture decisions\n\nDate: 2024-01-15\n\n## Status\n\nAccepted\n\n## Context\n\nDeveloping these systems in-house would be resource-intensive. Leveraging third-party services can save time and provide specialized functionality.\n\n## Decision\n\nThe system will integrate with third-party services for the Call For Papers (CFP) system and the Customer Relationship Management (CRM) system.\n\n## Consequences\n\n* **Positive**: Access to established, feature-rich systems; reduced development time and cost.\n* **Negative**: Dependency on external vendors; limitations based on the capabilities and constraints of the third-party systems.",
+      "format" : "Markdown",
+      "id" : "5",
+      "title" : "Record architecture decisions",
+      "date" : "2024-01-15T00:00:00Z",
+      "status" : "Accepted"
+    } ]
+  },
   "views" : {
     "systemLandscapeViews" : [ {
       "key" : "softwareSystem",
       "order" : 1,
       "title" : "Conference System Landscape",
-      "paperSize" : "A5_Portrait",
+      "paperSize" : "A3_Landscape",
       "dimensions" : {
-        "width" : 1616,
-        "height" : 1916
+        "width" : 2608,
+        "height" : 2516
       },
       "animations" : [ {
         "order" : 1,
@@ -918,69 +1039,77 @@
       }, {
         "order" : 2,
         "elements" : [ "1" ],
-        "relationships" : [ "68", "47" ]
+        "relationships" : [ "29" ]
       }, {
         "order" : 3,
-        "elements" : [ "2" ],
-        "relationships" : [ "58", "61" ]
+        "elements" : [ "2" ]
       }, {
         "order" : 4,
-        "elements" : [ "3" ],
-        "relationships" : [ "55", "52" ]
+        "elements" : [ "3" ]
       } ],
       "enterpriseBoundaryVisible" : true,
       "elements" : [ {
         "id" : "1",
-        "x" : 583,
+        "x" : 1041,
         "y" : 208
       }, {
         "id" : "2",
-        "x" : 208,
-        "y" : 1408
+        "x" : 1079,
+        "y" : 2008
       }, {
         "id" : "3",
-        "x" : 958,
-        "y" : 1408
+        "x" : 1829,
+        "y" : 2008
       }, {
         "id" : "4",
-        "x" : 583,
-        "y" : 808
-      } ],
-      "relationships" : [ {
-        "id" : "61",
-        "vertices" : [ {
-          "x" : 480,
-          "y" : 1204
-        } ]
+        "x" : 1515,
+        "y" : 865
+      }, {
+        "id" : "73",
+        "x" : 329,
+        "y" : 1408
+      }, {
+        "id" : "30",
+        "x" : 1829,
+        "y" : 1408
       }, {
         "id" : "52",
+        "x" : 1079,
+        "y" : 1408
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "72"
+      }, {
+        "id" : "60",
         "vertices" : [ {
-          "x" : 1115,
-          "y" : 1211
+          "x" : 1141,
+          "y" : 1877
         } ]
       }, {
-        "id" : "55",
+        "id" : "51"
+      }, {
+        "id" : "63"
+      }, {
+        "id" : "42",
         "vertices" : [ {
-          "x" : 850,
-          "y" : 1354
+          "x" : 2191,
+          "y" : 1888
         } ]
       }, {
-        "id" : "47",
+        "id" : "57",
         "vertices" : [ {
-          "x" : 645,
-          "y" : 689
+          "x" : 1441,
+          "y" : 1888
         } ]
       }, {
-        "id" : "68",
-        "vertices" : [ {
-          "x" : 945,
-          "y" : 676
-        } ]
+        "id" : "79"
       }, {
-        "id" : "58",
+        "id" : "39",
         "vertices" : [ {
-          "x" : 665,
-          "y" : 1345
+          "x" : 1891,
+          "y" : 1877
         } ]
       } ]
     } ],
@@ -989,65 +1118,41 @@
       "order" : 2,
       "title" : "Conference System Context",
       "softwareSystemId" : "4",
-      "paperSize" : "A5_Portrait",
+      "paperSize" : "A5_Landscape",
       "dimensions" : {
-        "width" : 1616,
-        "height" : 1916
+        "width" : 2470,
+        "height" : 1558
       },
       "enterpriseBoundaryVisible" : true,
       "elements" : [ {
         "id" : "1",
-        "x" : 583,
-        "y" : 208
-      }, {
-        "id" : "2",
-        "x" : 208,
-        "y" : 1408
-      }, {
-        "id" : "3",
-        "x" : 958,
-        "y" : 1408
+        "x" : 190,
+        "y" : 595
       }, {
         "id" : "4",
-        "x" : 583,
-        "y" : 808
-      } ],
-      "relationships" : [ {
-        "id" : "61",
-        "vertices" : [ {
-          "x" : 480,
-          "y" : 1204
-        } ]
+        "x" : 958,
+        "y" : 929
       }, {
         "id" : "52",
+        "x" : 1708,
+        "y" : 329
+      }, {
+        "id" : "30",
+        "x" : 1708,
+        "y" : 929
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "72"
+      }, {
+        "id" : "63",
         "vertices" : [ {
-          "x" : 1115,
-          "y" : 1211
+          "x" : 1090,
+          "y" : 480
         } ]
       }, {
-        "id" : "55",
-        "vertices" : [ {
-          "x" : 850,
-          "y" : 1354
-        } ]
-      }, {
-        "id" : "47",
-        "vertices" : [ {
-          "x" : 645,
-          "y" : 689
-        } ]
-      }, {
-        "id" : "68",
-        "vertices" : [ {
-          "x" : 945,
-          "y" : 676
-        } ]
-      }, {
-        "id" : "58",
-        "vertices" : [ {
-          "x" : 735,
-          "y" : 1361
-        } ]
+        "id" : "51"
       } ]
     } ],
     "containerViews" : [ {
@@ -1067,125 +1172,38 @@
         "y" : 329
       }, {
         "id" : "13",
-        "x" : 2675,
-        "y" : 929
-      }, {
-        "id" : "2",
-        "x" : 3990,
-        "y" : 1495
-      }, {
-        "id" : "3",
-        "x" : 3955,
-        "y" : 375
+        "x" : 1890,
+        "y" : 1655
       }, {
         "id" : "5",
         "x" : 1920,
         "y" : 365
       }, {
-        "id" : "17",
-        "x" : 1925,
-        "y" : 929
+        "id" : "30",
+        "x" : 3485,
+        "y" : 365
       }, {
-        "id" : "19",
-        "x" : 1175,
-        "y" : 929
-      }, {
-        "id" : "21",
-        "x" : 1890,
-        "y" : 1655
+        "id" : "52",
+        "x" : 1130,
+        "y" : 1175
       } ],
       "relationships" : [ {
-        "id" : "72"
+        "id" : "28"
       }, {
-        "id" : "60"
+        "id" : "63"
       }, {
-        "id" : "51"
-      }, {
-        "id" : "34",
+        "id" : "20",
         "vertices" : [ {
-          "x" : 1755,
-          "y" : 1085
+          "x" : 2140,
+          "y" : 1060
         } ]
       }, {
-        "id" : "65",
-        "vertices" : [ {
-          "x" : 2525,
-          "y" : 825
-        } ]
+        "id" : "69"
       }, {
-        "id" : "54"
-      }, {
-        "id" : "67"
-      }, {
-        "id" : "46"
-      }, {
-        "id" : "57"
-      }, {
-        "id" : "30"
-      }, {
-        "id" : "38",
-        "vertices" : [ {
-          "x" : 2525,
-          "y" : 1333
-        } ]
-      }, {
-        "id" : "49"
+        "id" : "48"
       } ]
     } ],
     "componentViews" : [ {
-      "key" : "Component-001",
-      "order" : 4,
-      "title" : "Component view of the CFP container",
-      "paperSize" : "A4_Portrait",
-      "dimensions" : {
-        "width" : 1754,
-        "height" : 2020
-      },
-      "containerId" : "13",
-      "externalContainerBoundariesVisible" : true,
-      "elements" : [ {
-        "id" : "14",
-        "x" : 329,
-        "y" : 808
-      }, {
-        "id" : "3",
-        "x" : 340,
-        "y" : 95
-      }, {
-        "id" : "15",
-        "x" : 329,
-        "y" : 1408
-      }, {
-        "id" : "5",
-        "x" : 1090,
-        "y" : 825
-      }, {
-        "id" : "21",
-        "x" : 1079,
-        "y" : 1408
-      } ],
-      "relationships" : [ {
-        "id" : "16"
-      }, {
-        "id" : "50",
-        "vertices" : [ {
-          "x" : 391,
-          "y" : 689
-        } ]
-      }, {
-        "id" : "36"
-      }, {
-        "id" : "34"
-      }, {
-        "id" : "53",
-        "vertices" : [ {
-          "x" : 691,
-          "y" : 676
-        } ]
-      }, {
-        "id" : "64"
-      } ]
-    }, {
       "key" : "Component-002",
       "order" : 5,
       "title" : "Container view of Database",
@@ -1194,134 +1212,181 @@
         "width" : 4108,
         "height" : 2020
       },
-      "containerId" : "21",
+      "containerId" : "13",
       "externalContainerBoundariesVisible" : true,
       "elements" : [ {
-        "id" : "22",
+        "id" : "14",
         "x" : 1079,
         "y" : 1408
       }, {
-        "id" : "23",
-        "x" : 3329,
-        "y" : 1408
-      }, {
-        "id" : "13",
-        "x" : 400,
-        "y" : 808
-      }, {
-        "id" : "24",
+        "id" : "15",
         "x" : 1829,
         "y" : 1408
       }, {
-        "id" : "25",
-        "x" : 329,
-        "y" : 1408
-      }, {
-        "id" : "26",
+        "id" : "16",
         "x" : 2579,
         "y" : 1408
       }, {
         "id" : "5",
-        "x" : 1450,
-        "y" : 208
+        "x" : 1815,
+        "y" : 385
+      } ],
+      "relationships" : [ {
+        "id" : "26"
       }, {
-        "id" : "19",
-        "x" : 3329,
+        "id" : "23"
+      }, {
+        "id" : "19"
+      } ]
+    }, {
+      "key" : "Component-001",
+      "order" : 4,
+      "title" : "Component view of the CFP container",
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 1754,
+        "height" : 2020
+      },
+      "containerId" : "31",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "33",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "34",
+        "x" : 329,
+        "y" : 1408
+      }, {
+        "id" : "3",
+        "x" : 340,
+        "y" : 95
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "32",
+        "x" : 329,
         "y" : 808
       } ],
       "relationships" : [ {
-        "id" : "29"
+        "id" : "37",
+        "vertices" : [ {
+          "x" : 691,
+          "y" : 676
+        } ]
       }, {
-        "id" : "37"
+        "id" : "36"
       }, {
-        "id" : "41"
+        "id" : "40",
+        "vertices" : [ {
+          "x" : 391,
+          "y" : 689
+        } ]
       }, {
-        "id" : "65"
+        "id" : "35"
       }, {
-        "id" : "33"
-      }, {
-        "id" : "44"
+        "id" : "49"
       } ]
     }, {
       "key" : "Component-003",
       "order" : 6,
       "title" : "Component view of web application",
       "dimensions" : {
-        "width" : 5620,
-        "height" : 2454
+        "width" : 3435,
+        "height" : 2295
       },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "1" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "6" ],
+        "relationships" : [ "27" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "9" ],
+        "relationships" : [ "10" ]
+      }, {
+        "order" : 4,
+        "elements" : [ "13" ],
+        "relationships" : [ "22", "18" ]
+      } ],
       "containerId" : "5",
       "externalContainerBoundariesVisible" : true,
       "elements" : [ {
         "id" : "1",
-        "x" : 2005,
-        "y" : 70
+        "x" : 145,
+        "y" : 900
       }, {
         "id" : "13",
-        "x" : 2535,
-        "y" : 1215
+        "x" : 2784,
+        "y" : 989
       }, {
         "id" : "6",
-        "x" : 1987,
-        "y" : 629
-      }, {
-        "id" : "17",
-        "x" : 3440,
-        "y" : 670
+        "x" : 830,
+        "y" : 650
       }, {
         "id" : "7",
-        "x" : 590,
-        "y" : 680
+        "x" : 1714,
+        "y" : 999
       }, {
         "id" : "8",
-        "x" : 1145,
-        "y" : 1030
+        "x" : 1714,
+        "y" : 634
       }, {
         "id" : "9",
-        "x" : 1795,
-        "y" : 1200
+        "x" : 1714,
+        "y" : 219
       }, {
-        "id" : "21",
-        "x" : 2362,
-        "y" : 1829
+        "id" : "30",
+        "x" : 1690,
+        "y" : 1660
+      }, {
+        "id" : "52",
+        "x" : 940,
+        "y" : 1660
       } ],
       "relationships" : [ {
-        "id" : "70"
+        "id" : "18",
+        "vertices" : [ {
+          "x" : 1795,
+          "y" : 1450
+        }, {
+          "x" : 2365,
+          "y" : 1450
+        } ]
       }, {
-        "id" : "40"
+        "id" : "27"
       }, {
-        "id" : "63"
+        "id" : "25"
+      }, {
+        "id" : "63",
+        "vertices" : [ {
+          "x" : 340,
+          "y" : 1810
+        } ]
       }, {
         "id" : "11"
       }, {
         "id" : "12"
       }, {
-        "id" : "43",
+        "id" : "22",
         "vertices" : [ {
-          "x" : 1087,
-          "y" : 1633
+          "x" : 3020,
+          "y" : 380
         } ]
       }, {
-        "id" : "32",
+        "id" : "10",
         "vertices" : [ {
-          "x" : 3205,
-          "y" : 1145
-        }, {
-          "x" : 3180,
-          "y" : 1625
+          "x" : 1639,
+          "y" : 404
         } ]
-      }, {
-        "id" : "67",
-        "vertices" : [ {
-          "x" : 3655,
-          "y" : 290
-        } ]
-      }, {
-        "id" : "10"
       }, {
         "id" : "45"
       }, {
-        "id" : "38"
+        "id" : "66"
       } ]
     } ],
     "deploymentViews" : [ {
@@ -1336,107 +1401,67 @@
       "environment" : "Production",
       "animations" : [ {
         "order" : 1,
-        "elements" : [ "73", "74", "97" ]
+        "elements" : [ "106", "81", "82" ]
       } ],
       "elements" : [ {
-        "id" : "77",
-        "x" : 2910,
-        "y" : 1965
-      }, {
         "id" : "89",
-        "x" : 1770,
-        "y" : 1600
-      }, {
-        "id" : "78",
-        "x" : 350,
-        "y" : 350
-      }, {
-        "id" : "79",
-        "x" : 350,
-        "y" : 350
-      }, {
-        "id" : "91",
-        "x" : 350,
-        "y" : 350
-      }, {
-        "id" : "92",
-        "x" : 350,
-        "y" : 350
-      }, {
-        "id" : "81",
         "x" : 1765,
         "y" : 840
       }, {
-        "id" : "93",
+        "id" : "102",
+        "x" : 350,
+        "y" : 350
+      }, {
+        "id" : "103",
+        "x" : 350,
+        "y" : 350
+      }, {
+        "id" : "104",
         "x" : 2870,
         "y" : 485
+      }, {
+        "id" : "106",
+        "x" : 965,
+        "y" : 1170
+      }, {
+        "id" : "81",
+        "x" : 350,
+        "y" : 350
       }, {
         "id" : "82",
         "x" : 350,
         "y" : 350
       }, {
         "id" : "83",
-        "x" : 350,
-        "y" : 350
-      }, {
-        "id" : "73",
-        "x" : 350,
-        "y" : 350
-      }, {
-        "id" : "85",
-        "x" : 1760,
-        "y" : 240
-      }, {
-        "id" : "74",
-        "x" : 350,
-        "y" : 350
-      }, {
-        "id" : "75",
         "x" : 239,
         "y" : 1175
       }, {
-        "id" : "97",
-        "x" : 965,
-        "y" : 1170
+        "id" : "84",
+        "x" : 1770,
+        "y" : 2165
+      }, {
+        "id" : "85",
+        "x" : 2910,
+        "y" : 1965
       }, {
         "id" : "86",
         "x" : 350,
         "y" : 350
-      }, {
-        "id" : "76",
-        "x" : 1770,
-        "y" : 2165
       }, {
         "id" : "87",
         "x" : 350,
         "y" : 350
       } ],
       "relationships" : [ {
-        "id" : "94"
+        "id" : "108"
       }, {
-        "id" : "98"
+        "id" : "107"
       }, {
-        "id" : "95"
+        "id" : "111"
       }, {
-        "id" : "96"
+        "id" : "113"
       }, {
-        "id" : "100"
-      }, {
-        "id" : "102"
-      }, {
-        "id" : "99"
-      }, {
-        "id" : "101",
-        "vertices" : [ {
-          "x" : 1531,
-          "y" : 763
-        } ]
-      }, {
-        "id" : "104"
-      }, {
-        "id" : "103"
-      }, {
-        "id" : "90"
+        "id" : "105"
       } ]
     } ],
     "configuration" : {
@@ -1473,8 +1498,7 @@
       },
       "themes" : [ "https://static.structurizr.com/themes/default/theme.json", "https://static.structurizr.com/themes/amazon-web-services-2023.01.31/theme.json", "https://static.structurizr.com/themes/amazon-web-services-2020.04.30/theme.json" ],
       "terminology" : { },
-      "metadataSymbols" : "SquareBrackets",
-      "lastSavedView" : "Production"
+      "lastSavedView" : "Component-003"
     }
   }
 }
