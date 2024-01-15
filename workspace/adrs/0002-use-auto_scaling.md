@@ -1,4 +1,4 @@
-# 1. Record architecture decisions
+# 2. Use Auto-scaling
 
 Date: 2024-01-15
 

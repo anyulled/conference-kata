@@ -1,4 +1,4 @@
-# 1. Record architecture decisions
+# 4. Use React for Web Interface
 
 Date: 2024-01-15
 

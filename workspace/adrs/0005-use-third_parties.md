@@ -1,4 +1,4 @@
-# 1. Record architecture decisions
+# 5. Use Third-Parties for non-business critical parts
 
 Date: 2024-01-15
 

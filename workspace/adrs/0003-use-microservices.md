@@ -1,4 +1,4 @@
-# 1. Record architecture decisions
+# 3. Use microservices
 
 Date: 2024-01-15
 

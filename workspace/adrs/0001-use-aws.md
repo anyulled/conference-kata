@@ -1,4 +1,4 @@
-# 1. Record architecture decisions
+# 1. Use Amazon Web Services
 
 Date: 2024-01-15
 
