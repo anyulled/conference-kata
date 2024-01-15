@@ -29,7 +29,6 @@ workspace {
                 website -> voting "Sends requests and displays aggregation from" "HTTPS"
                 user -> website "Visits"
             }
-
             database = container "Database" "" "Relational database schema" {
 
                 attendeeDB = component "Attendee DB" "Relational DB for attendee" Database
@@ -39,14 +38,14 @@ workspace {
                 website -> websiteDb "Reads from and writes to"
                 branding -> brandingDB "Reads and writes to"
                 attendee -> attendeeDB "Reads and writes to"
-                voting -> websiteDb "Reads from and writes to""JDBC"
+                voting -> websiteDb "Reads from and writes to" "JDBC"
             }
 
         }
 
         group "Third-party" {
 
-            cfpSystem = softwareSystem "CRM" "Customer relationship manager" {
+            crmSystem = softwareSystem "CRM" "Customer relationship manager" {
                 cfpContainer = container "CFP System" "Call For Papers System - Full management of speakers, talks, and schedule" {
                     cfp = component "CFP"
                     cfpDB = component "CFP DB" "Relational Database" {
@@ -62,7 +61,7 @@ workspace {
                 }
             }
 
-            crmSystem = softwareSystem "CFP" "Call for papers" {
+            cfpSystem = softwareSystem "CFP" "Call for papers" {
                 crmContainer = container "CRM System" "Customer Relationship Management - sponsor management and notification system" {
                     crm = component "CRM"
                 }
@@ -136,14 +135,17 @@ workspace {
                             softwareSystemInstance ticketSystem
                             ticketApplicationInstance = containerInstance ticketContainer
                         }
+                        elb -> this "Forwards requests to" "HTTPS"
                     }
                     deploymentNode "Amazon EC2 - CFP" {
                         tags "Amazon Web Services - EC2"
                         deploymentNode "Ubuntu Server - CFP App" {
                             tags "Ubuntu"
-                            softwareSystemInstance softwareSystem
+                            softwareSystemInstance cfpSystem
                             cfpApplicationInstance = containerInstance cfpContainer
                         }
+                        this -> s3 "Storages slides"
+                        cfpApplicationInstance -> s3 "Storages slides"
                     }
                     deploymentNode "Amazon RDS" {
                         tags "Amazon Web Services - RDS"
@@ -215,8 +217,10 @@ workspace {
             include *
 
             animation {
+                route53
                 elb
-                region
+                webApplicationInstance
+                databaseApplicationInstance
             }
         }
 
