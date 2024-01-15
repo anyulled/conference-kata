@@ -35,7 +35,7 @@ workspace {
                 crmContainer = container "CRM System" "Customer Relationship Management - sponsor management and notification system"{
                     crm = component "CRM"
                 }
-                ticketContainer = container "Alf.io""Ticketing System"{
+                ticketContainer = container "Ticket System""Ticketing System"{
                     ticket = component "Ticketing System"
                 }
             }
@@ -83,7 +83,7 @@ workspace {
 
         prod = deploymentEnvironment "Production" {
             deploymentNode "Amazon Web Services" {
-                tags "Amazon Web Services - Cloud"
+                tags "Amazon Web Services - Cloud Map	"
 
                 region = deploymentNode "EU-East-1" {
                     description "AWS - Europe Zone"
@@ -106,6 +106,7 @@ workspace {
                         tags "Amazon Web Services - Application Auto Scaling"
 
                         deploymentNode "Amazon Web Services - EC2""This EC2 instance is part of an Auto Scaling Group" {
+                            tags "Amazon Web Services - EC2"
                             softwareSystemInstance softwareSystem
                             webApplicationInstance = containerInstance webapp
                         }
@@ -114,14 +115,16 @@ workspace {
                     deploymentNode "Amazon EC2 - Tickets" {
                         tags "Amazon Web Services - EC2"
 
-                        deploymentNode "Ubuntu Server" {
+                        deploymentNode "Ubuntu Server - Ticket App" {
+                            tags "Ubuntu"
                             softwareSystemInstance softwareSystem
                             ticketApplicationInstance = containerInstance ticketContainer
                         }
                     }
                     deploymentNode "Amazon EC2 - CFP" {
                         tags "Amazon Web Services - EC2"
-                        deploymentNode "Ubuntu Server" {
+                        deploymentNode "Ubuntu Server - CFP App" {
+                            tags "Ubuntu"
                             softwareSystemInstance softwareSystem
                             cfpApplicationInstance = containerInstance cfpContainer
                         }
@@ -158,7 +161,7 @@ workspace {
         systemLandscape softwareSystem {
             title "Conference System Landscape"
             include *
-            autolayout lr
+
             animation {
                 softwareSystem
                 user
@@ -170,25 +173,25 @@ workspace {
         systemContext softwareSystem {
             title "Conference System Context"
             include *
-            autolayout lr
+
         }
 
         container softwareSystem {
             title "Container view of software system"
             include *
-            autolayout lr
+
         }
 
         component cfpContainer {
             title "Component view of the CFP container"
             include *
-            autolayout lr
+
         }
 
         component database {
             title "Container view of Database"
             include *
-            autolayout lr
+
         }
 
         component webapp {
@@ -209,7 +212,6 @@ workspace {
         deployment softwareSystem prod "Production"{
             title "Deployment in production"
             include *
-            autolayout lr
 
             animation {
                 elb
@@ -243,10 +245,17 @@ workspace {
             element "website" {
                 shape WebBrowser
             }
+            element "Ubuntu" {
+                color #E95420
+                background #E95420
+                stroke #E95420
+                icon "images/ubuntu-logo.jpeg"
+            }
         }
 
         theme default
         themes https://static.structurizr.com/themes/amazon-web-services-2023.01.31/theme.json
+        themes https://static.structurizr.com/themes/amazon-web-services-2020.04.30/theme.json
     }
 
 }
