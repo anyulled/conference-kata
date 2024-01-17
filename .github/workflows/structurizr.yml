@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - '**./*.dsl'
+  pull_request:
+    paths:
+      - '**./*.dsl'
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  generate-diagrams:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: generate workspace images
+        uses: sebastienfi/structurizr-gen-images@v1
+        with:
+          workspace-path: workspace/workspace.dsl
+          output-path: workspace/images
+
+      - name: comment PR
+        uses: sebastienfi/structurizr-pr-comment@v1
+        with:
+          output-path: workspace/images
