@@ -1,6 +1,6 @@
 workspace {
     name "Conference Kata"
-    description "The software architecture of the Conference Kata."
+    description "The software architecture of the Software Crafters' Conference Kata."
 
     !adrs adrs
     !docs docs
