@@ -4,17 +4,23 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - '**./*.dsl'
+      - 'workspace/workspace.dsl'
   pull_request:
     paths:
-      - '**./*.dsl'
+      - 'workspace/workspace.dsl'
     branches: [ "main" ]
-
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+  
 jobs:
   generate-diagrams:
     runs-on: ubuntu-latest
+    container: ghcr.io/sebastienfi/structurizr-cli-with-bonus:latest
+    permissions: 
+      contents: write
 
     steps:
       - uses: actions/checkout@v3
@@ -22,10 +28,12 @@ jobs:
       - name: generate workspace images
         uses: sebastienfi/structurizr-gen-images@v1
         with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           workspace-path: workspace/workspace.dsl
           output-path: workspace/images
 
       - name: comment PR
         uses: sebastienfi/structurizr-pr-comment@v1
         with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           output-path: workspace/images
