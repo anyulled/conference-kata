@@ -1,39 +1,23 @@
-name: CI
+name: Update Structurizr Diagrams
 
 on:
-  push:
-    branches: [ "main" ]
-    paths:
-      - 'workspace/workspace.dsl'
-  pull_request:
-    paths:
-      - 'workspace/workspace.dsl'
-    branches: [ "main" ]
-  workflow_dispatch:
+    pull_request:
+        paths:
+        - 'workspace/workspace.dsl' # This setting will have the action trigger only if certain file changes. Set the location of your DSL.
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
-  
+
 jobs:
-  generate-diagrams:
-    runs-on: ubuntu-latest
-    container: ghcr.io/sebastienfi/structurizr-cli-with-bonus:latest
-    permissions: 
-      contents: write
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: generate workspace images
-        uses: sebastienfi/structurizr-gen-images@v1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          workspace-path: workspace/workspace.dsl
-          output-path: workspace/images
-
-      - name: comment PR
-        uses: sebastienfi/structurizr-pr-comment@v1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          output-path: workspace/images
+    update-diagrams:
+        runs-on: ubuntu-latest
+        container: ghcr.io/sebastienfi/structurizr-cli-with-bonus:latest
+        permissions: 
+          contents: write # Allow to work with the contents of the repository, including git push.
+        steps:
+        - uses: sebastienfi/structurizr-gen-images@v1
+          with:
+            repo-token: ${{ secrets.GITHUB_TOKEN }} # This token will be used by the action to perform git pull, git push, pr read, pr comment, pr comment edit, pr comment reaction.
+            workspace-path: 'workspace/workspace.dsl' # This setting will have the action generate images from this DSL. Set the location of your DSL.
+            output-path: 'workspace/images/' # The output folder for generated images.
