@@ -7,7 +7,7 @@ workspace {
 
     model {
         user = person "Attendee"
-        sponsor = person "Sponsor" "Business person" {
+        sponsor = person "Sponsor" "A Business person" {
             tags sponsor
         }
         speaker = person "Speaker" "Natural person submitting papers" {
