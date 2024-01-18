@@ -96,7 +96,7 @@ workspace {
 
         }
 
-        prod = deploymentEnvironment "Production" {
+        prod = deploymentEnvironment "Production Deployment" {
             deploymentNode "Amazon Web Services" {
                 tags "Amazon Web Services - Cloud Map	"
 
