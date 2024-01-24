@@ -1,13 +1,13 @@
 workspace {
     name "Conference Kata"
-    description "The software architecture of the Conference Kata."
+    description "The software architecture of the Software Crafters' Conference Kata."
 
     !adrs adrs
     !docs docs
 
     model {
         user = person "Attendee"
-        sponsor = person "Sponsor" "Business person" {
+        sponsor = person "Sponsor" "A Business person" {
             tags sponsor
         }
         speaker = person "Speaker" "Natural person submitting papers" {
@@ -96,7 +96,7 @@ workspace {
 
         }
 
-        prod = deploymentEnvironment "Production" {
+        prod = deploymentEnvironment "Production Deployment" {
             deploymentNode "Amazon Web Services" {
                 tags "Amazon Web Services - Cloud Map	"
 
