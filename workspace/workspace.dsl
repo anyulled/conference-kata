@@ -68,7 +68,7 @@ workspace {
 
             }
 
-            crmSystem = softwareSystem "CRM" "Customer relationship manager" {
+            cfpSystem = softwareSystem "CFP" "Call for Papers" {
                 tags external
                 cfpContainer = container "CFP System" "Call For Papers System - Full management of speakers, talks, and schedule" {
                     cfp = component "CFP"
@@ -85,7 +85,7 @@ workspace {
                 }
             }
 
-            cfpSystem = softwareSystem "CFP" "Call for papers" {
+            crmSystem = softwareSystem "CRM" "Customer relationship manager" {
                 tags external
                 crmContainer = container "CRM System" "Customer Relationship Management - sponsor management and notification system" {
                     crm = component "CRM"
