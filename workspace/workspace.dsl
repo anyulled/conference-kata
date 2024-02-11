@@ -7,6 +7,9 @@ workspace {
 
     model {
         user = person "Attendee"
+        organizer = person "Organizer" "Someone managing the system" {
+            tags organizer
+        }
         sponsor = person "Sponsor" "A Business person" {
             tags sponsor
         }
@@ -29,6 +32,7 @@ workspace {
                 website -> attendee "Reads and writes information from " "gRPC" gRPC
                 website -> voting "Sends requests and displays aggregation from" "gRPC" gRPC
                 user -> website "Visits"
+                organizer -> branding "Customizes branding"
             }
             database = container "Database" "" "Relational database schema" {
                 tags Database
@@ -36,11 +40,11 @@ workspace {
                     tags Database
                 }
                 websiteDb = component "Website DB" "Relational Database" {
-                tags Database
-            }
+                    tags Database
+                }
                 brandingDB = component "Branding DB" "Stores information about branding" {
-                tags Database
-            }
+                    tags Database
+                }
 
                 website -> websiteDb "Reads from and writes to" "JDBC"
                 branding -> brandingDB "Reads and writes to" "JDBC"
@@ -52,7 +56,19 @@ workspace {
 
         group "Third-party" {
 
-            crmSystem = softwareSystem "CRM" "Customer relationship manager" {
+            authSystem = softwareSystem "Authentication" "Authentication Service - SaaS" {
+                tags external
+                authContainer = container "Authentication Service" "Third-party service" {
+                    authAPI = component "Auth API""https"
+
+                }
+                softwareSystem -> this "Authenticates user to"
+                webapp -> authContainer "Authenticates user to" "Third-party service"
+                website -> authContainer "Authenticates user to" "Third-party service"
+
+            }
+
+            cfpSystem = softwareSystem "CFP" "Call for Papers" {
                 tags external
                 cfpContainer = container "CFP System" "Call For Papers System - Full management of speakers, talks, and schedule" {
                     cfp = component "CFP"
@@ -65,20 +81,20 @@ workspace {
                     cfp -> cfpDB "Reads from and writes to"
                     cfp -> speaker "Send CFP info to"
                     speaker -> cfp "Applies to"
-                    website -> cfp "Reads data from""Https"
+                    website -> cfp "Reads data from" "Https"
                 }
             }
 
-            cfpSystem = softwareSystem "CFP" "Call for papers" {
+            crmSystem = softwareSystem "CRM" "Customer relationship manager" {
                 tags external
                 crmContainer = container "CRM System" "Customer Relationship Management - sponsor management and notification system" {
                     crm = component "CRM"
                 }
 
                 sponsor -> crm "Interacts with"
-                crm -> sponsor "Send emails to""Email"
+                crm -> sponsor "Send emails to" "Email"
                 crm -> user "Send notifications to" "Email, sms"
-                website -> crm "Reads Sponsor info from""Https"
+                website -> crm "Reads Sponsor info from" "Https"
             }
 
             ticketSystem = softwareSystem "Ticket" "Ticket management" {
@@ -157,6 +173,16 @@ workspace {
                         this -> s3 "Storages slides"
                         cfpApplicationInstance -> s3 "Storages slides"
                     }
+                    deploymentNode "Amazon EC2 - Auth" {
+                        tags "Amazon Web Services - EC2"
+                        deploymentNode "Ubuntu Server - Auth App" {
+                            tags "Ubuntu"
+                            softwareSystemInstance authSystem
+                            authApplicationInstance = containerInstance authContainer
+                        }
+                        //webApplicationInstance -> authApplicationInstance "Send Authentication requests to""HTTPS"
+
+                    }
                     deploymentNode "Amazon RDS" {
                         tags "Amazon Web Services - RDS"
 
@@ -170,6 +196,7 @@ workspace {
 
                 route53 -> elb "Forwards requests to" "HTTPS"
                 elb -> ticketApplicationInstance "Forwards requests to" "HTTPS"
+                elb -> authApplicationInstance "Forwards requests to" "HTTPS"
                 elb -> crmApplicationInstance "Forwards requests to" "HTTPS"
                 elb -> cfpApplicationInstance "Forwards traffic to" "HTTPS"
                 elb -> webApplicationInstance "Forwards requests to" "HTTPS"
@@ -251,6 +278,11 @@ workspace {
             }
             element "speaker" {
                 background #000000
+                color #ffffff
+            }
+
+            element "organizer" {
+                background #002454
                 color #ffffff
             }
             element "sponsor" {
